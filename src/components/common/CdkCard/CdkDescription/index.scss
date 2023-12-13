@@ -1,0 +1,10 @@
+@import '../../../../assets/style/colors';
+@import '../../../../assets/style/breakpoints';
+
+.description {
+  color: $color-grey-darker;
+  font-size: 15px;
+  line-height: 150%;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

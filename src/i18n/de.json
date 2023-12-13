@@ -1,0 +1,697 @@
+{
+  "common": {
+    "assessment": "Bewertung",
+    "attention": "Achtung",
+    "back": "Zurück",
+    "business": "Geschäft",
+    "cancel": "Abbrechen",
+    "choose": "Wählen",
+    "country": "Land",
+    "create": "Schaffen",
+    "email": "Email",
+    "employees": "Angestellte",
+    "faqs": "FAQs",
+    "firstName": "Vorname",
+    "higherEducation": "Höhere Bildung",
+    "home": "Heim",
+    "language": "Sprache",
+    "lastName": "Nachname",
+    "loading": "Geladen",
+    "no": "Nein",
+    "noData": "Keine Daten",
+    "ok": "Ok",
+    "organization": "Organization",
+    "password": "Passwort",
+    "passwordConfirm": "Passwort bestätigen",
+    "preview": "Vorschau",
+    "privacyPolicy": "Datenschutz-Bestimmungen",
+    "role": "Rolle",
+    "saveChanges": "Änderungen speichern",
+    "search": "Suche",
+    "select": "Auswählen",
+    "start": "Start",
+    "students": "Studenten",
+    "year": "Jahr",
+    "yes": "Ja"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Bewertung aktivieren",
+    "confirmationEmailMessage": "Wir haben eine Bestätigungs-Mail an Ihre E -Mail -Adresse gesendet, um Ihr Konto zu aktivieren",
+    "confirmationEmailTitle": "Konto aktivieren",
+    "deleteRequestMessage": "Ihre Anfrage wurde verschickt! Ihre Daten werden bald gelöscht.",
+    "deleteRequestTitle": "Fertig",
+    "deleteRequestWarningMessage": "Sind Sie sicher, dass Sie die Löschung Ihrer Daten wünschen? Dieser Vorgang ist unumkehrbar.",
+    "deleteRequestWarningTitle": "Warnung",
+    "feedbackSentMessage": "Ihr Feedback wurde gesendet. Vielen Dank!",
+    "feedbackSentTitle": "Fertig",
+    "forgotPasswordMessage": "Wir haben Ihnen eine E -Mail mit einem Link gesendet, mit dem Sie Ihr Passwort zurücksetzen können",
+    "languageSelectTitle": "Sprache auswählen",
+    "resetPasswordMessage": "Dein Passwort wurde zurück gesetzt.",
+    "successfulAccountDeleteMessage": "Sie haben Ihr Konto erfolgreich gelöscht",
+    "successfulAccountDeleteTitle": "Fertig",
+    "successfulAccountEditMessage": "You have successfully changed your account details",
+    "successfulAccountEditTitle": "Fertig",
+    "successfulPasswordChangeMessage": "Sie haben Ihre Kontodetails erfolgreich geändert",
+    "successfulPasswordChangeTitle": "Fertig",
+    "successfulRegisterTitle": "Erfolgreiche Registrierung",
+    "successfulRegisterMessage": "Sie haben Ihr Konto erfolgreich erstellt",
+    "successTitle": "Fertig"
+  },
+  "snackBars": {
+    "assessmentActivated": "Bewertung aktiviert",
+    "assessmentArchived": "Bewertung archiviert",
+    "assessmentCreated": "Bewertung erstellt",
+    "copyUrlFailure": "URL nicht kopieren",
+    "copyUrlSuccess": "URL erfolgreich kopiert"
+  },
+  "errors": {
+    "acceptTerms": "Sie müssen diese Bedingungen akzeptieren",
+    "datePast": "Sie dürfen kein früheres Datum festlegen",
+    "dateBeforeStart": "Das Datum muss später als Startdatum sein",
+    "emailEmpty": "E -Mail ist leer",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "fieldRequired": "Dieses Feld ist erforderlich",
+    "mustBeWhole": "Muss eine ganze Zahl sein",
+    "passwordEmpty": "Passwort eingeben",
+    "passwordMismatch": "Die Passwörter müssen übereinstimmen",
+    "passwordTooShort": "Passwort kann nicht weniger als 8 Zeichen betragen",
+    "textTooLong": "Text ist zu lang",
+    "valueTooHigh": "Wert zu hoch",
+    "valueTooLow": "Wert zu niedrig"
+  },
+  "apiErrors": {
+    "titleDefault": "Fehler",
+    "messageDefault": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut",
+    "internalServerError": "Interner Serverfehler",
+    "storageError": "Es ist ein interner Fehler aufgetreten. Bitte laden Sie die Seite neu",
+    "auth": {
+      "failed-to-auth": "Authentifizierung fehlgeschlagen",
+      "invalid-reset-password-token": "Ungültiges Zurücksetzen Passwort -Token",
+      "user-already-exists": "Benutzer existiert bereits"
+    },
+    "field": {
+      "required": "Ein erforderliches Feld fehlt",
+      "length-exceeded": "Die Länge eines Feldes wird überschritten",
+      "date": {
+        "cannot-end-before-start": "Enddatum kann vor dem Startdatum nicht"
+      },
+      "number": {
+        "should-be": {
+          "integer": "Die Nummer sollte eine Ganzzahl sein",
+          "positive": "Die Zahl sollte positiv sein",
+          "not-negative": "Die Zahl sollte nicht negativ sein"
+        },
+        "too-large": "Zu große Anzahl wurde eingegeben"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "Die Bewertung ist bereits eingereicht",
+        "max-participants-reached": "Die Bewertung ist voll, kann nicht mehr Einreichungen einnehmen",
+        "not-active": "Die Bewertung ist inaktiv (für die Einreichung nicht offen)",
+        "not-found": "Bewertung wird nicht gefunden"
+      },
+      "result": {
+        "invalid-result-token": "Ergebnis-Token ist ungültig"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "Bewertung wird nicht gefunden"
+      },
+      "not-exists": "Benutzer existiert nicht",
+      "password-invalid": "Ungültiges Passwort"
+    },
+    "incognitoBrowser": "Ihr Browser unterstützt bestimmte Funktionen unserer Software nicht. Um fortzufahren, öffnen Sie bitte die URL in einem nicht-privaten Browser-Tab oder einem anderen Browser wie Google Chrome, Safari, Mozilla Firefox (nur nicht-privat), Microsoft Edge oder Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "Die Seite, nach der Sie gesucht haben, ist nicht gefunden. Klicken Sie auf die Schaltfläche unten, um zur vorherigen Seite zurückzukehren."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "Die Seite, nach der Sie gesucht haben, ist nicht verfügbar. Bitte verwenden Sie den Link, den Sie in der E -Mail erhalten haben, um eine Bewertung zu starten. Sie können diese Registerkarte jetzt schließen."
+    },
+    "landingPage": {
+      "title": "Willkommen beim Entrepreneurial und<br />Intrapreneurial Competence Assessment",
+      "description": "Liebe/r Teilnehmer/innen,<br />Herzlich willkommen auf der EICAA-Plattform! In den folgenden Abschnitten werden Ihnen Fragen zur Einschätzung Ihrer unternehmerischen Fähigkeiten gestellt. Es ist wichtig, dass Sie sich genug Zeit nehmen, um jede Frage zu verstehen und diese ehrlich beantworten. Ihre Antworten bleiben dabei völlig anonym.<br />Das Ausfüllen des Fragebogens wird ca. 15 Minuten in Anspruch nehmen. Sie können Ihre Ergebnisse direkt nach Abschluss des Fragebogens abrufen.<br />Viel Spaß bei Ihrer Selbsteinschätzung!",
+      "disclaimer": "Hinweis: Einige der Fragen beziehen sich auf \"eine unternehmerische Idee\". Wir verstehen darunter eine Idee, die darauf abzielt, Gelegenheiten wahrzunehmen und in etwas umzuwandeln, was für andere einen Wert hat.",
+      "checkboxTextPart1": "Ich akzeptiere die ",
+      "checkboxTextPart2": "Datenschutzbestimmung"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Altersgruppe",
+        "ageGroupQuestion": "Zu welcher Altersgruppe gehören Sie?",
+        "gender": "Geschlecht",
+        "genderQuestion": "Welches ist Ihre Geschlechtsidentität?",
+        "someQuestions": "Einige Fragen über Sie",
+        "title": "Demografie"
+      },
+      "employee": {
+        "countryQuestion": "In welchem Land haben Sie den größten Teil Ihrer Karriere verbracht?",
+        "educationLevel": "Bildungsniveau",
+        "educationLevelQuestion": "Welcher ist Ihr höchster Bildungsabschluss, falls vorhanden?",
+        "levelOfPosition": "Stellenebene",
+        "levelOfPositionQuestion": "Auf welcher Ebene ist Ihre Position?",
+        "organisationSize": "Größe der Organisation",
+        "organisationSizeQuestion": "Wie groß ist Ihr Unternehmen?",
+        "organisationType": "Organisationstyp",
+        "organisationTypeQuestion": "Welche Unternehmensform hat Ihre Organisation?",
+        "workExperience": "Erfahrung",
+        "workExperienceQuestion": "Wie viele Jahre Berufserfahrung haben Sie?",
+        "workField": "Bereich",
+        "workFieldQuestion": "In welchem Bereich sind Sie tätig?"
+      },
+      "student": {
+        "countryQuestion": "In welchem Land haben Sie den größten Teil Ihrer Ausbildung erhalten?",
+        "educationLevel": "Bildungs-Abschluss",
+        "educationLevelQuestion": "Welchen Bildungs-Abschluss verfolgen Sie derzeit hauptsächlich?",
+        "employmentField": "​​Bereich",
+        "employmentFieldQuestion": "In welchem ​​Bereich arbeiten Sie?",
+        "employmentType": "Beschäftigung",
+        "employmentTypeQuestion": "Wie würden Sie Ihre Beschäftigung beschreiben?",
+        "hasWorkExperienceQuestion": "Haben Sie Arbeits- oder Praktikumserfahrung?",
+        "majorField": "Hauptstudienfach",
+        "majorFieldQuestion": "Welche der folgenden Optionen beschreibt Ihr derzeitiges Hauptstudienfach am besten?",
+        "workExperience": "Erfahrung",
+        "workExperienceQuestion": "Wie viele Jahre Arbeits- oder Praktikumserfahrung (gegen Bezahlung) können Sie vorweisen?",
+        "workQuestion": "Üben Sie derzeit neben Ihrem Studium eine bezahlte Tätigkeit oder ein Praktikum aus?"
+      },
+      "employmentHoursQuestion": "Wie viele Stunden arbeiten Sie pro Woche?",
+      "female": "Weiblich",
+      "higherEducation": "Hochschuleinrichtungen",
+      "higherEducationQuestion": "An welchen Hochschulinstituten studieren Sie derzeit?",
+      "male": "Männlich"
+    },
+    "surveyPage": {
+      "ableTo": "Mein Niveau in den folgenden Kompetenzbereichen ist",
+      "area": "Bereich",
+      "finish": "Beenden",
+      "finishButton": "Beenden",
+      "hint": "Hinweis",
+      "languageSelectTitle": "Wählen Sie die Umfragesprache",
+      "next": "Weiter",
+      "previous": "Vorherige"
+    },
+    "finishPage": {
+      "backToHome": "Zurück zum Startbildschirm",
+      "closeTab": "Browser-Registerkarte schließen",
+      "deleteButton": "Löschung beantragen",
+      "deleteButtonTitle": "Gemäß den Anforderungen der DSGVO können Sie die Löschung Ihrer zuvor übermittelten Daten verlangen, indem Sie auf die Schaltfläche unten drücken.",
+      "description": "Wir haben Ihre Antworten gespeichert. Klicken Sie auf Zusammenfassung, um Ihre Antworten zu sehen.",
+      "downloadResults": "Zusammenfassung herunterladen",
+      "feedbackSentMessage": "Ihr Feedback wurde gesendet. Vielen Dank!",
+      "form": {
+        "ratingTitle": "Bitte bewerten Sie uns.",
+        "submitButton": "Rückmeldung senden",
+        "title": "Wir freuen uns hier über Ihre Rückmeldung:"
+      },
+      "interventions": "Interventionen",
+      "title": "Vielen Dank für Ihre Teilnahme!",
+      "visitEicaa": "Besuchen Sie die EICAA-Homepage"
+    }
+  },
+  "pdf-texts": {
+    "area": "Bereich",
+    "submitted-on": "Eingereicht am",
+    "question": "Frage",
+    "competence": "Kompetenz",
+    "answer": "Antwort"
+    },
+  "gdpr": {
+    "consent": {
+      "title": "Einwilligung zur Datenverarbeitung",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "Ich bin damit einverstanden, dass die von mir im Rahmen der Teilnahme an einer (Selbst-)Einschätzung angegebenen Daten von Univations zu den in der Datenschutzerklärung unter ",
+        "1": "Abschnitt VIII. (Datenverarbeitung bei der Teilnahme an einer (Selbst-)Einschätzungsbefragung) ",
+        "2": "genannten Zwecken und in dem dort angegebenen Umfang verarbeitet werden dürfen aufgeführt sind."
+      },
+      "effect": {
+        "0": "Meine Einwilligung gilt bis zu meinem Widerruf. Den Widerruf kann ich jederzeit ohne Angabe von Gründen mit Wirkung für die Zukunft unter den in der Datenschutzerklärung unter ",
+        "1": "Abschnitt I. (Kontaktdaten des für die Verarbeitung Verantwortlichen)",
+        "2": " angegebenen Kontaktdaten erklären. Darüber hinaus habe ich die in der Datenschutzerklärung unter ",
+        "3": "Abschnitt X. (Rechte als betroffene Person)",
+        "4": " beschriebenen Rechte."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Datenschutzerklärung",
+      "content": [
+        {
+          "spans": [
+            "Diese Datenschutzerklärung gilt ausschließlich für die Website ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            ". Wenn Sie eine andere Website besuchen, gilt die Datenschutzerklärung des jeweiligen Betreibers. Dies gilt auch für Websites, auf die von dieser Website aus per Link verwiesen wird."
+          ]
+        },{
+          "sections": [
+            {
+              "title": "Kontaktdaten des Verantwortlichen",
+              "content": [
+                "Verantwortlicher im Sinne von Art. 4 (7) DSGVO ist",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Deutschland",
+                    {
+                      "spans": [
+                        "Mail: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Telefon: +49 345 13 14 27 00"
+                  ]
+                },
+                "vertreten durch den Geschäftsführer Daniel Worch. Eintragung in das Handelsregister des Amtsgerichts Stendal. Registernummer: HRB 5703"
+              ]
+            },
+            {
+              "title": "Kontaktdaten des Datenschutzbeauftragten",
+              "content": [
+                "Der Datenschutzbeauftragte ist zudem unter den Kontaktdaten des Verantwortlichen sowie unter folgender E-Mail-Adresse erreichbar:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Datenschutzbeauftragter",
+                    "Weinbergweg 23",
+                    "06120 Halle (Saale)",
+                    {
+                      "spans": [
+                        "Mail: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Allgemeine Informationen zur Datenverarbeitung",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Wir verarbeiten personenbezogene Daten grundsätzlich nur, soweit dies zur Bereitstellung und Optimierung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist.",
+                        "Gemäß Art. Personenbezogene Daten sind gemäß Art. 4 Nr. 1 DSGVO alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen der physischen, physiologischen, genetische, geistige, wirtschaftliche, kulturelle oder soziale Identität dieser natürlichen Person.",
+                        "Die Verarbeitung personenbezogener Daten unserer Nutzer:innen erfolgt regelmäßig nur nach Einwilligung des/der Nutzers/Nutzerin. Eine Ausnahme gilt in solchen Fällen, in denen die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist."
+                      ]              
+                    },
+                    {
+                      "title": "Rechtsgrundlage für die Verarbeitung personenbezogener Daten",
+                      "content": [
+                        "Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der betroffenen Person einholen, dient Art. 6 Abs. 1 lit. a DSGVO dient als Rechtsgrundlage für die Verarbeitung personenbezogener Daten.",
+                        "Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, erforderlich ist, dient Art. 6 (1) lit. b DSGVO dient als Rechtsgrundlage. Dies gilt auch für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.",
+                        "Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der unser Unternehmen unterliegt, dient Art. 6 (1) lit. c DSGVO dient als Rechtsgrundlage.",
+                        "Ist die Verarbeitung zur Wahrung eines berechtigten Interesses von uns oder eines Dritten erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte Interesse nicht, so dient Art. 6 (1) lit. f DSGVO dient als Rechtsgrundlage für die Verarbeitung."
+                      ]
+                    },
+                    {
+                      "title": "Datenlöschung und Speicherdauer",
+                      "content": [
+                        "Ihre personenbezogenen Daten werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus dann erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Bereitstellung der Website und Erstellung von Logfiles",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Beim Aufrufen unserer Website werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Website gesendet. Diese Informationen werden temporär in einem sogenannten Logfile gespeichert.",
+                        "Folgende Daten werden erhoben:",
+                        {
+                          "list": [
+                            "IP-Adresse des anfragenden Geräts",
+                            "Datum und Uhrzeit des Zugriffs",
+                            "Website, von der aus der Zugriff erfolgt (Referrer-URL)",
+                            "Verwendeter Browser",
+                            "Betriebssystem des Endgerätes und der Name des Access-Providers"
+                          ]
+                        },
+                        "Diese Daten werden ebenfalls in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten des/der Nutzers/Nutzerin findet nicht statt. Unsere Website wird auf Servern ausschließlich in Deutschland von Digital Oceans Inc. gehostet."
+                      ]
+                    },
+                    {
+                      "title": "Rechtliche Grundlage",
+                      "content": [
+                        "Rechtsgrundlage für die vorübergehende Speicherung der Daten in den Logfiles ist Art. 6 (1) lit. f DSGVO."
+                      ]
+                    },
+                    {
+                      "title": "Dauer der Speicherung",
+                      "content": [
+                        "Die vorübergehende Speicherung dient dazu, die Funktionsfähigkeit der Website sicherzustellen. Zudem dienen die Daten zur Optimierung der Website und zur Sicherstellung der Sicherheit unserer Systeme.",
+                        "Die personenbezogenen Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Im Falle der Erfassung der Daten zur Bereitstellung der Website ist dies der Fall, wenn die jeweilige Sitzung beendet ist; im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sechs Monaten der Fall."
+                      ]
+                    },
+                    {
+                      "title": "Widerspruchsrecht",
+                      "content": [
+                        "Die Erfassung der Daten zur Bereitstellung der Website und die Speicherung der Daten in Logfiles ist für den Betrieb der Internetseite zwingend erforderlich. Es besteht folglich seitens des/der Nutzers/Nutzerin keine Widerspruchsmöglichkeit."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cookies",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Wir verwenden Cookies auf unserer Website. Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen. Cookies richten auf Ihrem Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder sonstige Schadsoftware.",
+                        "In dem Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten.",
+                        "Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. Um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben, setzen wir sogenannte Session-Cookies ein. Diese werden nach Verlassen unserer Seite automatisch gelöscht.",
+                        "Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzer:innenfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen.",
+                        "Zum anderen setzen wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren.",
+                        "Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Gerät gespeichert werden oder stets ein Hinweis erscheint, bevor ein neuer Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können."
+                      ]
+                    },
+                    {
+                      "title": "Rechtliche Grundlage",
+                      "content": [
+                        "Die Verwendung solcher Cookies, die für den Betrieb unserer Website und die Erbringung von Diensten zwingend erforderlich sind, erfolgt auf Grundlage von Art. 6 (1) lit. b oder f DSGVO. Unser berechtigtes Interesse besteht darin, das Funktionieren unserer Websites und deren optimale Bedienbarkeit sicherzustellen.",
+                        "Die Verwendung aller nicht essenziellen Cookies basiert ausschließlich auf Ihrer Einwilligung, die Sie zu Beginn der Nutzung unserer Website abgeben können. Rechtsgrundlage für die Verwendung dieser Cookies ist Art. 6 (1) lit. a DSGVO."
+                      ]
+                    },
+                    {
+                      "title": "Dauer der Speicherung",
+                      "content": [
+                        "Cookies werden auf dem Rechner des/der Nutzers/Nutzerin gespeichert und von diesem an unserer Seite übermittelt. Daher haben die Nutzer:innen auch die volle Kontrolle über die Verwendung von Cookies. Durch eine Änderung der Einstellungen im Internetbrowser kann die Übertragung von Cookies deaktiviert oder eingeschränkt werden. Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisch erfolgen. Werden Cookies für unsere Website deaktiviert, können möglicherweise nicht mehr alle Funktionen der Website vollumfänglich genutzt werden."
+                      ]
+                    },
+                    {
+                      "title": "Auf unserer Website verwendete Cookies",
+                      "content": [
+                        "Wir verwenden auf unserer Website folgende Cookies:",
+                        {
+                          "table": {
+                            "header": [
+                              "Name des Cookies",
+                              "Anbieter",
+                              "Beschreibung",
+                              "Dauer"
+                            ],
+                            "body": [
+                              [
+                                "Universal-Cookie-Express\n(Session-Cookie)",
+                                "React JS-Framework",
+                                "Hook-Cookies werden für das Server-Rendering auf Express abgerufen/gesetzt",
+                                "Dauer der Session"
+                              ],
+                              [
+                                "Universal-Cookie\n(Session-Cookie)",
+                                "React JS-Framework",
+                                "Wird für die Benutzer:innen-authentifizierung auf der Plattform/Website benötigt",
+                                "Dauer der Session"
+                              ],
+                              [
+                                "Matomo- Cookies",
+                                "Matomo",
+                                "Matomo verwendet Cookies, um eine Analyse des Surfverhaltens auf der Website zu ermöglichen.",
+                                "6 Monate"
+                              ],
+                              [
+                                "Borlabs-Cookie",
+                                "Borlabs",
+                                "Speichert die Einstellungen des Website Besuchers, gemäß seiner/ihrer Auswahl der Cookie Box von Borlabs Cookie",
+                                "1 Jahr"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Webanalyse über Matomo",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Die Website verwendet das Open-Source-Software-Tool Matomo zur Analyse des Nutzerverhaltens auf unserer Website. Dies ist ein Open-Source-Tool zur Webanalyse. Matomo sammelt keine Sitzungsdaten ohne Ihre Zustimmung.",
+                        "Matomo verwendet Cookies. Diese Textdateien werden auf Ihrem Endgerät gespeichert und ermöglichen eine Analyse der Benutzung der Website durch Sie. Zu diesem Zweck werden die durch den Cookie gewonnenen Nutzungsinformationen übermittelt und gespeichert, um das Nutzungsverhalten auszuwerten. Die IP-Adresse ist eine anonyme Kennung und wir haben keine technischen Mittel, um registrierte Benutzer:innen zu identifizieren.",
+                        "Bei der Einwilligung in die Webanalyse mit Matomo werden beim Zugriff auf die Website folgende Daten erhoben:",
+                        {
+                          "list": [
+                            "Teile der IP-Adresse des aufrufenden Systems des/der Nutzers/Nutzerin",
+                            "die aufgerufene Webseite",
+                            "Website, von der aus der Zugriff erfolgt (Referrer-URL)",
+                            "die Unterseiten, die von der aufgerufenen Website aus aufgerufen werden",
+                            "die Verweildauer auf der Website",
+                            "die Häufigkeit, mit der auf die Website zugegriffen wird"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Rechtliche Grundlage",
+                      "content": [
+                        "Rechtsgrundlage für die Verarbeitung personenbezogener Daten ist Art. 6 (1) lit. a DSGVO."
+                      ]
+                    },
+                    {
+                      "title": "Dauer der Speicherung",
+                      "content": [
+                        "Die Daten werden gelöscht, sobald sie für unsere Aufzeichnungszwecke nicht mehr erforderlich sind. Die erstellten Statistiken und zugrunde liegenden Daten werden nicht gelöscht."
+                      ]
+                    },
+                    {
+                      "title": "Widerruf der Einwilligung",
+                      "content": [
+                        "Die vom/von der Nutzer:in erteilte Einwilligung kann jederzeit für die Zukunft widerrufen werden."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Datenverarbeitung bei Registrierung eines Benutzerkontos",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Entscheidet sich der/die Nutzer:in für die Erstellung eines Nutzer:innenkontos, werden im Rahmen des Registrierungsprozesses folgende personenbezogene Daten erhoben:",
+                        {
+                          "list": [
+                            "E-Mail-Adresse",
+                            "Passwort (für Konto auf Plattform/Website)",
+                            "Nachname",
+                            "Vorname",
+                            "Name der Organisation",
+                            "Land der Organisation",
+                            "Stelle in der Organisation"
+                          ]
+                        },
+                        "Die Verarbeitung der Daten erfolgt zum Zweck der Bereitstellung verschiedener Funktionen der Website (z. B. Erstellung einer (Selbst-)Befragung), die ohne die Registrierung und Verwendung eines Benutzer:innenkontos nicht genutzt werden könnten.",
+                        "Im Rahmen der Registrierung und Nutzung des Nutzer:innenkontos speichern wir die IP-Adresse und den Zeitpunkt der jeweiligen Nutzer:innenhandlung. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch im Interesse der Nutzer:innen an Schutz vor Missbrauch und sonstiger unbefugter Nutzung des Nutzer:innenkontos durch Dritte.",
+                        "Die verarbeiteten Daten werden in anonymisierter Form an die Entrepreneurial and Intrapreneurial Competences Assessment Alliance (nachfolgend „EICAA Consortium“ genannt) übermittelt. Die Anonymisierung erfolgt durch Entfernen der E-Mail-Adresse, des Namens und des Vornamens des/der Nutzers/Nutzerin aus dem übermittelten Datensatz. Die Daten werden auch an den/die Ersteller:in der (Selbst-)Befragung übermittelt."
+                      ]
+                    },
+                    {
+                      "title": "Rechtliche Grundlage",
+                      "content": [
+                        "Rechtsgrundlage für die Verarbeitung personenbezogener Daten bei Erstellung eines Benutzer:innenkontos ist Art. 6 (1) lit. a DSGVO."
+                      ]
+                    },
+                    {
+                      "title": "Dauer der Speicherung",
+                      "content": [
+                        "Die personenbezogenen Daten werden solange gespeichert, wie es die oben genannten Verarbeitungszwecke erfordern und keine gesetzliche Aufbewahrungspflicht mehr besteht. Die Erforderlichkeit entfällt, sobald der/die Nutzer:in sein Nutzerkonto löscht. Im Fall der gesetzlichen Archivierungspflichten erfolgt die Löschung nach deren Ablauf."
+                      ]
+                    },
+                    {
+                      "title": "Widerruf der Einwilligung",
+                      "content": [
+                        "Eine Einwilligung zur Datenverarbeitung kann jederzeit widerrufen werden, ohne dass die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung berührt wird."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Datenverarbeitung bei Teilnahme an einer (Selbst-)Einschätzungsbefragung",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Umfang und Zweck der Datenverarbeitung",
+                      "content": [
+                        "Wenn sich Nutzer:innen entscheiden, an einer (Selbst-)Einschätzungsbefragung teilzunehmen , werden personenbezogene Daten erhoben. Nutzer:innen, die an einer (Selbst-)Befragung teilnehmen, werden im Folgenden als Teilnehmer:innen bezeichnet.",
+                        "Folgende personenbezogene Daten werden von den Teilnehmern/Teilnehmerinnen erhoben:",
+                        {
+                          "list": [
+                            "Land, in dem der/der Teilnehmer:in die meiste Bildung erhalten hat",
+                            "Aktuell angestrebtes Bildungsniveau",
+                            "Studienschwerpunkt",
+                            "Vorliegen von Arbeits- oder Praktikumserfahrung",
+                            "Langjährige Berufs- oder Praktikumserfahrung",
+                            "Ob der/die Teilnehmer:in neben dem Studium derzeit eine bezahlte Arbeit oder ein Praktikum ausübt",
+                            "Beschreibung der Beschäftigung (angestellt oder selbstständig)",
+                            "Geschlechtsidentität",
+                            "Altersgruppe"
+                          ]
+                        },
+                        "Die Daten werden zum Zwecke der Auswertung der (Selbst-)Einschätzungsbefragungen und als Grundlage für weitere wissenschaftliche Analysen verwendet. Dies dient in erster Linie dazu, die Teilnehmer:innen der Befragung anhand der erhobenen Daten in Normgruppen einzuordnen. Folgende Normgruppen bzw. Kombinationen daraus werden gebildet:",
+                        {
+                          "list": [
+                            "Land, in dem der/der Teilnehmer:in die meiste Bildung erhalten hat",
+                            "Aktuell angestrebtes Bildungsniveau",
+                            "Studienschwerpunkt",
+                            "Vorliegen von Arbeits- oder Praktikumserfahrung",
+                            "Langjährige Berufs- oder Praktikumserfahrung",
+                            "Ob der/die Teilnehmer:in neben dem Studium derzeit eine bezahlte Arbeit oder ein Praktikum ausübt",
+                            "Beschreibung der Beschäftigung (angestellt oder selbstständig)",
+                            "Geschlechtsidentität",
+                            "Altersgruppe"
+                          ]
+                        },
+                        "Die verarbeiteten Daten werden anonymisiert und anschließend an die Entrepreneurial and Intrapreneurial Competences Assessment Alliance (nachfolgend „EICAA Consortium“ genannt) übermittelt. Die Daten werden auch an den/die Ersteller:in der (Selbst-)Befragung übermittelt ."
+                      ]
+                    },
+                    {
+                      "title": "Rechtliche Grundlage",
+                      "content": [
+                        "Rechtsgrundlage für die Verarbeitung personenbezogener Daten beim Ausfüllen der (Selbst-)Befragung ist Art. 6 (1) lit. a DSGVO."
+                      ]
+                    },
+                    {
+                      "title": "Dauer der Speicherung",
+                      "content": [
+                        "Die personenbezogenen Daten werden solange gespeichert, wie es die oben genannten Verarbeitungszwecke erfordern und keine gesetzliche Aufbewahrungspflicht mehr besteht."
+                      ]
+                    },
+                    {
+                      "title": "Widerruf der Einwilligung",
+                      "content": [
+                        "Eine Einwilligung zur Datenverarbeitung kann jederzeit widerrufen werden, ohne dass die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung berührt wird."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Verarbeitung von Daten in Ländern außerhalb des Europäischen Wirtschaftsraums",
+              "content": [
+                "Sofern wir Daten in Drittstaaten (Staaten außerhalb der EU/EWR) verarbeiten oder an Unternehmen in Drittstaaten übermitteln, erfolgt dies nur, wenn wir dazu von Ihnen oder gesetzlich befugt sind. Liegt für den betreffenden Drittstaat kein Angemessenheitsbeschluss der Kommission nach Art. 45 DSGVO, d.h. wenn im Drittland kein angemessenes Datenschutzniveau besteht, stellen wir durch vertragliche Regelungen (EU-Standardvertragsklauseln zum Datenschutz) oder andere geeignete Garantien im Sinne von Art. 46 DSGVO, dass Ihre Privatsphäre und Ihre personenbezogenen Daten auch im Unternehmen im Drittland in gesetzlich vorgesehener angemessener Weise geschützt sind."
+              ]
+            },
+            {
+              "title": "Rechte als betroffene Person",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Recht auf Bestätigung",
+                      "content": [
+                        "Sie haben das Recht, von uns eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden."
+                      ]
+                    },
+                    {
+                      "title": "Auskunftsrecht Art. 15 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, jederzeit von uns unentgeltliche Auskunft über die zu Ihrer Person gespeicherten personenbezogenen Daten sowie eine Kopie dieser Daten zu erhalten."
+                      ]
+                    },
+                    {
+                      "title": "Recht auf Berichtigung Art. 16 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, die Berichtigung Sie betreffender unrichtiger personenbezogener Daten zu verlangen. Ferner steht der betroffenen Person unter Berücksichtigung der Zwecke der Verarbeitung das Recht zu, die Vervollständigung unvollständiger personenbezogener Daten zu verlangen."
+                      ]
+                    },
+                    {
+                      "title": "Löschung Art.-Nr. 17 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, von uns zu verlangen, dass die Sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der gesetzlich vorgesehenen Gründe zutrifft und soweit die Verarbeitung nicht erforderlich ist. ",
+                        "Unsere Website ermöglicht es den Benutzern/Benutzerinnen auch, ihre persönlichen Daten selbst zu löschen. Der/die Ersteller:in der (Selbst-)Befragung kann seine/ihre Daten löschen, indem er/sie sein/ihr Konto löscht. Der/die Teilnehmer:in der (Selbst-)Befragung kann seine/ihre Daten am Ende der Befragung löschen."
+                      ]
+                    },
+                    {
+                      "title": "Einschränkung der Verarbeitung Art. 6 Abs. 1 lit. 18 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, von uns die Einschränkung der Verarbeitung zu verlangen, wenn eine der gesetzlichen Voraussetzungen gegeben ist."
+                      ]
+                    },
+                    {
+                      "title": "Datenübertragbarkeit Art. 20 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Außerdem haben Sie das Recht diese Daten einem anderen Verantwortlichen ohne Behinderung durch uns, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern die Verarbeitung auf einer Einwilligung gem. 6 (1) lit. a DSGVO oder Art. 9 (2) lit. a DSGVO oder auf einem Vertrag gem. 6 (1) lit. b DSGVO und die Verarbeitung mithilfe automatisierter Verfahren erfolgt, es sei denn, die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die uns übertragen wurde.",
+                        "Darüber hinaus ist bei der Ausübung Ihres Rechts auf Datenübertragbarkeit gemäß Art. Sie haben gemäß Art. 20 Abs. 1 DSGVO das Recht, die personenbezogenen Daten direkt von einem Verantwortlichen an einen anderen Verantwortlichen übermitteln zu lassen, soweit dies technisch machbar ist und sofern hierdurch nicht die Rechte und Freiheiten anderer Personen beeinträchtigt werden."
+                      ]
+                    },
+                    {
+                      "title": "Widerspruch Art. 21 DSGVO",
+                      "content": [
+                        "Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Art. 6 (1) lit. e (Datenverarbeitung im öffentlichen Interesse) oder lit. f (Datenverarbeitung auf Basis einer Interessenabwägung) der DSGVO. Dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling im Sinne von Art. 4 Nr. 4 DSGVO.",
+                        "Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen."
+                      ]
+                    },
+                    {
+                      "title": "Widerruf datenschutzrechtlicher Einwilligungen",
+                      "content": [
+                        "Sie haben das Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten jederzeit mit Wirkung für die Zukunft zu widerrufen."
+                      ]
+                    },
+                    {
+                      "title": "Beschwerde bei einer Aufsichtsbehörde",
+                      "content": [
+                        "Sie haben das Recht, sich bei einer für den Datenschutz zuständigen Aufsichtsbehörde über die Verarbeitung personenbezogener Daten durch uns zu beschweren."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Aktualität und Änderung der Datenschutzerklärung",
+              "content": [
+                "Diese Datenschutzerklärung ist aktuell gültig und hat den Stand November 2022.",
+                "Durch die Weiterentwicklung unserer Webseite, Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben, kann es notwendig werden, diese Datenschutzerklärung zu ändern."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

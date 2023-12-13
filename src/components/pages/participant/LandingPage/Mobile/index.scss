@@ -1,0 +1,106 @@
+@import "../../../../../assets/style/colors";
+@import "../../../../../assets/style/breakpoints";
+
+.landing-page-mobile {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 12px;
+    margin-bottom: 18px;
+  }
+
+  &__logo {
+    &-eicaa {
+      background-image: url('/assets/logos/logo-eicaa.png'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 105px;
+      height: 51px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    
+    &-eu {
+      background-image: url('/assets/logos/logo-eu-text.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 112px;
+      height: 24px;
+    }
+  }
+
+  &__language-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 12px;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    max-height: calc(100% - 175px);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__description {
+    color: $color-grey-darker;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom : 10px;
+  }
+
+  &__disclaimer {
+    background: $color-primary-lightest;
+    color: $color-primary-darker;
+    margin-bottom : 10px;
+    padding: 8px 16px;
+    border: 1px solid $color-primary-darker;
+    border-radius: 8px;
+  }
+
+  &__form-container {
+    margin-bottom: 32px;
+  }
+
+  .page-footer {
+    width: unset;
+    justify-content: center;
+    margin: 15px 0 16px;
+
+    &__button {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__parallelograms {
+    background-image: url('/assets/images/parallelograms.svg'), none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-width: 100%;
+    aspect-ratio: 947/120;
+  }
+}

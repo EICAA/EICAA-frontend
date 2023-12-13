@@ -1,0 +1,201 @@
+@import "../../../../../assets/style/colors";
+@import "../../../../../assets/style/breakpoints";
+
+$breakpoint-y-larger: 930px;
+$breakpoint-y-large: 900px;
+$breakpoint-y-medium: 850px;
+$breakpoint-y-small: 800px;
+$breakpoint-y-smaller: 750px;
+
+.survey-page-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  position: relative;
+
+  @media (max-width: $breakpoint-lg) {
+    padding: 20px;
+  }
+
+  @media screen and (max-height: $breakpoint-y-smaller) {
+    padding: 10px 20px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: $breakpoint-lg),
+           screen and (max-height: $breakpoint-y-smaller) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__logo {
+    &-eicaa {
+      background-image: url('/assets/logos/logo-eicaa.png'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 144px;
+      height: 70px;
+      margin-right: 56px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    
+    &-eu {
+      background-image: url('/assets/logos/logo-eu-text.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 153px;
+      height: 33px;
+    }
+  }
+
+  &__progress-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  &__progress-bar {
+    width: 434px;
+  }
+
+  &__area-title {
+    color: $color-primary-darker;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 13px 4px;
+    border-radius: 3px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    height: calc(100% - 165px);
+
+    @media screen and (max-width: $breakpoint-lg),
+           screen and (max-height: $breakpoint-y-smaller) {
+      margin-bottom: -20px;
+    }
+
+    @media screen and (max-height: $breakpoint-y-smaller) {
+      height: calc(100% - 75px);
+    }
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: $breakpoint-lg),
+           screen and (max-height: $breakpoint-y-smaller) {
+      font-size: 20px;
+    }
+
+    &-hint {
+      font-weight: 400;
+    }
+  }
+
+  &__transition {
+    &-enter {
+      .survey-page-desktop__title,
+      .survey-page-desktop__table,
+      .survey-page-desktop__button-container {
+        opacity: 0;
+      }
+    }
+
+    &-enter-active {
+      .survey-page-desktop__title,
+      .survey-page-desktop__table,
+      .survey-page-desktop__button-container {
+        opacity: 1;
+        transition: opacity 500ms;
+      }
+    }
+
+    &-exit {
+      .survey-page-desktop__title,
+      .survey-page-desktop__table,
+      .survey-page-desktop__button-container {
+        opacity: 1;
+      }
+    }
+
+    &-exit-active {
+      .survey-page-desktop__title,
+      .survey-page-desktop__table,
+      .survey-page-desktop__button-container {
+        opacity: 0;
+        transition: opacity 500ms;
+      }
+    }
+  }
+
+  &__table-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__table {
+    margin-bottom: 30px;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__button {
+    &:not(:last-child) {
+      margin-right: 14px;
+    }
+
+    &.-back {
+      min-width: 159px;
+    }
+
+    &.-next {
+      min-width: 218px;
+    }
+  }
+
+  &__parallelograms {
+    position: fixed;
+    bottom: 80px;
+    right: 6.09%;
+    z-index: -1;
+    opacity: 0.2;
+    background-image: url('/assets/images/parallelograms-light.svg'), none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 49.32%;
+    aspect-ratio: 947/120;
+  }
+
+  .page-footer {
+    width: unset;
+  }
+}

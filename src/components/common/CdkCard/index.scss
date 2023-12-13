@@ -1,0 +1,89 @@
+@import '../../../assets/style/colors';
+@import '../../../assets/style/breakpoints';
+
+.cdk-card {
+  display: flex;
+  background: $color-white;
+  border: 1px solid $color-white-darker;
+  overflow: hidden;
+
+  &.-empty {
+    background: $color-white-dark-2;
+  }
+
+  &.-layout-row {
+    flex-direction: row;
+  }
+
+  &.-layout-column {
+    flex-direction: column;
+  }
+
+  &.-border-radius-top {
+    border-radius: 6px 6px 0 0;
+  }
+
+  &.-border-radius-right {
+    border-radius: 0 6px 6px 0;
+  }
+
+  &.-border-radius-bottom {
+    border-radius: 0 0 6px 6px;
+  }
+
+  &.-border-radius-left {
+    border-radius: 6px 0 0 6px;
+  }
+
+  &.-border-radius-top-left-cross {
+    border-radius: 6px 0 6px 0;
+  }
+
+  &.-border-radius-top-right-cross {
+    border-radius: 0 6px 0 6px;
+  }
+
+  &__text-container {
+    padding: 16px 20px;
+
+    &.-type-text {
+      flex: 0 0 100%;
+    }
+
+    @media (max-width: $breakpoint-xxl) {
+      padding: 10px 15px;
+    }
+    @media (max-width: $breakpoint-xl) {
+      padding: 16px 20px;
+    }
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+    &.-important {
+      font-size: 18px;
+    }
+  }
+
+  &__description-container {
+    overflow-y: auto;
+
+    &::-webkit-scrollbar-track {
+      background-color: $color-white;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+      background-color: $color-grey-light;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $color-grey-light;
+      border-radius: 10px;
+    }
+  }
+}

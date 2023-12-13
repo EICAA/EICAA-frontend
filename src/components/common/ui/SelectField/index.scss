@@ -1,0 +1,53 @@
+@import "../../../../assets/style/colors";
+
+.select-field {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  &__top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 27px;
+
+    .select-field__label {
+      text-transform: none;
+    }
+  }
+
+  &__label {
+    color: $color-primary-darker;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    max-width: 172px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: $color-grey-lighter;
+    max-width: 160px;
+  }
+
+  &__input {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: $color-black;
+  }
+
+  &__error {
+    color: $color-red;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../../../assets/style/colors';
+
+.chart-action-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  width: calc(100% - 24px);
+  height: 44px;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+
+  > :not(:last-child) {
+    margin-right: 12px;
+  }
+
+  > * {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    color: $color-white;
+    background-color: $color-primary-light;
+    cursor: pointer;
+
+    > img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

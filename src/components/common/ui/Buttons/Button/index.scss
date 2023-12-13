@@ -1,0 +1,90 @@
+@import "../../../../../assets/style/colors";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: $color-white;
+  background-color: $color-primary-light;
+  height: 52px;
+  padding: 0 35px;
+  font-size: 16px;
+  border: 2px solid $color-primary-light;
+  border-radius: 6px;
+  opacity: 1;
+  transition-duration: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition-duration: 0.3s;
+  }
+
+  &.-black {
+    background-color: $color-black;
+    border-color: $color-black;
+  }
+
+  &.-primary-light {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+  }
+
+  &.-red {
+    background-color: $color-red;
+    border-color: $color-red;
+  }
+
+  &.-green {
+    background-color: $color-green;
+    border-color: $color-green;
+  }
+
+  &.-white-bordered {
+    color: $color-grey-darker;
+    background-color: $color-white;
+    border-color: $color-grey-light;
+
+    &:hover {
+      opacity: 1;
+      background-color: $color-white-dark;
+    }
+  }
+
+  &.-red-bordered {
+    color: $color-red;
+    background-color: $color-white;
+    border-color: $color-red;
+
+    &:hover {
+      opacity: 1;
+      color: $color-white;
+      background-color: $color-red;
+      border-color: $color-red;
+    }
+  }
+
+  &.-red-white-bordered {
+    color: $color-red;
+    background-color: $color-white;
+    border-color: $color-white;
+
+    &:hover {
+      opacity: 1;
+      color: $color-white;
+      background-color: $color-red;
+      border-color: $color-white;
+    }
+  }
+
+  &.-disabled {
+    pointer-events: none;
+    background-color: $color-grey-light;
+    border-color: $color-grey-light;
+  }
+
+  &__icon {
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../../../assets/style/colors";
+
+.account-page {
+  height: 100vh;
+  background: $color-white-dark;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  &__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 50px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: calc(100% - 182px);
+
+    &-left {
+      width: 100%;
+      margin-right: 23px;
+    }
+
+    &-right {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+    
+      &::-webkit-scrollbar {
+        width: 6px;
+        background-color: $color-white-darker;
+
+        &-track {
+          background-color: transparent;
+        }
+
+        &-thumb {
+          background: $color-grey-lighter;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

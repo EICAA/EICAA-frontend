@@ -1,0 +1,19 @@
+@import "../../../../assets/style/colors";
+@import "../../../../assets/style/breakpoints";
+
+.survey-page {
+  height: 100vh;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1284px;
+    margin: 0 auto;
+    padding: 20px 0 50px;
+
+    @media (max-width: $breakpoint-xl) {
+      padding: 0;
+    }
+  }
+}

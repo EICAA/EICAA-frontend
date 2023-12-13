@@ -1,0 +1,16 @@
+@import '../../../../assets/style/colors';
+@import '../../../../assets/style/breakpoints';
+
+.description-image {
+  &__thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 12px 0px;
+    border-radius: 4px;
+
+    &:hover {
+      cursor: pointer;
+      transition-duration: 0.2s;
+    }
+  }
+}

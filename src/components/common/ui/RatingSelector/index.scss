@@ -1,0 +1,10 @@
+.rating-selector {
+  display: flex;
+  flex-direction: row;
+
+  &__star {
+    &:not(:last-child) {
+      padding-right: 10px;
+    }
+  }
+}

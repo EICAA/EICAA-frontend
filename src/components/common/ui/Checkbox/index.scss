@@ -1,0 +1,111 @@
+@import "../../../../assets/style/colors";
+
+.checkbox {
+  &.-unclickable {
+    pointer-events: none;
+  }
+
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+
+    & .checkbox__input:checked ~ .checkbox__checkmark {
+      background: url("/assets/icons/icon_white_checkmark.svg")
+        no-repeat 50%;
+      background-color: $color-primary-light;
+      border-color: $color-primary-light;
+
+      &:hover {
+        background-color: $color-primary-lighter;
+        border-color: $color-primary-lighter;
+      }
+    }
+
+    & .checkbox__input:checked ~ .checkbox__checkmark_disable {
+      background: url("/assets/icons/icon_grey_checkmark.svg") no-repeat
+        50% !important;
+    }
+  }
+
+  &__text_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    font-weight: normal;
+    font-size: 20px;
+    color: $color-black;
+    margin-bottom: 0;
+    cursor: default;
+    pointer-events: none;
+  }
+
+  &__text {
+    color: $color-grey-darker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    cursor: default;
+
+    &-link {
+      color: $color-primary-light;
+      transition-duration: 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        transition-duration: 0.2s;
+        color: $color-primary-lighter;
+      }
+    }
+  }
+
+  &__checkmark,
+  &__checkmark_disable {
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    border: 2px solid $color-grey-light;
+    background-color: $color-white;
+  }
+
+  &__checkmark {
+    transition-duration: 0.2s;
+    flex-shrink: 0;
+
+    &:hover {
+      transition-duration: 0.2s;
+      background-color: $color-primary-lightest;
+      border-color: $color-primary-lightest;
+    }
+  }
+
+  &__input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  &__error {
+    color: $color-red;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    height: 17px;
+
+    &.-hidden {
+      visibility: hidden;
+    }
+  }
+}

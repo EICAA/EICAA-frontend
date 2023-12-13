@@ -1,0 +1,27 @@
+@import "../../../../assets/style/breakpoints";
+
+.landing-page-form {
+  margin-bottom: 40px;
+
+  &__input {
+    margin-bottom: 20px;
+  }
+
+  &__checkbox {
+    margin-bottom: 41px;
+
+    @media (max-width: $breakpoint-md) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-md) {
+      max-width: none;
+    }
+  }
+}

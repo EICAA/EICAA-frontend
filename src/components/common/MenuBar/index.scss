@@ -1,0 +1,141 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/breakpoints";
+@import "../../../assets/style/functions";
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+  background: $color-white;
+  width: 288px;
+  min-width: 288px;
+  max-width: 288px;
+  height: 100%;
+  padding: 35px;
+  box-shadow: 0px 16px 40px #00000014;
+
+  overflow-y: auto;
+  @include hideScrollbar();
+
+  &__header {
+    margin-bottom: 16px;
+
+    &-logo {
+      background-image: url('/assets/logos/logo-eicaa-notext.png'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 113px;
+      height: 55px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__menu-title {
+    color: $color-grey-lighter;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__menu-list {
+    margin: 0 -35px;
+  }
+
+  &__user {
+    &-title {
+      color: $color-grey-lighter;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    &-name {
+      color: $color-primary-darker;
+      font-size: 20px;
+      font-weight: 500;
+      overflow-wrap: break-word;
+      margin-bottom: 8px;
+    }
+
+    &-email {
+      color: $color-grey-darker;
+      font-size: 14px;
+      font-weight: 400;
+      overflow-wrap: break-word;
+      margin-bottom: 24px;
+    }
+
+    &-button-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &-button {
+      &:not(:last-child) {
+        margin-right: 12px;
+      }
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__footer {
+    &-logo {
+      background-image: url('/assets/logos/logo-eu-text.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 184px;
+      height: 39px;
+      margin-bottom: 33px;
+    }
+
+    &-separator {
+      border: 1px solid $color-primary-lightest-2;
+      margin-bottom: 24px;
+    }
+
+    &-button-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &-button {
+      color: $color-primary-light;
+      font-size: 16px;
+      transition-duration: 0.2s;
+
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transition-duration: 0.2s;
+        color: $color-primary-lighter;
+      }
+
+      a {
+        @include anchor-no-ua-style();
+      }
+    }
+  }
+}

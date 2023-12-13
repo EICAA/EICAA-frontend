@@ -1,0 +1,86 @@
+@import '../../../../assets/style/colors';
+
+.assessment-activate-form {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 40px;
+    border-bottom: 1px solid $color-white-darker;
+
+    &-part {
+      flex: 1 1 50%;
+
+      &:first-child {
+        padding-right: 25px;
+      }
+
+      &:last-child {
+        padding-left: 25px;
+      }
+    }
+  }
+
+  &__date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__input {
+    .input-text-field {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &.-low-width {
+      width: 80%;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+  }
+
+  &__date-input {
+    width: calc(50% - 4px);
+
+    .date-input {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+  }
+
+  &__button {
+    width: 208px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}

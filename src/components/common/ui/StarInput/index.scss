@@ -1,0 +1,33 @@
+.star-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.-is-disabled {
+    pointer-events: none;
+  }
+
+  &__star {
+    background-image: url('/assets/icons/star-grey.svg'), none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 33px;
+    height: 32px;
+
+    &.-highlighted {
+      background-image: url('/assets/icons/star-yellow-light.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &.-active {
+      background-image: url('/assets/icons/star-yellow.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

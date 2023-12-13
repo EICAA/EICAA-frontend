@@ -1,0 +1,884 @@
+{
+  "common": {
+    "assessment": "Felmérés",
+    "attention": "Figyelem",
+    "back": "Vissza",
+    "business": "Üzlet",
+    "cancel": "Mégse",
+    "choose": "Kiválaszt",
+    "country": "Ország",
+    "create": "Létrehozás",
+    "email": "Email",
+    "employees": "Alkalmazottak",
+    "faqs": "GYIK",
+    "firstName": "Keresztnév",
+    "higherEducation": "Felsőoktatás",
+    "home": "Kezdőoldal",
+    "language": "Nyelv",
+    "lastName": "Vezetéknév",
+    "loading": "Betöltés",
+    "no": "Nem",
+    "noData": "Nincs adat",
+    "ok": "Ok",
+    "organization": "Szervezet",
+    "password": "Jelszó",
+    "passwordConfirm": "Jelszó megerősítés",
+    "preview": "Előnézet",
+    "privacyPolicy": "Adatvédelmi Irányelvek",
+    "role": "Szerep",
+    "saveChanges": "Mentés",
+    "search": "Keresés",
+    "select": "Válasszon",
+    "start": "Kezdés",
+    "students": "Hallgatók",
+    "year": "Év",
+    "yes": "Igen"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Felmérés (újra)aktiválása",
+    "confirmationEmailMessage": "Egy megerősítő emailt küldtünk az email címére, amivel aktiválhatja a fiókját",
+    "confirmationEmailTitle": "Aktiválja a fiókját",
+    "deleteAssessmentWarningTitle": "Figyelem",
+    "deleteAssessmentWarningMessage": "Biztosan törölni szeretnéd a felmérést? Ez a folyamat visszafordíthatatlan.",
+    "deleteRequestMessage": "A kérésedet elküldtük. Adataidat hamarosan törlik.",
+    "deleteRequestTitle": "Siker",
+    "deleteRequestWarningMessage": "Biztosan szeretnéd, hogy töröljék az adataidat? Ez a folyamat visszafordíthatatlan.",
+    "deleteRequestWarningTitle": "Figyelem",
+    "feedbackSentMessage": "A visszajelzését elküldtük. Köszönjük!",
+    "feedbackSentTitle": "Siker",
+    "forgotPasswordMessage": "Az önnek kiküldött emailben található linkkel visszaállíthatja a jelszavát",
+    "languageSelectTitle": "Válasszon nyelvet",
+    "resetPasswordMessage": "A jelszavát visszaállítottuk.",
+    "successfulAccountDeleteMessage": "Sikeresen törölte a felhasználói fiókját",
+    "successfulAccountDeleteTitle": "Siker",
+    "successfulAccountEditMessage": "Sikeresen mentette a fiókjához tartozó alapadatokat",
+    "successfulAccountEditTitle": "Siker",
+    "successfulPasswordChangeMessage": "Sikeresen megváltoztatta a jelszavát",
+    "successfulPasswordChangeTitle": "Siker",
+    "successfulRegisterTitle": "Sikeres regisztráció",
+    "successfulRegisterMessage": "Sikeresen létrehozta a fiókját",
+    "successTitle": "Siker"
+  },
+  "snackBars": {
+    "assessmentActivated": "Felmérés aktiválva",
+    "assessmentArchived": "Felmérés archiválva",
+    "assessmentCreated": "Felmérés létrehozva",
+    "assessmentDeleted": "Felmérés törölve",
+    "copyUrlFailure": "Nem sikerült az URL másolása",
+    "copyUrlSuccess": "URL másolva a vágólapra",
+    "ratingSubmitted": "Értékelés elküldve"
+  },
+  "errors": {
+    "acceptTerms": "El kell fogadnia ezeket a feltételeket",
+    "datePast": "Nem lehet múltbeli dátum",
+    "dateBeforeStart": "A kezdeti dátumnál nem lehet korábban",
+    "emailEmpty": "Az email üres",
+    "emailInvalid": "Kérjük adjon meg érvényes email címet",
+    "fieldRequired": "Ez a mező kötelező",
+    "mustBeWhole": "Az érték nem egész szám",
+    "passwordEmpty": "Írjon be jelszót",
+    "passwordMismatch": "A jelszavaknak egyezniük kell",
+    "passwordTooShort": "A jelszó legyen legalább 8 karakter hosszú",
+    "textTooLong": "A szöveg túl hosszú",
+    "valueTooHigh": "Az érték túl magas",
+    "valueTooLow": "Az érték túl alacsony"
+  },
+  "apiErrors": {
+    "titleDefault": "Hiba",
+    "messageDefault": "Ismeretlen hiba történt. Kérjk próbálja újra",
+    "internalServerError": "Szerverhiba",
+    "storageError": "Belső hiba történt. Kérjük töltse újra az oldalt",
+    "auth": {
+      "failed-to-auth": "Sikertelen bejelentkezés",
+      "invalid-reset-password-token": "Érvénytelen jelszó helreállító token",
+      "user-already-exists": "A felhasználó már létezik",
+      "user-deleted": "Törölt felhasználó"
+    },
+    "field": {
+      "required": "Egy szükséges mező kitöltetlen",
+      "length-exceeded": "Egy mező értéke túl hosszú",
+      "date": {
+        "cannot-end-before-start": "Befejező dátum nem lehet a kezdő dátum előtt"
+      },
+      "number": {
+        "should-be": {
+          "integer": "Egész szám szükséges",
+          "positive": "Pozitív szám szükséges",
+          "not-negative": "Nem negatív szám szükséges"
+        },
+        "too-large": "Túl nagy szám"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "A kérdőívet már kitöltötték",
+        "max-participants-reached": "A kérdőív betelt, nem fogad több kitöltést",
+        "not-active": "A kérdőív inaktív",
+        "not-found": "Nem található a kérdőív"
+      },
+      "result": {
+        "invalid-result-token": "Érvénytelen eredmény token"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "Nem található a kérdőív"
+      },
+      "not-exists": "Nem létező felhasználó",
+      "password-invalid": "Érvénytelen jelszó"
+    },
+    "incognitoBrowser": "Az Ön böngészője nem támogatja szoftverünk bizonyos funkcióit. A folytatáshoz kérjük, nyissa meg az URL-t egy nem privát böngészőfülön vagy egy másik böngészőben, például a Google Chrome, Safari, Mozilla Firefox (csak nem privát), Microsoft Edge vagy Opera böngészőben."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "A keresett oldalt nem találjuk. Kattintson a lenti gombra, hogy visszatérjen az előző oldalra."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "A keresett oldal nem elérhető. Kérjük használja az emailben kapott linket a kérdőív kitöltéséhez. Bezárhatja ezt a böngészőfület."
+    },
+    "landingPage": {
+      "title": "Üdvözöljük a vállalkozói és vállalkozáson<br />belüli kompetenciafelmérésen!",
+      "description": "Kedves Résztvevő!<br />Üdvözlünk az EICAA platformon végzett vállalkozói kompetenciafelmérésen! A következőkben kérdéseket teszünk fel Neked arra vonatkozóan, hogy hogyan ítéled meg vállalkozói képességeidet. Fontos, hogy szánj időt az egyes kérdések teljes megértésére, és őszintén válaszolj. A válaszaid névtelenek maradnak.<br />A kérdéssor hozzávetőlegesen ~10 percet vesz igénybe. Eredményeidet közvetlenül a kérdőív befejezése után kaphatod meg.<br />Jó szórakozást az önértékeléshez!",
+      "disclaimer": "Megjegyzés: A kérdések egy része \"vállalkozói ötletre\" vonatkozik. A vállalkozói ötlet olyan ötletként határozható meg, amelynek célja, hogy a lehetőségekkel foglalkozzon, és azokat mások számára értékké alakítsa",
+      "checkboxTextPart1": "Elfogadom az ",
+      "checkboxTextPart2": "Adatvédelmi Szabályzatot"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Korcsoport",
+        "ageGroupQuestion": "Melyik korcsoportba tartozol?",
+        "gender": "Nem",
+        "genderQuestion": "Mi az Ön nemi identitása?",
+        "someQuestions": "Néhány kérdés rólad",
+        "title": "Demográfia"
+      },
+      "employee": {
+        "countryQuestion": "Melyik országban szerezte munkatapasztalata legnagyobb részét?",
+        "educationLevel": "Iskolai végzettség",
+        "educationLevelQuestion": "Mi a legmagasabb iskolai végzettsége?",
+        "levelOfPosition": "Beosztás",
+        "levelOfPositionQuestion": "Milyen beosztásban dolgozik Ön?",
+        "organisationSize": "Szervezet mérete",
+        "organisationSizeQuestion": "Mekkora az Ön munkáltató szervezete?",
+        "organisationType": "Szervezet típusa",
+        "organisationTypeQuestion": "Milyen típusú az Ön munkáltató szervezete?",
+        "workExperience": "Munkatapasztalat",
+        "workExperienceQuestion": "Hány év munkatapasztalattal rendelkezik?",
+        "workField": "Munkaterület",
+        "workFieldQuestion": "Milyen területen dolgozik?"
+      },
+      "student": {
+        "countryQuestion": "Melyik országban végezted legtöbbet a tanulmányaidból?",
+        "educationLevel": "Oktatás szintje",
+        "educationLevelQuestion": "Mi a fő képzés, amelyet jelenleg folytatsz?",
+        "employmentField": "Terület",
+        "employmentFieldQuestion": "Milyen területen dolgozik?",
+        "employmentType": "Fogalkozás módja",
+        "employmentTypeQuestion": "Hogyan jellemeznéd a foglalkoztatásodat?",
+        "hasWorkExperienceQuestion": "Van munkahelyi vagy gyakornoki tapasztalatod?",
+        "majorField": "Szakterület",
+        "majorFieldQuestion": "Az alábbi lehetőségek közül melyik írja le legjobban a jelenlegi fő tanulmányaidat?",
+        "workExperience": "Tapasztalat",
+        "workExperienceQuestion": "Hány éves munka- vagy (fizetett) szakmai tapasztalattal rendelkezel?",
+        "workQuestion": "Jelenleg folytatsz fizetett munkát vagy szakmai gyakorlatot tanulmányaid mellett?"
+      },
+      "employmentHoursQuestion": "Hány órát dolgozik egy héten?",
+      "female": "Nő",
+      "higherEducation": "Felsőoktatási intézmények",
+      "higherEducationQuestion": "Melyik felsőoktatási intézményekben tanul jelenleg?",
+      "male": "Férfi"
+    },
+    "surveyPage": {
+      "ableTo": "Tudásszintem a következő kompetenciák terén",
+      "area": "Terület",
+      "finish": "Befejezés",
+      "finishButton": "Befejezés",
+      "hint": "Cél",
+      "languageSelectTitle": "Válasszon nyelvet a kérdőívhez",
+      "next": "Következő",
+      "previous": "Előző"
+    },
+    "finishPage": {
+      "backToHome": "Vissza a kezdőképrenyőre",
+      "closeTab": "Böngészőablak bezárása",
+      "deleteButton": "Törlés kérése",
+      "deleteButtonTitle": "A GDPR követelményeinek megfelelően az alábbi gombra kattintva kérheted a korábban elküldött adataid törlését.",
+      "description": "Kiértékeltük a válaszaidat. Az eredmények megtekintéséhez kattints az Eredményekre.",
+      "downloadResults": "Eredmények letöltése",
+      "feedbackSentMessage": "A visszajelzését elküldük. Köszönjük!",
+      "form": {
+        "ratingTitle": "Kérjük, értékeld tapasztalataidat!",
+        "submitButton": "Visszajelzés küldése",
+        "title": "Örülünk, ha visszajelzést kapunk itt:"
+      },
+      "interventions": "Intervenció",
+      "title": "Köszönjük a részvételt!",
+      "visitEicaa": "EICAA főoldal felkeresése"
+    }
+  },
+  "user": {
+    "menuBar": {
+      "archivedAssessments": "Archív Felmérések",
+      "assessments": "Felmérések",
+      "cdkRepository": "KFCS Tár",
+      "guest": "Vendég",
+      "home": "Kezdőoldal",
+      "menuTitle": "Menü",
+      "notLoggedIn": "Nincs bejelentkezve",
+      "support": "Támogatás",
+      "userTitle": "Felhasználó"
+    },
+    "assessmentCard": {
+      "activate": "Felmérés aktiválás",
+      "archive": "Felmérés archiválása",
+      "copyUrl": "Felmérés url-jének másolása",
+      "createdOn": "Létrehozva",
+      "delete": "Felmérés törlése",
+      "participants": "Résztvevők",
+      "preview": "Felmérés előnézete",
+      "summary": "Felmérés adatai"
+    },
+    "registerPage": {
+      "footerMessage": "Az Európai Bizottság jelen kiadvány elkészítéséhez nyújtott támogatása nem jelenti a tartalom jóváhagyását, amely csupán a szerzők nézeteit tükrözi, és a Bizottság nem tehető felelőssé a kiadványban található információk esetleges felhasználásáért.",
+      "registerButton": "Fiók Létrehozása",
+      "organization": "Szervezet",
+      "position": "Pozíció",
+      "privacyLink": "Adatvédelmi Irányelveket",
+      "privacyText": "A regisztrációval elfogadja az",
+      "selectRole": "Szerep",
+      "signInText": "Már van fiókja?",
+      "signInLink": "Bejelentkezés",
+      "title": "Fiók Létrehozása"
+    },
+    "loginPage": {
+      "forgotPassword": "Elfelejtett jelszó",
+      "login": "Bejelentkezés",
+      "rememberMe": "Jegyezzen meg",
+      "signUpText": "Még nincs fiókja?",
+      "signUpLink": "Regisztráció",
+      "title": "Bejelentkezés"
+    },
+    "passwordForgotPage": {
+      "logIn": "Vissza a bejelentkezéshez",
+      "submit": "Visszaállító link küldése",
+      "title": "Jelszó visszaállítás"
+    },
+    "passwordResetPage": {
+      "logIn": "Vissza a bejelentkezéshez",
+      "submit": "Visszaállítás",
+      "title": "Jelszó visszaállítás"
+    },
+    "dashboardPage": {
+      "createAssessment": "Felmérés Létrehozása",
+      "createNewAssessment": "Új Felmérés Létrehozása",
+      "liveAssessments": "Aktív Felmérések",
+      "recentActivity": "Legutóbbi Aktivitás",
+      "title": "Üdvözöljük"
+    },
+    "assessmentCreatePage": {
+      "assessmentCountry": "Felmérés országa",
+      "assessmentCreated": "Felmérés sikeresen létrehozva",
+      "assessmentLanguages": "Felmérés nyelvei",
+      "assessmentName": "Felmérés neve",
+      "assessmentNamePlaceholder": "Adja meg a felmérés nevét",
+      "assessmentUrl": "Felmérés URL-je",
+      "businessAssessment": "Üzleti Felmérés",
+      "copyUrl": "Felmérés URL másolása",
+      "createNew": "Új létrehozása",
+      "demographicsTooltip": "Kérdések: Felsőoktatási intézmények, Ország, Oktatási szint, Szakterület, Oktatás módja, Lépések vállalkozás létrehozására, Munkatapasztalat, Foglalkoztatottság, Foglalkoztatottaság típusa, Vállalkozás alapításának éve (ha vállalkozó), Munka terület, Munkaórák száma",
+      "educationAssessment": "Oktatási Felmérés",
+      "endDate": "Befejezés dátuma",
+      "endDateTooltip": "Kezdeti dátumot muszáj beállítani. A befejezés dátuma nem kötelező mező. Ha be van állítva a befejezés dátuma, abban az időpontban a kérdőív automatikusan archiválásra kerül. Egyéb esetben azt kézzel kell archiválni.",
+      "maxParticipants": "Max résztvevők",
+      "maxParticipantsPlaceholder": "Résztvevők sz.",
+      "overview": "Áttekintő",
+      "participantEmails": "Email kérése a résztvevőktől",
+      "participantDemographics": "Demográfiai adatok kérése",
+      "preview": "Felmérés Előnézet",
+      "shareResults": "A résztvevők letölthetik az összefoglalót",
+      "startDate": "Kezdés dátuma",
+      "summary": "Összesítés",
+      "title": "Új felmérés létrehozása",
+      "typeSelectorTitle": "Milyen típusú kérdőívet szeretne létrehozni?"
+    },
+    "assessmentPage": {
+      "title": "Felmérés részletei"
+    },
+    "assessmentArchivedPage": {
+      "archive": "Archívum",
+      "title": "Archivált Felmérések"
+    },
+    "accountPage": {
+      "basicInformation": "Alapadatok",
+      "changePassword": "Jelszó csere",
+      "deleteAccount": "Fiók törlése",
+      "deleteAccountMessage": "Szeretné törölni a fiókját és a felméréseit?",
+      "forgotPassword": "Elfelejtette a jelszavát?",
+      "newPassword": "Új jelszó",
+      "title": "Fiók beállításai",
+      "updatePassword": "Jelszó frissítése"
+    },
+    "assessmentsPage": {
+      "assessmentType": "Felmérés típus",
+      "charts": {
+        "matrix": {
+          "title": "Pontszámeloszlás kompetenciánként"
+        },
+        "radar": {
+          "title": "Átlagos pontszám kompetenciánként"
+        },
+        "stacked": {
+          "title": "Összpontszámok eloszlása résztvevőnként"
+        }
+      },
+      "dataQuery": "Adatok lekérése",
+      "export": "Exportálás",
+      "help": "Segítség",
+      "scores": {
+        "1": "None",
+        "2": "Basic",
+        "3": "Intermediate",
+        "4": "Advanced",
+        "5": "Expert"
+      },
+      "title": "Felmérések",
+      "updateDashboard": "Oldal frissítése"
+    },
+    "cdkRepositoryPage": {
+      "helpDescription": "Először válassza ki a környezetet ezen az oldalon. Ezután találni fog egy listát KFCS modulokról, amiken szűrést végezhet terültet, kompetencia, nehézségi szint és egy keresőmező szerint. A terület és kompetencia a résztvevők által kitöltött kérdőívekhez kapcsolódik. A megfelelő nehézségi szintet a résztvevők adott kérdőív részen elért átlagos pontszámai alapján ajánlott kiválasztani. A modul kiválasztási aután részletes információt kap arról hogyan növelheti az átlagos pontszámot az adott kompetenciában.",
+      "helpTitle": "Így használja a KFCS tárhelyet",
+      "title": "Kompetencia Fejelsztő Csomagok",
+      "type": {
+        "description": "A kezdéshez kérjük válassza ki a fejleszteni kívánt környezetet:",
+        "subTitle": "Üdvözöljük az EICAA KFCS tárhelyen!"
+      },
+      "list": {
+        "area": "Terület",
+        "competence": "Kompetencia",
+        "difficulty": "Nehézség",
+        "moduleName": "Modul név",
+        "subTitle": "Válasszon egy kfcs modult a lenti táblázatból:"
+      }
+    },
+    "cdkModulePage": {
+      "assessment": "Felmérés",
+      "author": "Szerző",
+      "manual": "Kézikönyv",
+      "module": {
+        "assessment": "Felmérés",
+        "author": "Szerző",
+        "countryOfTheIssuer": "Kibocsátó Országa",
+        "dateOfIssuing": "Kibocsátás Dátuma",
+        "externalMaterial": "Külső /\n További Anyagok",
+        "forUsers": "Tanároknak /\n Vállalati Oktatóknak",
+        "format": "Formátum",
+        "forParticipants": "Résztvevőknek",
+        "institution": "Intézet",
+        "instructorManual": "Oktatói Kézikönyv",
+        "learningOutcomes": "Tanulási Célok",
+        "name": "Név",
+        "otherCompetences": "További Kompetenciák",
+        "qualityAssurance": "Minőségbiztosítás",
+        "ratingEaseOfUse": "Használhatóság",
+        "ratingHelpfulness": "Mennyire volt segítségére a modul?",
+        "ratingInteractivity": "Interaktivitás",
+        "ratingNumber": "Kapott értékelések száma",
+        "ratingTrainingResults": "Képzési eredmények",
+        "ratingRatingTitle": "Kérjük értékelje a modult az alábbi kategóriák szerint",
+        "ratingSubmit": "Értékelés elküldése",
+        "ratingSummaryTitle": "Más felhasználók értékelései erről a modulról:",
+        "supervision": "Felmérés Felügyelete",
+        "workload": "Terhelés"
+      },
+      "overview": "Áttekintő",
+      "rating": "Értékelés",
+      "resources": "Anyagok",
+      "returnToRepository": "Vissza a tárhelyhez",
+      "scope": "Hatáskör",
+      "title": "Kompetencia Fejelsztő Csomag"
+    }
+  },
+  "pdf-texts": {
+    "area": "Terület",
+    "submitted-on": "Beküldve",
+    "question": "Kérdés",
+    "competence": "Képesség",
+    "answer": "Válasz"
+    },
+  "gdpr": {
+    "consent": {
+      "title": "Hozzájárulás az adatfeldolgozáshoz",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "Hozzájárulok, hogy az általam az (ön)felmérésben való részvétel során megadott adatokat az adatvédelmi szabályzat ",
+        "1": "VIII. pontjában (Adatkezelés (ön)értékelő felmérésben való részvételkor)",
+        "2": " meghatározott célokra és mértékben. meghatározottak szerint az Univations kezelheti."
+      },
+      "effect": {
+        "0": "A fenti hozzájárulásom visszavonásomig érvényes. Visszavonásomat a későbbiekben bármikor, indoklás nélkül, a jövőre nézve is hatályosan megtehetem az adatvédelmi szabályzat ",
+        "1": "I. (Az adatkezelő elérhetőségei) pontjában",
+        "2": " megadott elérhetőségeken. Ezen túlmenően az adatvédelmi szabályzat ",
+        "3": "X. pontjában (Az érintett személy jogai)",
+        "4": " leírt jogokkal rendelkezem."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Adatvédelmi irányelvek",
+      "content": [
+        {
+          "spans": [
+            "Ez az adatvédelmi szabályzat kizárólag a ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            " oldalra vonatkozik. Ha egy másik webhelyet keres fel, az adott üzemeltető adatvédelmi szabályzata érvényes. Ez vonatkozik azokra a webhelyekre is, amelyekre ezen a webhelyen található hivatkozások mutatnak."
+          ]
+        },{
+          "sections": [
+            {
+              "title": "Az adatkezelő elérhetőségei",
+              "content": [
+                "A GDPR jogszabály Art. 4.(7) értelmében az adatkezelő az",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Németország",
+                    {
+                      "spans": [
+                        "mail: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Telefon: +49 345 13 14 27 00"
+                  ]
+                },
+                "Képviseli Daniel Worch ügyvezető igazgató. Cégjegyzés a Stendal Kerületi Bíróság Cégjegyzékébe. Nyilvántartási szám: HRB 5703"
+              ]
+            },
+            {
+              "title": "Az adatvédelmi tisztviselő elérhetőségei",
+              "content": [
+                "Az adatvédelmi tisztviselő az adatkezelő nyilvános elérhetőségein és az alábbi e-mail címen is elérhető:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg adatvédelmi tisztviselője,",
+                    "Weinbergweg 23",
+                    "06120 Halle, Németország",
+                    {
+                      "spans": [
+                        "mail: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Általános információk az adatkezelésről",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "Alapvetően csak olyan mértékben kezelünk személyes adatokat, amennyiben ez egy működőképes weboldal, valamint tartalmaink és szolgáltatásaink biztosításához és optimalizálásához szükséges.",
+                        "A GDPR jogszabály Art. 4 A 1. sz. szerint a személyes adat bármely azonosított vagy azonosítható természetes személyre vonatkozó információ. Azonosítható természetes személy az, aki közvetlenül vagy közvetve azonosítható, különösen olyan azonosító alapján, mint a név, az azonosító szám, a helyadatok, az online azonosító, illetve egy vagy több, a fizikai, fiziológiai, az adott természetes személy re jellemző genetikai, mentális, gazdasági, kulturális vagy társadalmi tulajdonság.",
+                        "Felhasználóink személyes adatainak feldolgozása csak a felhasználó hozzájárulásával történik. Kivételt képeznek azok az esetek, amikor az adatok kezelését jogszabályi előírások megengedik."
+                      ]              
+                    },
+                    {
+                      "title": "A személyes adatok kezelésének jogalapja",
+                      "content": [
+                        "Amennyiben a személyes adatokat érintő adatkezelési műveletekhez az érintett hozzájárulását megszerezzük, a GDPR  6. (1) bek. szolgál a személyes adatok kezelésének jogalapjául.",
+                        "Az olyan személyes adatok feldolgozásakor, amelyek olyan szerződés teljesítéséhez szükségesek, amelyben az érintett szerződő fél, a GDPR Art. 6 (1)/b  szolgál jogalapként. Ez vonatkozik azokra a feldolgozási műveletekre is, amelyek a szerződéskötést megelőző intézkedések végrehajtásához szükségesek.",
+                        "Amennyiben a személyes adatok kezelése társaságunkat terhelő jogszabályi kötelezettség teljesítéséhez szükséges, a GDPR 6 (1)/ c szolgál jogalapként.",
+                        "Ha az adatkezelésre a mi vagy egy harmadik személy jogos érdekének védelme érdekében van szükség, és az érintett érdekei, alapvető jogai és szabadságai nem haladják meg az elsőként említett érdeket, a GDPR 6 (1)/f szolgál az adatkezelés jogalapjául."
+                      ]
+                    },
+                    {
+                      "title": "Az adatok törlésének és tárolásának időtartama",
+                      "content": [
+                        "Az Ön személyes adatait töröljük vagy zároljuk, amint a tárolás célja megszűnik. Ezen kívül tárolásra kerülhet sor, ha ezt az európai vagy nemzeti jogalkotó az adatkezelőre vonatkozó uniós rendeletekben, törvényekben vagy egyéb rendelkezésekben a jogalkotó előírta. Az adatok zárolására vagy törlésére is sor kerül, ha a fent említett szabványok által előírt tárolási idő lejár, kivéve, ha az adatok további tárolására szerződéskötés vagy szerződés teljesítése miatt van szükség."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Weboldal biztosítása és naplófájlok létrehozása",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "Amikor belép weboldalunkra, az eszközén használt böngésző automatikusan információkat küld weboldalunk szerverére. Ezeket az információkat ideiglenesen egy úgynevezett naplófájlban tárolják.",
+                        "A következő adatokat gyűjtik:",
+                        {
+                          "list": [
+                            "A kérelmező eszköz IP-címe",
+                            "A hozzáférés dátuma és ideje",
+                            "Webhely, ahonnan a hozzáférés történik (hivatkozó URL)",
+                            "Használt böngésző",
+                            "Az eszköz operációs rendszere és a hozzáférés-szolgáltató neve"
+                          ]
+                        },
+                        "Ezeket az adatokat rendszerünk naplófájljaiban is tároljuk. Ezeket az adatokat a felhasználó egyéb személyes adataival együtt nem tároljuk. Weboldalunkat a Digital Oceans Inc. kizárólag németországi szerverein tárolja."
+                      ]
+                    },
+                    {
+                      "title": "Jogi alap",
+                      "content": [
+                        "A naplófájlokban lévő adatok ideiglenes tárolásának jogalapja a GDPR. 6 (1)/f."
+                      ]
+                    },
+                    {
+                      "title": "A tárolás időtartama",
+                      "content": [
+                        "Az ideiglenes tárolás a weboldal működőképességének biztosítását szolgálja. Az adatok továbbá a weboldal optimalizálását és rendszereink biztonságának biztosítását szolgálják.",
+                        "A személyes adatok törlésre kerülnek, amint azokra már nincs szükség a gyűjtésük céljának eléréséhez. A weboldal biztosításához szükséges adatgyűjtés esetén ez az eset áll fenn, ha az adott munkamenet véget ért; az adatok naplófájlban történő tárolása esetén ez legkésőbb hat hónap elteltével történik meg."
+                      ]
+                    },
+                    {
+                      "title": "Tiltakozás joga",
+                      "content": [
+                        "A weboldal biztosításához szükséges adatgyűjtés és az adatok naplófájlokban történő tárolása a weboldal működéséhez feltétlenül szükséges . Következésképpen a felhasználónak nincs lehetősége tiltakozni."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cookie-k",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "Weboldalunkon cookie-kat (sütiket) használunk. Ezek kis fájlok, amelyeket az Ön böngészője automatikusan létrehoz, és az Ön eszközén (laptopon, táblagépen, okostelefonon vagy hasonló) tárol, amikor meglátogatja weboldalunkat. A sütik nem okoznak kárt az Ön készülékében, és nem tartalmaznak vírusokat, trójaiakat vagy más rosszindulatú programokat.",
+                        "A cookie-ban olyan információkat tárolnak, amelyek az adott eszközzel kapcsolatban keletkeznek. Ez azonban nem jelenti azt, hogy közvetlen tudomást szerezünk az Ön személyazonosságáról.",
+                        "A sütik egyrészt azt szolgálják, hogy szolgáltatásunk igénybevétele kellemesebb legyen az Ön számára. Úgynevezett munkamenet-sütiket használunk annak felismerésére, hogy Ön már felkereste weboldalunk egyes oldalait. Ezek automatikusan törlődnek, miután elhagyja oldalunkat.",
+                        "Ezen túlmenően ideiglenes sütiket is használunk a felhasználóbarátság optimalizálása érdekében, amelyeket meghatározott ideig tárolunk az eszközén. Ha ismét felkeresi oldalunkat szolgáltatásaink igénybevételéhez, a rendszer automatikusan felismeri, hogy már járt nálunk, és milyen bejegyzéseket és beállításokat végzett, hogy ne kelljen újra megadnia azokat.",
+                        "Másrészt cookie-kat használunk weboldalunk használatának statisztikai rögzítésére és annak értékelésére, hogy szolgáltatásunkat optimalizáljuk Önnek.",
+                        "A legtöbb böngésző automatikusan elfogadja a cookie-kat. Böngészőjét azonban beállíthatja úgy is, hogy az Ön készülékén ne legyenek cookie-k tárolva, vagy mindig megjelenjen egy üzenet, mielőtt új cookie jön létre. A cookie-k teljes deaktiválása azonban azt jelentheti, hogy nem tudja használni weboldalunk összes funkcióját."
+                      ]
+                    },
+                    {
+                      "title": "Jogi alap",
+                      "content": [
+                        "Az ilyen, weboldalunk működéséhez és a szolgáltatások nyújtásához feltétlenül szükséges cookie-k használatának jogalapja a GDPR. 6 (1)/b vagy f. Jogos érdekünk, hogy biztosítsuk weboldalaink működését és optimális használhatóságát.",
+                        "Az összes nem alapvető süti használata kizárólag az Ön hozzájárulásán alapul, amelyet weboldalunk használatának megkezdésekor megadhat. Ezen sütik használatának jogalapja a GDPR Art. 6 (1)/a."
+                      ]
+                    },
+                    {
+                      "title": "A tárolás időtartama",
+                      "content": [
+                        "A sütiket a felhasználó számítógépén tárolják, és onnan továbbítják oldalunkra. Emiatt a felhasználók a cookie-k használatát is teljes mértékben szabályozhatják. Az internetböngésző beállításainak módosításával a sütik továbbítása deaktiválható vagy korlátozható. A már eltárolt sütik bármikor törölhetők. Ez automatikusan is megtehető. Ha a cookie-kat letiltjuk a weboldalunkon, előfordulhat, hogy a továbbiakban nem lehet teljes mértékben használni a weboldal összes funkcióját."
+                      ]
+                    },
+                    {
+                      "title": "Weboldalunkon használt sütik",
+                      "content": [
+                        "Weboldalunkon a következő sütiket használjuk:",
+                        {
+                          "table": {
+                            "header": [
+                              "A cookie neve",
+                              "Szolgáltató",
+                              "Leírás",
+                              "Időtartam"
+                            ],
+                            "body": [
+                              [
+                                "univerzális-süti-expressz\n(munkamenet süti)",
+                                "React JS keretrendszer",
+                                "A hook cookie-k expresszre kerülnek/beállításra kerülnek szerver-megjelenítéshez",
+                                "A felhasználói munkamenet időtartama"
+                              ],
+                              [
+                                "univerzális-süti\n(munkamenet süti)",
+                                "React JS keretrendszer",
+                                "A platformon/webhelyen történő felhasználói hitelesítéshez szükséges",
+                                "A felhasználói munkamenet időtartama"
+                              ],
+                              [
+                                "Matomo süti",
+                                "Matomo",
+                                "A Matomo cookie-kat használ, hogy lehetővé tegye a szörfözési viselkedés elemzését.",
+                                "6 hónap"
+                              ],
+                              [
+                                "Borlabs-süti",
+                                "Borlabs",
+                                "Elmenti a Borlabs Cookie Cookie Box-jában kiválasztott látogatók beállításait.",
+                                "1 év"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Webelemzés a Matomón keresztül",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "A weboldal a Matomo nyílt forráskódú szoftvereszközt használja a felhasználói viselkedés elemzésére a weboldalunkon. Ez egy nyílt forráskódú eszköz a webes elemzéshez. A Matomo nem gyűjt munkamenetadatokat az Ön hozzájárulása nélkül.",
+                        "A Matomo sütiket használ. Ezek a szöveges fájlok az Ön készülékén tárolódnak, és lehetővé teszik a weboldal használatának elemzését. Ebből a célból a cookie-n keresztül szerzett használati információkat továbbítja és tárolja, hogy a használati viselkedés értékelhető legyen. Az IP-cím egy anonim azonosító és nincs technikai eszközünk a regisztrált felhasználók azonosítására.",
+                        "Ha hozzájárul a Matomo használatával végzett webelemzéshez, a következő adatokat gyűjtjük, amikor belép a weboldalra:",
+                        {
+                          "list": [
+                            "a felhasználó hívó rendszerének IP-címének részei",
+                            "az elért weboldal",
+                            "Webhely, ahonnan a hozzáférés történik (hivatkozó URL)",
+                            "az elért webhelyről elérhető aloldalak",
+                            "a weboldalon való tartózkodás időtartama",
+                            "a webhely elérésének gyakorisága"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Jogi alap",
+                      "content": [
+                        "A személyes adatok kezelésének jogalapja a GDPR Art. 6 (1)/a."
+                      ]
+                    },
+                    {
+                      "title": "A tárolás időtartama",
+                      "content": [
+                        "Az adatok törlésre kerülnek, amint azokra már nincs szükség célunkhoz. A generált statisztikák és az alapul szolgáló adatok nem törlődnek."
+                      ]
+                    },
+                    {
+                      "title": "A beleegyezés visszavonása",
+                      "content": [
+                        "A felhasználó hozzájárulása a jövőre nézve bármikor visszavonható."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Adatkezelés a felhasználói fiók regisztrációja során",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "Ha a felhasználó úgy dönt, hogy felhasználói fiókot hoz létre, a regisztráció során a következő személyes adatokat gyűjtjük:",
+                        {
+                          "list": [
+                            "Email cím",
+                            "Jelszó (a platformon/webhelyen lévő fiókhoz)",
+                            "Vezetéknév",
+                            "Keresztnév",
+                            "A szervezet neve",
+                            "A szervezet országa",
+                            "Beosztás a szervezetben"
+                          ]
+                        },
+                        "Az adatok kezelése a weboldal különböző funkcióinak ellátása céljából történik (pl. (ön)értékelő kérdőív készítése ), amelyek regisztráció és felhasználói fiók használata nélkül nem működőképesek.",
+                        "A regisztráció és a felhasználói fiók használatának keretein belül tároljuk az IP-címet és az adott felhasználói művelet időpontját. A tárolás jogos érdekeinken, valamint a felhasználó azon érdekén alapul, hogy megvédjük a felhasználói fiókot harmadik fél általi visszaéléstől és egyéb jogosulatlan használattól.",
+                        "A feldolgozott adatokat anonimizált formában továbbítjuk az Entrepreneurial and Intrapreneurial Competences Assessment Alliance-nek (a továbbiakban: EICAA Konzorcium). Az anonimizálás az e-mail cím, a felhasználó vezeték- és keresztnevének eltávolításával történik a továbbított adatállományból. Az adatokat az (ön)értékelő felmérés készítőjének is továbbítjuk ."
+                      ]
+                    },
+                    {
+                      "title": "Jogi alap",
+                      "content": [
+                        "A felhasználói fiók létrehozása során a személyes adatok kezelésének jogalapja a GDPR Art. 6 (1)/a."
+                      ]
+                    },
+                    {
+                      "title": "A tárolás időtartama",
+                      "content": [
+                        "A személyes adatokat addig tároljuk, ameddig az adatkezelés fent említett céljai megkövetelik, és az adatok megőrzésére már nem áll fenn jogi kötelezettség. A szükségesség megszűnik, amint a felhasználó törli felhasználói fiókját. Jogi archiválási kötelezettségek esetén a törlés lejártát követően is történik adatmegőrzés."
+                      ]
+                    },
+                    {
+                      "title": "A beleegyezés visszavonása",
+                      "content": [
+                        "Az adatkezeléshez adott hozzájárulás bármikor visszavonható anélkül, hogy az a visszavonásig a hozzájárulás alapján végzett adatkezelés jogszerűségét érintené."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Adatkezelés (ön)értékelő felmérésben való részvételkor",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Az adatkezelés köre és célja",
+                      "content": [
+                        "Ha a felhasználók úgy döntenek, hogy részt vesznek egy (ön)értékelő felmérésben, akkor róluk személyes adatokat gyűjtünk. Azokat a felhasználókat, akik részt vesznek egy (ön)értékelő felmérésben , a továbbiakban résztvevőknek nevezzük.",
+                        "A résztvevőktől a következő személyes adatokat gyűjtjük:",
+                        {
+                          "list": [
+                            "Az ország, ahol a résztvevő a legtöbb oktatásban részesült",
+                            "Jelenleg végzett oktatási szint",
+                            "A főbb tanulmányi területe",
+                            "Munka- vagy szakmai gyakorlat megléte",
+                            "Több éves munka vagy szakmai gyakorlat",
+                            "A résztvevő jelenleg fizetett munkát vagy szakmai gyakorlatot végez-e a tanulmányok folytatása mellett",
+                            "A foglalkoztatás leírása (alkalmazott vagy önálló vállalkozó)",
+                            "Nemi identitás",
+                            "Korcsoport"
+                          ]
+                        },
+                        "Az adatokat az (ön)értékelő felmérések értékelésére, valamint további tudományos elemzésekre használjuk. Ez elsősorban arra szolgál, hogy a felmérésben résztvevőket az összegyűjtött adatok alapján normacsoportokba soroljuk. A következő normacsoportok vagy ezek kombinációi jönnek létre:",
+                        {
+                          "list": [
+                            "Az ország, ahol a résztvevő a legtöbb oktatásban részesült",
+                            "Jelenleg végzett oktatási szint",
+                            "A főbb tanulmányi területe",
+                            "Munka- vagy szakmai gyakorlat megléte",
+                            "Több éves munka vagy szakmai gyakorlat",
+                            "A résztvevő jelenleg fizetett munkát vagy szakmai gyakorlatot végez-e a tanulmányok folytatása mellett",
+                            "A foglalkoztatás leírása (alkalmazott vagy önálló vállalkozó)",
+                            "Nemi identitás",
+                            "Korcsoport"
+                          ]
+                        },
+                        "A feldolgozott adatokat anonimizálják, majd továbbítják az \"EICAA konzorcium\"-nak. Az adatokat az (ön)értékelő felmérés készítőjének is továbbítjuk."
+                      ]
+                    },
+                    {
+                      "title": "Jogi alap",
+                      "content": [
+                        "(ön)értékelő kérdőív kitöltésekor a személyes adatok kezelésének jogalapja a GDPR 6 (1)/a."
+                      ]
+                    },
+                    {
+                      "title": "A tárolás időtartama",
+                      "content": [
+                        "A személyes adatokat addig tároljuk, ameddig az adatkezelés fent említett céljai megkövetelik, és az adatok megőrzésére már nem áll fenn jogi kötelezettség."
+                      ]
+                    },
+                    {
+                      "title": "A beleegyezés visszavonása",
+                      "content": [
+                        "Az adatkezeléshez adott hozzájárulás bármikor visszavonható anélkül, hogy az a visszavonásig a hozzájárulás alapján végzett adatkezelés jogszerűségét érintené."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Adatok feldolgozása az Európai Gazdasági Térségen kívüli országokban",
+              "content": [
+                "Ha harmadik országokban (EU-n/EGT-n kívüli országokban) dolgozunk fel adatokat, vagy továbbítjuk azokat harmadik országbeli cégeknek, akkor ezt csak akkor tesszük, ha erre Ön vagy törvény felhatalmazást ad. Ha a Bizottság az érintett harmadik országra vonatkozóan nem hozott megfelelőségi határozatot a GDPR 1 (45) értelmében, azaz ha a harmadik országban nincs megfelelő szintű adatvédelem, akkor szerződéses rendelkezésekkel (EU adatvédelmi általános szerződési feltételek) vagy egyéb megfelelő garanciákkal biztosítjuk GDPR 1 (46) szerint, hogy az Ön magánélete és személyes adatai a harmadik országbeli cégnél is a törvényben előírtaknak megfelelő módon védve legyenek."
+              ]
+            },
+            {
+              "title": "Az érintett személy jogai",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "A megerősítés joga",
+                      "content": [
+                        "Önnek joga van megerősítést kérni tőlünk arra vonatkozóan, hogy az Önre vonatkozó személyes adatok kezelése folyamatban van-e."
+                      ]
+                    },
+                    {
+                      "title": "Hozzáférés joga GDPR Art. 15",
+                      "content": [
+                        "Önnek joga van bármikor ingyenes tájékoztatást kapni tőlünk az Önről tárolt személyes adatokról, valamint ezekről az adatokról másolatot."
+                      ]
+                    },
+                    {
+                      "title": "Helyesbítés joga GDPR Art. 16 ",
+                      "content": [
+                        "Önnek jogában áll kérni az Önre vonatkozó pontatlan személyes adatok helyesbítését. Az érintett továbbá jogosult kérni a hiányos személyes adatok kiegészítését, figyelembe véve az adatkezelés céljait."
+                      ]
+                    },
+                    {
+                      "title": "Törlés GDPR Art. 17 ",
+                      "content": [
+                        "Joga van kérni, hogy az Önre vonatkozó személyes adatokat haladéktalanul töröljük, feltéve, hogy a jogszabályban meghatározott okok valamelyike fennáll, és amennyiben az adatkezelés nem szükséges.",
+                        "Weboldalunk lehetővé teszi a felhasználók számára, hogy személyes adataikat maguk töröljék. Az (ön)értékelő felmérés készítője fiókja törlésével törölheti adatait. Az (ön)értékelő felmérésben résztvevő a felmérés végén törölheti adatait."
+                      ]
+                    },
+                    {
+                      "title": "A feldolgozás korlátozása GDPR Art. 18",
+                      "content": [
+                        "Önnek jogában áll követelni az adatkezelés korlátozását, ha valamelyik jogszabályi követelmény teljesül."
+                      ]
+                    },
+                    {
+                      "title": "Adathordozhatóság GDPR Art. 20",
+                      "content": [
+                        "Ön jogosult arra, hogy az Önre vonatkozó, Ön által rendelkezésünkre bocsátott személyes adatokat tagolt, általános és géppel olvasható formátumban megkapja. Ön jogosult arra is, hogy ezeket az adatokat egy másik adatkezelőnek továbbítsa anélkül, hogy ezt akadályoznánk, feltéve, hogy az adatkezelés a GDPR . 6 (1) vagy 9 (2) szerinti hozzájáruláson. vagy GDPR 6 (1)/b szerinti szerződésen alapul és az adatkezelés automatizált eljárások segítségével történik. Kivétel ez alól, ha az adatkezelés közérdekből végzett feladat ellátásához vagy a ránk ruházott közhatalmi jogkör gyakorlásához szükséges.",
+                        "Továbbá az adathordozhatósághoz való jogának gyakorlásakor a GDPR 20. (1) értelmében Ön jogosult arra, hogy a személyes adatokat közvetlenül az egyik adatkezelőtől a másik adatkezelőhöz továbbítsa, amennyiben ez technikailag megvalósítható, és feltéve, hogy ez nem érinti hátrányosan más egyének jogait és szabadságát."
+                      ]
+                    },
+                    {
+                      "title": "Kifogás GDPR Art. 21 ",
+                      "content": [
+                        "Ön jogosult arra, hogy sajátos helyzetével kapcsolatos okokból bármikor tiltakozzon az Önre vonatkozó személyes adatoknak a GDPR 6 (1)/e (közérdekű adatkezelés) vagy /f (érdek alapján végzett adatkezelés) alapján történő kezelése ellen. Ez vonatkozik az e rendelkezéseken alapuló profilalkotásra is a GDPR 4(4) alapján.",
+                        "Ha tiltakozik, a továbbiakban nem kezeljük személyes adatait, kivéve, ha bizonyítani tudjuk az adatkezelés olyan kényszerítő erejű jogos indokait, amelyek felülírják az Ön érdekeit, jogait és szabadságát, vagy ha az adatkezelés jogi igények érvényesítését, érvényesítését vagy védelmét szolgálja."
+                      ]
+                    },
+                    {
+                      "title": "A hozzájárulás visszavonása az adatvédelmi törvény értelmében",
+                      "content": [
+                        "Önnek joga van a személyes adatok kezeléséhez adott hozzájárulását a jövőre nézve bármikor visszavonni."
+                      ]
+                    },
+                    {
+                      "title": "Panasz a felügyeleti hatósághoz",
+                      "content": [
+                        "Önnek jogában áll panaszt tenni személyes adataink kezelésével kapcsolatban az adatvédelemért felelős felügyeleti hatóságnál."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Az adatvédelmi szabályzat aktualitása és módosítása",
+              "content": [
+                "Ez az adatvédelmi szabályzat jelenleg érvényes, állapota 2022. november.",
+                "Weboldalaink és ajánlataink továbbfejlesztése, illetve megváltozott jogi vagy hatósági követelmények miatt szükségessé válhat jelen adatvédelmi szabályzat módosítása."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

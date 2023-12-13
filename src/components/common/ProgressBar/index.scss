@@ -1,0 +1,46 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/breakpoints";
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__percentage {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__progress-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: $color-white-dark;
+    height: 24px;
+    width: calc(100% - 42px);
+    border: 2px solid $color-tertiary-lighter;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+
+  &__progress {
+    height: 100%;
+    background: repeating-linear-gradient(
+      -45deg,
+      $color-tertiary-lighter-minus,
+      $color-tertiary-lighter 2px,
+      $color-tertiary-lighter-minus 4px,
+      $color-tertiary-lighter-minus 6px
+    );
+    animation: scroll 60s linear infinite;
+    transition-duration: 0.5s;
+
+    @keyframes scroll {
+       100%{
+        background-position: 1000px 0px;
+      }
+    }
+  }
+}

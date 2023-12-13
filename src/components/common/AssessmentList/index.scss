@@ -1,0 +1,39 @@
+@import "../../../assets/style/colors";
+
+.assessment-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-bottom: 7px;
+  }
+
+  &__assessment-card {
+    margin-right: 30px;
+    margin-bottom: 24px;
+  }
+
+  &__message {
+    color: $color-primary-darkest;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__pagination-control {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

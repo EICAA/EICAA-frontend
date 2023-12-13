@@ -1,0 +1,14 @@
+@import "../../../../assets/style/colors";
+
+.tree-item {
+  color: $color-grey-lighter;
+
+  &__assessment-item {
+    &:hover {
+      cursor: pointer;
+      transition-duration: 0.2s;
+      color: $color-primary-light;
+    }
+  }
+
+}

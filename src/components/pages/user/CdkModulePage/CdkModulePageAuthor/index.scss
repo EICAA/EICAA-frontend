@@ -1,0 +1,22 @@
+@import '../../../../../assets/style/colors';
+@import '../../../../../assets/style/breakpoints';
+
+.cdk-module-page-author {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  grid-template-areas:
+    'a'
+    'b';
+  grid-gap: 24px;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: $breakpoint-xxl) {
+    grid-gap: 15px;
+  }
+
+  &__card {
+    flex: 1 0 auto;
+  }
+}

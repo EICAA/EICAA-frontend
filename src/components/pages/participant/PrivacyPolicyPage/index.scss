@@ -1,0 +1,10 @@
+.privacy-policy-page {
+  height: 100vh;
+  overflow-y: auto;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}

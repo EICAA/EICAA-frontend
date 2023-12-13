@@ -1,0 +1,41 @@
+@import "../../../../assets/style/colors";
+@import "../../../../assets/style/breakpoints";
+
+.demographics-page-student-form {
+  width: calc(100% - 5px);
+
+  &__question {
+    color: $color-primary-darkest;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+    text-transform: none;
+  }
+
+  &__select {
+    margin-bottom: 20px;
+
+    .select {
+      &.undefined__option, &.undefined__single-value {
+        text-transform: none;
+      }
+    }
+  }
+
+  &__radio-input {
+    margin: 24px 0 38px;
+  }
+
+  &__button {
+    width: 100%;
+    margin-bottom: 200px;
+
+    @media (max-width: $breakpoint-md) {
+      margin-bottom: 100px;
+    }
+  }
+}

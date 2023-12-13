@@ -1,0 +1,29 @@
+@function addOpacity($inputColor, $opacityLevel) {
+  @return rgba($inputColor, $opacityLevel);
+}
+
+@mixin hideScrollbar {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin customScrollbar {
+  &::-webkit-scrollbar-track {
+    background-color: $color-white;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: $color-grey-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-grey-light;
+    border-radius: 10px;
+  }
+}

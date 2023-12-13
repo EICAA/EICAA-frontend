@@ -1,0 +1,68 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/functions";
+
+.assessments-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $color-white;
+  max-width: 480px;
+  min-width: 480px;
+  height: 80vh;
+  padding: 40px 32px;
+  border-radius: 6px;
+
+  &__header {
+    /* border-bottom: 2px solid $color-grey-lightest;*/
+    margin-bottom: 20px;
+
+    .radio-button-select__error {
+      display: none;
+    }
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  &__content {
+    height: 100%;
+    overflow-y: auto;
+    @include hideScrollbar();
+  }
+
+  &__footer {
+    margin-top: 32px;
+  }
+
+  &__footer-actions {
+    max-width: 448px;
+    display: flex;
+    flex-flow: row nowrap;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+
+    > :not(:last-child) {
+      margin-right: 16px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    flex-shrink: 10;
+  }
+
+  &__select {
+    max-width: 448px;
+    
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

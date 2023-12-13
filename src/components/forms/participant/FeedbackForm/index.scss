@@ -1,0 +1,32 @@
+@import "../../../../assets/style/colors";
+@import "../../../../assets/style/breakpoints";
+
+.finish-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__rating-selector {
+    margin-bottom: 18px;
+  }
+
+  &__input-textarea {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__button {
+    width: 232px;
+    
+    @media (max-width: $breakpoint-sm) {
+      width: 100%;
+    }
+  }
+}

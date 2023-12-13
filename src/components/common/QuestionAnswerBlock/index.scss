@@ -1,0 +1,52 @@
+@import '../../../assets/style/colors';
+
+.question-answer-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+
+  padding: 12px 20px;
+  border: 1px solid $color-white-darker;
+  border-radius: 8px;
+  box-shadow: 0 1px 20px #00000014;
+  background-color: $color-white-dark;
+  color: $color-primary-darkest;
+  margin-bottom: 20px;
+
+  &__header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  &__toggle {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+
+    span {
+      cursor: pointer;
+    }
+  }
+
+  &__panel {
+    overflow: hidden;
+    max-height: 0px;
+
+    p {
+      padding: 18px 0 6px;
+    }
+
+    &.open {
+      max-height: 4000px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../../../assets/style/colors';
+
+.tab-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  border-bottom: 1px solid $color-grey-lighter;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar-track {
+    background-color: $color-white;
+  }
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    background-color: $color-grey-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-grey-light;
+    border-radius: 10px;
+  }
+
+  &__button {
+    color: $color-grey-lighter;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    border-bottom: 4px solid transparent;
+    border-radius: 6px 6px 0 0;
+    transition-duration: 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      color: $color-grey-darker;
+      border-color: $color-grey-lightest;
+      transition-duration: 0.3s;
+    }
+
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+
+    &.-active {
+      color: $color-primary-darkest;
+      border-color: $color-primary-light;
+    }
+  }
+}

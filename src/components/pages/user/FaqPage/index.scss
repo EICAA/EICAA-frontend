@@ -1,0 +1,22 @@
+.faq-page {
+  height: 100vh;
+  overflow-y: auto;
+
+  &__container {
+    height: 100%;
+    padding: 24px 40px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__content {
+    width: 100%;
+
+    > :not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}

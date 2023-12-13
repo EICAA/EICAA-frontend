@@ -1,0 +1,39 @@
+@import '../../../assets/style/colors';
+
+.assessment-type-card {
+  background: $color-white;
+  width: 392px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px #00000014;
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+    border-top: 14px solid $color-white;
+
+    &.-green-top {
+      border-top-color: $color-green;
+    }
+
+    &.-turquoise-lighter-top {
+      border-top-color: $color-turquoise-lighter;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid $color-white-darker;
+  }
+
+  &__image {
+    margin-bottom: 41px;
+  }
+}

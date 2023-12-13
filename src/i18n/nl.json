@@ -1,0 +1,697 @@
+{
+  "common": {
+    "assessment": "Assessment",
+    "attention": "Attention",
+    "back": "Back",
+    "business": "Business",
+    "cancel": "Annuleren",
+    "choose": "Choose",
+    "country": "Land",
+    "create": "Create",
+    "email": "Email",
+    "employees": "Employees",
+    "faqs": "FAQ's",
+    "firstName": "First Name",
+    "higherEducation": "Higher Education",
+    "home": "Home",
+    "language": "Language",
+    "lastName": "Last Name",
+    "loading": "Loading",
+    "no": "No",
+    "noData": "No data",
+    "ok": "Ok",
+    "organization": "Organization",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "preview": "Voorbeeld",
+    "privacyPolicy": "Het privacybeleid",
+    "role": "Role",
+    "saveChanges": "Save changes",
+    "search": "Zoekopdracht",
+    "select": "Selecteer",
+    "start": "Start",
+    "students": "Students",
+    "year": "Year",
+    "yes": "Yes"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Activate Assessment",
+    "confirmationEmailMessage": "We've sent a confirmation mail to your email address to activate your account",
+    "confirmationEmailTitle": "Activate Account",
+    "deleteRequestMessage": "Uw verzoek is verzonden! Uw gegevens worden binnenkort verwijderd.",
+    "deleteRequestTitle": "Succes",
+    "deleteRequestWarningMessage": "Weet u zeker dat u wilt dat uw gegevens worden gewist? Dit proces is onomkeerbaar.",
+    "deleteRequestWarningTitle": "Waarschuwing",
+    "feedbackSentMessage": "Uw feedback is verzonden. Bedankt!",
+    "feedbackSentTitle": "Succes",
+    "forgotPasswordMessage": "We've sent you an email containing a link you can use to reset your password",
+    "languageSelectTitle": "Select Language",
+    "resetPasswordMessage": "Your password has been reset.",
+    "successfulAccountDeleteMessage": "You have successfully deleted your account",
+    "successfulAccountDeleteTitle": "Success",
+    "successfulAccountEditMessage": "You have successfully changed your account details",
+    "successfulAccountEditTitle": "Success",
+    "successfulPasswordChangeMessage": "You have successfully changed your password",
+    "successfulPasswordChangeTitle": "Success",
+    "successfulRegisterTitle": "Successful registration",
+    "successfulRegisterMessage": "You have successfully created your account",
+    "successTitle": "Success"
+  },
+  "snackBars": {
+    "assessmentActivated": "Assessment activated",
+    "assessmentArchived": "Assessment archived",
+    "assessmentCreated": "Assessment created",
+    "copyUrlFailure": "Failed to copy URL",
+    "copyUrlSuccess": "URL copied successfully"
+  },
+  "errors": {
+    "acceptTerms": "U moet deze voorwaarden accepteren",
+    "datePast": "You must not set a past date",
+    "dateBeforeStart": "Date must be later than start date",
+    "emailEmpty": "Email is empty",
+    "emailInvalid": "Please enter a valid email address",
+    "fieldRequired": "Het veld is verplicht",
+    "mustBeWhole": "Must be a whole number",
+    "passwordEmpty": "Enter password",
+    "passwordMismatch": "Passwords must match",
+    "passwordTooShort": "Password  can't be less than 8 characters",
+    "textTooLong": "Text is too long",
+    "valueTooHigh": "Value too high",
+    "valueTooLow": "Value too low"
+  },
+  "apiErrors": {
+    "titleDefault": "Fout",
+    "messageDefault": "Er is een onbekende fout opgetreden. Probeer het opnieuw",
+    "internalServerError": "Interne serverfout",
+    "storageError": "Er is een interne fout opgetreden. Gelieve de pagina opnieuw te laden",
+    "auth": {
+      "failed-to-auth": "Authentication failed",
+      "invalid-reset-password-token": "Invalid reset password token",
+      "user-already-exists": "User already exists"
+    },
+    "field": {
+      "required": "A required field is missing",
+      "length-exceeded": "A field's length is exceeded",
+      "date": {
+        "cannot-end-before-start": "End date cannot before start date"
+      },
+      "number": {
+        "should-be": {
+          "integer": "The number should be an integer",
+          "positive": "The number should be positive",
+          "not-negative": "The number should not be negative"
+        },
+        "too-large": "Too large number was entered"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "De beoordeling is al ingediend",
+        "max-participants-reached": "Beoordeling is vol, kan geen inzendingen meer aannemen",
+        "not-active": "Beoordeling is inactief (niet open voor indiening)",
+        "not-found": "Beoordeling is niet gevonden"
+      },
+      "result": {
+        "invalid-result-token": "Resultaat token is ongeldig"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "Assessment is not found"
+      },
+      "not-exists": "User not exists",
+      "password-invalid": "Invalid password"
+    },
+    "incognitoBrowser": "Uw browser ondersteunt bepaalde functies van onze software niet. Om verder te gaan, opent u de URL in een niet-privé browser tab of een andere browser zoals Google Chrome, Safari, Mozilla Firefox (alleen niet-privé), Microsoft Edge of Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "De pagina die u zocht is niet beschikbaar. Gebruik de link in de e-mail om een beoordeling te starten. U kunt dit tabblad nu sluiten."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "The page you were looking for is not available. Please use the link you received in the email to start an assessment. You may close this tab now."
+    },
+    "landingPage": {
+      "title": "Welkom bij de competentiebeoordeling voor ondernemers en intra-preneurs.",
+      "description": "Beste deelnemer,<br />Welkom op uw ondernemerscompetentievragenlijst op het EICAA-platform! In de volgende secties worden vragen gesteld over hoe u uw ondernemersvaardigheden beschouwt. Het is belangrijk dat je de tijd neemt om elke vraag volledig te begrijpen, en dat je bovendien eerlijk antwoordt. De antwoorden zijn volledig anoniem.<br />De vragenlijst duurt ongeveer 15 minuten. U kunt uw resultaten meteen na het voltooien van de beoordeling Bekijken.  <br />Geniet van de zelfevaluatie!",
+      "disclaimer": "Let op: Sommige vragen hebben betrekking op 'een ondernemend idee'. Een ondernemend idee kan worden gedefinieerd als een idee met de intentie om te handelen naar aanleiding van kansen en deze om te zetten in waarde voor anderen.",
+      "checkboxTextPart1": "Ik accepteer het ",
+      "checkboxTextPart2": "Privacybeleid"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Leeftijdsgroep",
+        "ageGroupQuestion": "Tot welke leeftijdsgroep behoort u?",
+        "gender": "Geslacht",
+        "genderQuestion": "Wat is uw genderidentiteit?",
+        "someQuestions": "Enkele vragen over jou",
+        "title": "Demografie"
+      },
+      "employee": {
+        "countryQuestion": "In welk land heb je het grootste deel van je opleiding genoten?",
+        "educationLevel": "Opleidingsniveau",
+        "educationLevelQuestion": "Wat is het hoogste niveau van onderwijs dat u hebt genoten, indien van toepassing?",
+        "levelOfPosition": "Positieniveau",
+        "levelOfPositionQuestion": "Wat is het niveau van uw functie?",
+        "organisationSize": "Omvang organisatie",
+        "organisationSizeQuestion": "Wat is de omvang van uw organisatie?",
+        "organisationType": "Type organisatie",
+        "organisationTypeQuestion": "Wat is het type van uw organisatie?",
+        "workExperience": "Ervaring",
+        "workExperienceQuestion": "Hoeveel jaar werkervaring heb je?",
+        "workField": "Gebied",
+        "workFieldQuestion": "In welk vakgebied werkt u?"
+      },
+      "student": {
+        "countryQuestion": "In welk land heb je het grootste deel van je opleiding genoten?",
+        "educationLevel": "Opleidingsniveau",
+        "educationLevelQuestion": "Voor welk diploma studeert u momenteel?",
+        "employmentField": "Field",
+        "employmentFieldQuestion": "In which field do you work?",
+        "employmentType": "Soort werk",
+        "employmentTypeQuestion": "Welke van onderstaande antwoorden beschrijft best uw werksituatie?",
+        "hasWorkExperienceQuestion": "Heeft u werk- of stage-ervaring?",
+        "majorField": "Hoofdveld",
+        "majorFieldQuestion": "Welke optie hieronder beschrijft het beste uw huidige vakgebied?",
+        "workExperience": "Ervaring",
+        "workExperienceQuestion": "Hoeveel jaar werk- of stage-ervaring heeft u?",
+        "workQuestion": "Verricht u momenteel betaald werk of stage naast uw studie?"
+      },
+      "employmentHoursQuestion": "How many hours do you work per week?",
+      "female": "Female",
+      "higherEducation": "Higher education institutes",
+      "higherEducationQuestion": "Which Higher Education Institutes are you currently studying at?",
+      "male": "Male"
+    },
+    "surveyPage": {
+      "ableTo": "Mijn vaardigheidsniveau in de volgende competenties is",
+      "area": "Domein",
+      "finish": "Beëindig",
+      "finishButton": "Beëindig",
+      "hint": "Tip",
+      "languageSelectTitle": "Select survey language",
+      "next": "Volgende",
+      "previous": "Vorige"
+    },
+    "finishPage": {
+      "backToHome": "Back to Home screen",
+      "closeTab": "Close browser tab",
+      "deleteButton": "Verwijdering aanvragen",
+      "deleteButtonTitle": "Volgens de GDPR-vereisten kunt u de verwijdering van uw eerder verzonden gegevens aanvragen door op onderstaande knop te klikken",
+      "description": "We hebben uw antwoorden geëvalueerd. Klik op Download samenvatting om ze te zien.",
+      "downloadResults": "Samenvatting downloaden",
+      "feedbackSentMessage": "Uw feedback is verzonden. Bedankt!",
+      "form": {
+        "ratingTitle": "Beoordeel uw ervaring",
+        "submitButton": "Feedback verzenden",
+        "title": "We horen hier graag uw feedback:"
+      },
+      "interventions": "Interventions",
+      "title": "Bedankt voor uw deelname!",
+      "visitEicaa": "Bezoek de EICAA homepage"
+    }
+  },
+  "pdf-texts": {
+    "area": "Gebied",
+    "submitted-on": "Ingezonden op",
+    "question": "Vraag",
+    "competence": "Competentie",
+    "answer": "Antwoord"
+    },
+  "gdpr": {
+    "consent": {
+      "title": "Toestemming voor gegevensverwerking",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "Ik ga ermee akkoord dat de door mij verstrekte gegevens tijdens de deelname aan een (zelf)evaluatieonderzoek door Univations mogen worden verwerkt voor de doeleinden en voor zover vermeld in het privacybeleid onder ",
+        "1": "sectie VIII. (Gegevensverwerking bij deelname aan een (zelf)assessmentonderzoek)",
+        "2": "."
+      },
+      "effect": {
+        "0": "Mijn bovenstaande toestemming is geldig totdat ik deze intrek. Ik kan mijn herroeping op elk later tijdstip zonder opgaaf van redenen voor de toekomst aangeven onder de contactgegevens in het privacybeleid onder ",
+        "1": "sectie I. (Contactgegevens van de verwerkingsverantwoordelijke)",
+        "2": ". Verder heb ik de rechten beschreven in het privacybeleid onder ",
+        "3": "sectie X. (Rechten als betrokkene)",
+        "4": "."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Privacybeleid",
+      "content": [
+        {
+          "spans": [
+            "Dit privacybeleid is uitsluitend van toepassing op de website ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            ". Als u een andere website bezoekt, is het privacybeleid van de betreffende operator van toepassing. Dit geldt ook voor websites waarnaar wordt verwezen via links vanaf deze website."
+          ]
+        },{
+          "sections": [
+            {
+              "title": "Contactgegevens van de verwerkingsverantwoordelijke",
+              "content": [
+                "De verwerkingsverantwoordelijke in de zin van art. 4 lid 7 AVG is",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Duitsland",
+                    {
+                      "spans": [
+                        "mail: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Telefoon: +49 345 13 14 27 00"
+                  ]
+                },
+                "vertegenwoordigd door de gedelegeerd bestuurder Daniel Worch. Inschrijving in het Handelsregister van de Rechtbank Stendal . Registratienummer: HRB 5703"
+              ]
+            },
+            {
+              "title": "Contactgegevens van de functionaris voor gegevensbescherming",
+              "content": [
+                "De functionaris voor gegevensbescherming is ook bereikbaar via de contactgegevens van de verwerkingsverantwoordelijke en op het volgende e-mailadres:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Functionaris voor gegevensbescherming",
+                    "Weinbergweg 23",
+                    "06120 Halle, Duitsland ",
+                    {
+                      "spans": [
+                        "mail: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Algemene informatie over gegevensverwerking",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "In principe verwerken wij alleen persoonsgegevens voor zover dit nodig is voor het aanbieden en optimaliseren van een functionele website, evenals onze inhoud en diensten.",
+                        "Volgens art. 4 nr. 1 AVG betekent persoonsgegevens alle informatie met betrekking tot een geïdentificeerde of identificeerbare natuurlijke persoon. Een identificeerbare natuurlijke persoon is iemand die direct of indirect kan worden geïdentificeerd, met name aan de hand van een identificator zoals een naam, een identificatienummer, locatiegegevens, een online identificator of van een of meer elementen die specifiek zijn voor de fysieke, fysiologische, genetische, mentale, economische, culturele of sociale identiteit van die natuurlijke persoon.",
+                        "De verwerking van persoonsgegevens van onze gebruikers wordt regelmatig alleen uitgevoerd met toestemming van de gebruiker. Een uitzondering geldt in die gevallen waarin de verwerking van de gegevens op grond van wettelijke voorschriften is toegestaan."
+                      ]              
+                    },
+                    {
+                      "title": "Wettelijke basis voor de verwerking van persoonsgegevens",
+                      "content": [
+                        "Voor zover wij de toestemming van de betrokkene verkrijgen voor verwerkingen van persoonsgegevens, artikel 6, lid 1, lit. a AVG dient als wettelijke basis voor de verwerking van persoonsgegevens.",
+                        "Bij de verwerking van persoonsgegevens die nodig zijn voor de uitvoering van een overeenkomst waarbij de betrokkene partij is, geldt art. 6 (1) verlicht. b AVG dient als rechtsgrondslag. Dit geldt ook voor verwerkingen die nodig zijn voor de uitvoering van precontractuele maatregelen.",
+                        "Voor zover de verwerking van persoonsgegevens noodzakelijk is om te voldoen aan een wettelijke verplichting waaraan onze onderneming is onderworpen, geldt art. 6 (1) verlicht. c AVG dient als rechtsgrondslag.",
+                        "Indien de verwerking noodzakelijk is ter behartiging van een gerechtvaardigd belang van ons of een derde en de belangen, fundamentele rechten en vrijheden van de betrokkene niet zwaarder wegen dan het eerstgenoemde belang, dient art. 6 (1) verlicht. f AVG dient als rechtsgrondslag voor de verwerking."
+                      ]
+                    },
+                    {
+                      "title": "Gegevensverwijdering en bewaartermijn",
+                      "content": [
+                        "Uw persoonsgegevens worden verwijderd of geblokkeerd zodra het doel van de opslag niet meer van toepassing is. Daarnaast kan opslag plaatsvinden indien dit door de Europese of nationale wetgever is voorzien in EU-regelgeving, wetten of andere bepalingen waaraan de verantwoordelijke is onderworpen. De gegevens worden ook geblokkeerd of verwijderd als een door de bovengenoemde normen voorgeschreven opslagperiode afloopt, tenzij er een noodzaak is voor het voortzetten van de opslag van de gegevens voor het sluiten of uitvoeren van een contract."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Terbeschikkingstelling van de website en aanmaak van logbestanden",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "Wanneer u onze website bezoekt, stuurt de browser die op uw eindapparaat wordt gebruikt automatisch informatie naar onze websiteserver. Deze informatie wordt tijdelijk opgeslagen in een zogenaamd logbestand.",
+                        "De volgende gegevens worden verzameld:",
+                        {
+                          "list": [
+                            "IP-adres van het aanvragende apparaat",
+                            "Datum en tijd van toegang",
+                            "Website van waaruit toegang is verkregen (verwijzende URL)",
+                            "Browser gebruikt",
+                            "Besturingssysteem van het apparaat en de naam van de toegangsprovider"
+                          ]
+                        },
+                        "Deze gegevens worden ook opgeslagen in de logbestanden van ons systeem. Deze gegevens worden niet samen met andere persoonlijke gegevens van de gebruiker opgeslagen. Onze website wordt exclusief gehost op servers in Duitsland door Digital Oceans Inc."
+                      ]
+                    },
+                    {
+                      "title": "Legale basis",
+                      "content": [
+                        "De wettelijke basis voor de tijdelijke opslag van de gegevens in de logbestanden is art. 6 (1) verlicht. f AVG."
+                      ]
+                    },
+                    {
+                      "title": "Duur van opslag",
+                      "content": [
+                        "De tijdelijke opslag dient om de functionaliteit van de website te waarborgen. Bovendien dienen de gegevens om de website te optimaliseren en de veiligheid van onze systemen te waarborgen.",
+                        "De persoonsgegevens worden verwijderd zodra ze niet langer nodig zijn voor het doel waarvoor ze zijn verzameld. In het geval van het verzamelen van gegevens voor het ter beschikking stellen van de website, is dit het geval wanneer de betreffende sessie is beëindigd; in het geval van de opslag van gegevens in logbestanden is dit uiterlijk na zes maanden het geval."
+                      ]
+                    },
+                    {
+                      "title": "Recht van bezwaar",
+                      "content": [
+                        "Het verzamelen van gegevens voor het ter beschikking stellen van de website en het opslaan van de gegevens in logbestanden is absoluut noodzakelijk voor de werking van de website. Bijgevolg is er geen mogelijkheid voor de gebruiker om bezwaar te maken."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cookies",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "We gebruiken cookies op onze website. Dit zijn kleine bestanden die automatisch door uw browser worden aangemaakt en op uw apparaat (laptop, tablet, smartphone of vergelijkbaar) worden opgeslagen wanneer u onze website bezoekt. Cookies richten geen schade aan op uw apparaat en bevatten geen virussen, Trojaanse paarden of andere malware.",
+                        "In de cookie wordt informatie opgeslagen die ontstaat in verband met het specifieke gebruikte eindapparaat. Dit betekent echter niet dat wij direct kennis krijgen van uw identiteit.",
+                        "Het gebruik van cookies dient enerzijds om het gebruik van ons aanbod voor u aangenamer te maken. We gebruiken zogenaamde sessiecookies om te herkennen dat u al afzonderlijke pagina's van onze website hebt bezocht. Deze worden automatisch verwijderd nadat u onze site verlaat.",
+                        "Daarnaast gebruiken we ook tijdelijke cookies om het gebruiksgemak te optimaliseren, die voor een bepaalde vaste periode op uw eindapparaat worden opgeslagen . Als u onze site opnieuw bezoekt om van onze diensten gebruik te maken, wordt automatisch herkend dat u al bij ons bent geweest en welke gegevens en instellingen u heeft gemaakt, zodat u deze niet opnieuw hoeft in te voeren.",
+                        "Aan de andere kant gebruiken we cookies om het gebruik van onze website statistisch vast te leggen en te evalueren om ons aanbod voor u te optimaliseren. Deze cookies stellen ons in staat om automatisch te herkennen dat u al op onze site bent geweest wanneer u deze opnieuw bezoekt.",
+                        "De meeste browsers accepteren cookies automatisch. U kunt uw browser echter zo instellen dat er geen cookies op uw apparaat worden opgeslagen of dat er altijd een melding verschijnt voordat er een nieuwe cookie wordt aangemaakt. Het volledig uitschakelen van cookies kan er echter toe leiden dat u niet alle functies van onze website kunt gebruiken."
+                      ]
+                    },
+                    {
+                      "title": "Legale basis",
+                      "content": [
+                        "Het gebruik van dergelijke cookies, die absoluut noodzakelijk zijn voor de werking van onze website en de levering van diensten, is gebaseerd op art. 6 (1) verlicht. b of f AVG. Ons legitieme belang is om de werking van onze websites en hun optimale bruikbaarheid te waarborgen.",
+                        "Het gebruik van alle niet-essentiële cookies is uitsluitend gebaseerd op uw toestemming die u kunt geven bij aanvang van het gebruik van onze website. De wettelijke basis voor het gebruik van deze cookies is art. 6 (1) verlicht. een AVG."
+                      ]
+                    },
+                    {
+                      "title": "Duur van opslag",
+                      "content": [
+                        "Cookies worden op de computer van de gebruiker opgeslagen en van daaruit naar onze site verzonden. Daarom hebben gebruikers ook volledige controle over het gebruik van cookies. Door de instellingen in de internetbrowser te wijzigen, kan de overdracht van cookies worden gedeactiveerd of beperkt. Cookies die al zijn opgeslagen, kunnen op elk moment worden verwijderd. Dit kan ook automatisch. Als cookies voor onze website worden gedeactiveerd, is het mogelijk dat niet meer alle functies van de website volledig kunnen worden gebruikt."
+                      ]
+                    },
+                    {
+                      "title": "Cookies die op onze website worden gebruikt",
+                      "content": [
+                        "Wij gebruiken de volgende cookies op onze website:",
+                        {
+                          "table": {
+                            "header": [
+                              "Naam van koekje",
+                              "Aanbieder",
+                              "Beschrijving",
+                              "Looptijd"
+                            ],
+                            "body": [
+                              [
+                                "universal-cookie-express\n(session cookie)",
+                                "React JS framework",
+                                "Hook-cookies krijgen/zetten op express voor server-rendering",
+                                "Duur van de gebruikers-sessie"
+                              ],
+                              [
+                                "universal-cookie\n(session cookie)",
+                                "React JS framework",
+                                "Nodig voor gebruikersauthenticatie op platform/website",
+                                "Duur van de gebruikers-sessie"
+                              ],
+                              [
+                                "Matomo- cookies",
+                                "Matomo",
+                                "Matomo gebruikt cookies om een analyse van het surfgedrag mogelijk te maken.",
+                                "6 maanden"
+                              ],
+                              [
+                                "Borlabs-cookie",
+                                "Borlabs",
+                                "Slaat de instellingen van de geselecteerde bezoekers op in de Cookie Box van Borlabs Cookie.",
+                                "1 jaar"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Webanalyse via Matomo",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "De website maakt gebruik van de open source softwaretool Matomo om het gebruikersgedrag op onze website te analyseren. Dit is een open source tool voor webanalyse. Matomo verzamelt geen sessiegegevens zonder uw toestemming.",
+                        "Matomo maakt gebruik van cookies. Deze tekstbestanden worden op uw apparaat opgeslagen en maken een analyse van het gebruik van de website mogelijk. Voor dit doel wordt de via de cookie verkregen gebruiksinformatie verzonden en opgeslagen, zodat het gebruiksgedrag kan worden geëvalueerd. Het IP-adres is een anonieme identificatie en we hebben geen technische middelen om geregistreerde gebruikers te identificeren.",
+                        "Wanneer u toestemming geeft voor webanalyse met behulp van Matomo, worden de volgende gegevens verzameld wanneer u de website bezoekt:",
+                        {
+                          "list": [
+                            "delen van het IP-adres van het oproepende systeem van de gebruiker",
+                            "de website bezocht",
+                            "Website van waaruit toegang is verkregen (verwijzende URL)",
+                            "de subpagina's waartoe toegang wordt verkregen vanaf de bezochte website",
+                            "de verblijfsduur op de website",
+                            "de frequentie waarmee de website wordt bezocht"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Legale basis",
+                      "content": [
+                        "De wettelijke basis voor de verwerking van persoonsgegevens is art. 6 (1) verlicht. een AVG."
+                      ]
+                    },
+                    {
+                      "title": "Duur van opslag",
+                      "content": [
+                        "De gegevens worden verwijderd zodra ze niet langer nodig zijn voor onze registratiedoeleinden. De gegenereerde statistieken en onderliggende data worden niet verwijderd."
+                      ]
+                    },
+                    {
+                      "title": "Intrekking van toestemming",
+                      "content": [
+                        "De door de gebruiker gegeven toestemming kan te allen tijde voor de toekomst worden ingetrokken."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Gegevensverwerking bij registratie van een gebruikersaccount",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "Als de gebruiker besluit een gebruikersaccount aan te maken, worden tijdens het registratieproces de volgende persoonlijke gegevens verzameld:",
+                        {
+                          "list": [
+                            "E-mail",
+                            "Wachtwoord (voor account op platform/website)",
+                            "Achternaam",
+                            "Voornaam",
+                            "Naam van de organisatie",
+                            "Land van de organisatie",
+                            "Positie in organisatie"
+                          ]
+                        },
+                        "De gegevens worden verwerkt om verschillende functies van de website te bieden ( bijv . het maken van een (zelf)evaluatie-enquête ), die niet kunnen worden gebruikt zonder registratie en gebruik van een gebruikersaccount.",
+                        "In het kader van de registratie en het gebruik van het gebruikersaccount slaan we het IP-adres en het tijdstip van de betreffende gebruikersactie op. De opslag is gebaseerd op onze legitieme belangen, evenals in het belang van de gebruiker om te beschermen tegen misbruik en ander ongeoorloofd gebruik van het gebruikersaccount door een derde partij.",
+                        "De verwerkte gegevens worden in geanonimiseerde vorm doorgegeven aan de Entrepreneurial and Intrapreneurial Competences Assessment Alliance (hierna \"EICAA Consortium\" genoemd). De anonimisering gebeurt door het e-mailadres, de naam en de voornaam van de gebruiker uit de verzonden dataset te verwijderen. De gegevens worden ook doorgegeven aan de maker van de (zelf)evaluatie-enquête ."
+                      ]
+                    },
+                    {
+                      "title": "Legale basis",
+                      "content": [
+                        "De wettelijke basis voor de verwerking van persoonsgegevens bij het aanmaken van een gebruikersaccount is art. 6 (1) verlicht. een AVG."
+                      ]
+                    },
+                    {
+                      "title": "Duur van opslag",
+                      "content": [
+                        "De persoonsgegevens worden bewaard zolang de bovengenoemde doeleinden van verwerking dit vereisen en er geen wettelijke verplichting meer is om de gegevens te bewaren. De noodzaak vervalt zodra de gebruiker zijn gebruikersaccount verwijdert. In het geval van wettelijke archiveringsverplichtingen vindt de verwijdering plaats na het verstrijken ervan."
+                      ]
+                    },
+                    {
+                      "title": "Intrekking van toestemming",
+                      "content": [
+                        "Toestemming voor de verwerking van gegevens kan te allen tijde worden ingetrokken zonder dat dit afbreuk doet aan de rechtmatigheid van de verwerking die op basis van de toestemming is uitgevoerd tot aan de intrekking."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Gegevensverwerking bij deelname aan een (zelf)evaluatieonderzoek",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Reikwijdte en doel van de gegevensverwerking",
+                      "content": [
+                        "Als gebruikers besluiten deel te nemen aan een (zelf)evaluatieonderzoek , worden persoonsgegevens verzameld. Gebruikers die deelnemen aan een (zelf)assessmentonderzoek worden hierna deelnemers genoemd.",
+                        "Van deelnemers worden de volgende persoonsgegevens verzameld:",
+                        {
+                          "list": [
+                            "Land waar de deelnemer het meeste onderwijs heeft gevolgd",
+                            "Momenteel gevolgd opleidingsniveau",
+                            "Groot studiegebied",
+                            "Aanwezigheid van werk- of stage-ervaring",
+                            "Jaren werk of stage ervaring",
+                            "Of deelnemer momenteel betaald werk of stage verricht naast zijn studie",
+                            "Beschrijving dienstverband (in loondienst of zelfstandige)",
+                            "Gender identiteit",
+                            "Leeftijdsgroep"
+                          ]
+                        },
+                        "De gegevens worden gebruikt voor het evalueren van de (zelf)evaluatie-enquêtes en als basis voor verdere wetenschappelijke analyse. Dit dient primair om de deelnemers aan het onderzoek op basis van de verzamelde gegevens in te delen in normgroepen. De volgende normgroepen of combinaties daarvan worden gevormd:",
+                        {
+                          "list": [
+                            "Land waar de deelnemer het meeste onderwijs heeft gevolgd",
+                            "Momenteel gevolgd opleidingsniveau",
+                            "Groot studiegebied",
+                            "Aanwezigheid van werk- of stage-ervaring",
+                            "Jaren werk of stage ervaring",
+                            "Of deelnemer momenteel betaald werk of stage verricht naast zijn studie",
+                            "Beschrijving dienstverband (in loondienst of zelfstandige)",
+                            "Gender identiteit",
+                            "Leeftijdsgroep"
+                          ]
+                        },
+                        "De verwerkte gegevens worden geanonimiseerd en vervolgens verzonden naar de Entrepreneurial and Intrapreneurial Competences Assessment Alliance (hierna \"EICAA Consortium\" genoemd). De gegevens worden ook doorgegeven aan de maker van de (zelf)evaluatie-enquête ."
+                      ]
+                    },
+                    {
+                      "title": "Legale basis",
+                      "content": [
+                        "De wettelijke basis voor de verwerking van persoonsgegevens bij het invullen van de (zelf)beoordelingsenquête is art. 6 (1) verlicht. een AVG."
+                      ]
+                    },
+                    {
+                      "title": "Duur van opslag",
+                      "content": [
+                        "De persoonsgegevens worden bewaard zolang de bovengenoemde doeleinden van verwerking dit vereisen en er geen wettelijke verplichting meer is om de gegevens te bewaren."
+                      ]
+                    },
+                    {
+                      "title": "Intrekking van toestemming",
+                      "content": [
+                        "Toestemming voor de verwerking van gegevens kan te allen tijde worden ingetrokken zonder dat dit afbreuk doet aan de rechtmatigheid van de verwerking die op basis van de toestemming is uitgevoerd tot aan de intrekking."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Verwerking van gegevens in landen buiten de Europese Economische Ruimte",
+              "content": [
+                "Als we gegevens in derde landen (landen buiten de EU/EER) verwerken of doorgeven aan bedrijven in derde landen, doen we dat alleen als we daartoe door u of de wet zijn gemachtigd. Als er geen adequaatheidsbesluit van de Commissie is voor het betrokken derde land in overeenstemming met art. 45 AVG, dwz als er geen adequaat niveau van gegevensbescherming is in het derde land, verzekeren wij door middel van contractuele bepalingen (EU-modelcontractbepalingen over gegevensbescherming) of andere passende garanties in de zin van art. 46 AVG dat uw privacy en uw persoonsgegevens ook in het bedrijf in het derde land op een door de wet voorziene adequate manier worden beschermd."
+              ]
+            },
+            {
+              "title": "Rechten als betrokkene",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Recht op bevestiging",
+                      "content": [
+                        "U heeft het recht om van ons een bevestiging te vragen of er persoonsgegevens over u worden verwerkt."
+                      ]
+                    },
+                    {
+                      "title": "Toegangsrecht Art. 15 AVG",
+                      "content": [
+                        "U hebt het recht om op elk moment gratis informatie van ons te ontvangen over de persoonlijke gegevens die over u zijn opgeslagen, evenals een kopie van deze gegevens."
+                      ]
+                    },
+                    {
+                      "title": "Recht op rectificatie Art. 16 AVG",
+                      "content": [
+                        "U hebt het recht om rectificatie te vragen van onjuiste persoonsgegevens die op u betrekking hebben. Bovendien heeft de betrokkene het recht om de aanvulling van onvolledige persoonsgegevens te vragen, rekening houdend met de doeleinden van de verwerking."
+                      ]
+                    },
+                    {
+                      "title": "Schrapping art. 17 AVG",
+                      "content": [
+                        "U hebt het recht om te verzoeken dat wij de persoonsgegevens die op u betrekking hebben onverwijld wissen, op voorwaarde dat een van de door de wet voorziene gronden van toepassing is en voor zover de verwerking niet noodzakelijk is. ",
+                        "Onze website biedt gebruikers ook de mogelijkheid om zelf hun persoonlijke gegevens te verwijderen. De maker van de (zelf)evaluatie-enquête kan zijn gegevens verwijderen door zijn account te verwijderen. De deelnemer aan het (zelf)assessmentonderzoek kan zijn/haar gegevens aan het einde van het onderzoek verwijderen."
+                      ]
+                    },
+                    {
+                      "title": "Beperking van verwerking Art. 18 AVG",
+                      "content": [
+                        "U hebt het recht om te eisen dat we de verwerking beperken als aan een van de wettelijke vereisten is voldaan."
+                      ]
+                    },
+                    {
+                      "title": "Overdraagbaarheid van gegevens Art. 20 AVG",
+                      "content": [
+                        "U heeft het recht om de op u betrekking hebbende persoonsgegevens die door u aan ons zijn verstrekt, in een gestructureerd, gangbaar en machineleesbaar formaat te ontvangen. U hebt ook het recht om deze gegevens ongehinderd door ons over te dragen aan een andere verwerkingsverantwoordelijke aan wie de persoonsgegevens zijn verstrekt, op voorwaarde dat de verwerking is gebaseerd op toestemming overeenkomstig art. 6 (1) verlicht. een AVG of art. 9 (2) verlicht. a AVG of op een contract overeenkomstig art. 6 (1) verlicht. b AVG en de verwerking vindt plaats met behulp van geautomatiseerde procedures, tenzij de verwerking noodzakelijk is voor de vervulling van een taak van algemeen belang of voor de uitoefening van het openbaar gezag dat ons is opgedragen.",
+                        "Bovendien, wanneer u uw recht op gegevensoverdraagbaarheid uitoefent in overeenstemming met art. 20 lid 1 AVG heeft u het recht om de persoonsgegevens rechtstreeks van de ene verwerkingsverantwoordelijke naar de andere verwerkingsverantwoordelijke te laten overdragen, voor zover dit technisch mogelijk is en op voorwaarde dat dit geen afbreuk doet aan de rechten en vrijheden van andere personen."
+                      ]
+                    },
+                    {
+                      "title": "bezwaar art. 21 AVG",
+                      "content": [
+                        "U hebt te allen tijde het recht om vanwege met uw specifieke situatie verband houdende redenen bezwaar te maken tegen de verwerking van uw persoonsgegevens die wordt uitgevoerd op basis van art. 6 (1) verlicht. e (gegevensverwerking in het algemeen belang) of lit. f (gegevensverwerking op basis van belangenafweging) van de AVG. Dit geldt ook voor profilering op basis van deze bepalingen in de zin van art. 4 nr. 4 AVG.",
+                        "Als u bezwaar maakt, zullen wij uw persoonsgegevens niet langer verwerken, tenzij wij dwingende legitieme gronden voor de verwerking kunnen aantonen die zwaarder wegen dan uw belangen, rechten en vrijheden, of de verwerking dient voor het doen gelden, uitoefenen of verdedigen van rechtsvorderingen."
+                      ]
+                    },
+                    {
+                      "title": "Intrekking van toestemming op grond van de wet op de gegevensbescherming",
+                      "content": [
+                        "U heeft het recht om uw toestemming voor de verwerking van persoonsgegevens te allen tijde met ingang voor de toekomst in te trekken."
+                      ]
+                    },
+                    {
+                      "title": "Klacht indienen bij een toezichthoudende autoriteit",
+                      "content": [
+                        "U hebt het recht om een klacht in te dienen over onze verwerking van persoonsgegevens bij een toezichthoudende autoriteit die verantwoordelijk is voor gegevensbescherming."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Actualiteit en wijziging van het privacybeleid",
+              "content": [
+                "Dit privacybeleid is momenteel geldig en heeft de status november 2022.",
+                "Door de verdere ontwikkeling van onze websites en aanbiedingen of door gewijzigde wettelijke of officiële vereisten, kan het nodig zijn om dit privacybeleid te wijzigen."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

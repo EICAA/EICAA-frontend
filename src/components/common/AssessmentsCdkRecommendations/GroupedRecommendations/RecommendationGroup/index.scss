@@ -1,0 +1,32 @@
+@import "../../../../../assets/style/colors";
+
+.recommendation-group {
+  &__controls {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 6px 0 20px;
+  }
+
+  &__link {
+    width: 96px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px;
+    text-align: center;
+    color: $color-primary-darkest;
+    background-color: $color-white-dark;
+    border: 1px solid $color-white-darker;
+    border-radius: 6px;
+
+    &.disabled {
+      color: $color-grey;
+    }
+
+    &:not(.disabled) {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import "../../../../assets/style/colors";
+
+
+.metrics-summary {
+  width: 95%;
+  max-width: 120vh;
+
+  &__title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500;
+    color: $color-grey-darker;
+    margin-top: 12px;
+  }
+
+  &__content {
+    padding: 12px 24px;
+  }
+
+  &__group {
+    display: flex;
+    flex-flow: column nowrap;
+
+    &.strengths-and-weaknesses {
+      width: 100%;
+      justify-content: flex-start;
+
+      .metrics-summary {
+        &__label {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 500;
+    color: $color-grey-darker;
+
+    span {
+      padding-left: 23px;
+    }
+  }
+
+  &__body {
+    margin: 8px 0;
+
+    .asterisk {
+      margin-top: 2px;
+      font-size: 12px;
+      color: $color-grey-darker;
+      text-align: justify;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: $color-grey-darkest;
+
+    &.no-value {
+      justify-content: center;
+    }
+  }
+
+  &__label {
+    line-height: 140%;
+  }
+
+  &__value {
+    line-height: 140%;
+  }
+}

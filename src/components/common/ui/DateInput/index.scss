@@ -1,0 +1,217 @@
+@import "../../../../assets/style/colors";
+
+.date-input {
+  &__top {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 27px;
+
+    &.-flex-start-center {
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 27px;
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: $color-black;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  &__tooltip {
+    position: relative;
+    margin: 0 0 10px 10px;
+
+    &-text {
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 50%;
+      z-index: 100;
+      transform: translateX(-50%);
+      color: $color-primary-darker;
+      background: $color-white;
+      font-size: 14px;
+      font-weight: 500;
+      min-width: 240px;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0px 0px 10px 4px #00000033;
+      opacity: 0;
+      display: none;
+    
+      &.react-transition {
+        &-enter {
+          display: block;
+          opacity: 0;
+        }
+      
+        &-enter-active {
+          display: block;
+          opacity: 1;
+          transition: opacity 300ms;
+        }
+    
+        &-enter-done {
+          display: block;
+          opacity: 1;
+        }
+      
+        &-exit {
+          display: block;
+          opacity: 1;
+        }
+      
+        &-exit-active {
+          display: block;
+          opacity: 0;
+          transition: opacity 300ms;
+        }
+    
+        &-exit-done {
+          display: none;
+          opacity: 0;
+        }
+      }
+    }
+
+    &-text-arrow {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      z-index: 100;
+      transform: translateX(-50%);
+      background: $color-white;
+      width: 20px;
+      height: 10px;
+      clip-path: polygon(50% 0, 100% 100%, 0 100%, 50% 0);
+    }
+
+    &-icon-container {
+      height: 17px;
+
+      &:hover {
+        .radio-button-select__tooltip-text {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-icon {
+      height: 100%;
+    }
+  }
+
+  &__icon-calendar {
+    width: 19px;
+    height: 22px;
+    background: url("/assets/icons/calendar.svg")
+    no-repeat 50%;
+    transition-duration: 0.2s;
+
+    &:hover {
+      background: url("/assets/icons/calendar-blue.svg")
+      no-repeat 50%;
+      transition-duration: 0.2s;
+    }
+  }
+
+  &__error {
+    color: $color-red;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    &.-bottom {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .react-date-picker {
+    width: 100%;
+
+    &__wrapper {
+      min-width: 237px;
+      height: 56px;
+      padding: 0 16px;
+      border: 1px solid $color-grey-light;
+      border-radius: 6px;
+    }
+
+    &__inputGroup {
+      &__day {
+        &:placeholder-shown {
+          min-width: 1.4em;
+        }
+      }
+
+      &__month {
+        &:placeholder-shown {
+          min-width: 1.55em;
+        }
+      }
+
+      &__year {
+        &:placeholder-shown {
+          min-width: 2.6em;
+        }
+      }
+    }
+  }
+
+  .react-calendar {
+    padding: 8px 16px;
+    border: 1px solid $color-grey-light;
+    border-radius: 6px;
+
+    &__navigation {
+      & button {
+        border-radius: 6px;
+
+        &:enabled:hover {
+          background-color: $color-primary-lightest;
+        }
+      }
+    }
+
+    &__month-view {
+      &__weekdays {
+        &__weekday {
+          & abbr {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__tile {
+        border-radius: 6px;
+
+      &:enabled:hover {
+        background-color: $color-primary-lightest;
+      }
+
+      &--now {
+        background-color: $color-secondary;
+      }
+
+      &--active {
+        background-color: $color-primary-light;
+      }
+    }
+  }
+}

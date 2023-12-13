@@ -1,0 +1,71 @@
+// ------------------ MAIN COLOR PALETTE ------------------ //
+
+$color-primary-darkest: #1E2C36;
+$color-primary-darker: #26313B;
+$color-primary: #425A89;
+$color-primary-light: #0291DD;
+$color-primary-light-2: #0993D7;
+$color-primary-lighter: #29B6EE;
+$color-primary-lightest: #A6D8F2;
+$color-primary-lightest-2: #DDE1E9;
+
+$color-secondary-dark: #B2C84A;
+$color-secondary: #E1D622;
+
+$color-tertiary: #8ABB6B;
+$color-tertiary-light: #9DCC77;
+$color-tertiary-lighter: #AED68C;
+$color-tertiary-lighter-minus: #C1DFA7;
+$color-tertiary-lightest: #DCF1CA;
+
+// --------------------- GREY COLORS --------------------- //
+
+$color-grey-darkest: #484848;
+$color-grey-darker: #707070;
+$color-grey-dark: #8B8B8B;
+$color-grey: #969696;
+$color-grey-light: #C9C9C9;
+$color-grey-lighter: #A1A1A1;
+$color-grey-lightest: #D6D6D6;
+
+// --------------------- BASIC COLORS --------------------- //
+
+$color-white: #FFFFFF;
+$color-white-dark: #F7F7F7;
+$color-white-dark-2: #F0F0F0;
+$color-white-darker: #E2E2E2;
+
+$color-black: #000000;
+
+$color-red: #E23044;
+
+$color-green: #6EC624;
+
+$color-turquoise: #40A4AA;
+$color-turquoise-light: #65AF8B;
+$color-turquoise-lighter: #08C3C4;
+
+$color-beige: #FDF1D0;
+$color-beige-light: #F9F7D3;
+
+$color-wheel-blue: #67969E;
+$color-wheel-green: #96B857;
+$color-wheel-orange: #E07F38;
+
+// ------------------------ MIXINS ------------------------ //
+
+@mixin anchor-no-ua-style() {
+  text-decoration: none;
+
+  &:visited {
+    color: unset;
+  }
+
+  &:-webkit-any-link {
+    color: unset;
+  }
+
+  &:link {
+    color: unset;
+  }
+}

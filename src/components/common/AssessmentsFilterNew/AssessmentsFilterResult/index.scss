@@ -1,0 +1,50 @@
+@import "../../../../assets/style/colors";
+
+.assessment-filter-result {
+
+  &__content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px 0;
+
+    > *:not(:last-child) {
+      margin-right: 6px;
+    }
+  }
+
+  &__panel {
+    overflow: hidden;
+  }
+
+  color: $color-grey-lighter;
+
+  img {
+    width: 20px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    color: $color-primary-light;
+  }
+
+  &__label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    > *:not(:last-child) {
+      margin-right: 6px;
+    }
+
+    span {
+      width: 100%;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

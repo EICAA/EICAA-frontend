@@ -1,0 +1,50 @@
+@import "../../../../assets/style/colors";
+
+.dashboard-page {
+  height: 100vh;
+  background: $color-white-dark;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  &__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 50px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    &-title {
+      color: $color-primary-darkest;
+      font-size: 32px;
+      font-weight: 300;
+    }
+
+    &-button {
+      padding-left: 20px;
+      padding-right: 27px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  &__assessment-list {
+    min-width: 230px;
+  }
+}

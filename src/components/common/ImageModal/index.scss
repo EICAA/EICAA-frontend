@@ -1,0 +1,108 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/functions";
+
+.image-modal {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  animation:fadein .5s;
+
+  @keyframes fadein {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
+
+  &.-hidden {
+    display: none;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10000;
+  }
+
+  &__backdrop {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+    height: 95%;
+    min-height: 95%;
+    max-height: 95%;
+  }
+  
+  &__image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: addOpacity($color-black, 0.95);
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    object-fit: contain;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  &__button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__button-close {
+    width: 100%;
+    height: 100%;
+    background: url("/assets/icons/close-grey-outlined.svg")
+    no-repeat 50%;
+
+    &:hover {
+      width: 100%;
+      height: 100%;
+      background: url("/assets/icons/close-blue-outlined.svg")
+      no-repeat 50%;
+    }
+  }
+}

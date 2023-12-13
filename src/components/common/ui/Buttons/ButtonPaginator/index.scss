@@ -1,0 +1,44 @@
+@import "../../../../../assets/style/colors";
+
+.button-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-white;
+  background-color: $color-primary-light;
+  height: 32px;
+  width: 32px;
+  font-size: 16px;
+  border: 1px solid $color-primary-light;
+  border-radius: 20px;
+  opacity: 1;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition-duration: 0.2s;
+  }
+
+  &.-grey-blank {
+    color: $color-grey-lighter;
+    background-color: transparent;
+    border-color: transparent;
+
+    &:hover {
+      opacity: 1;
+      background-color: $color-primary-lightest;
+      border-color: $color-primary-lightest;
+      transition-duration: 0.2s;
+    }
+
+    &.-fake {
+      pointer-events: none;
+    }
+  }
+
+  &.-disabled {
+    pointer-events: none;
+    background-color: $color-grey-light;
+    border-color: $color-grey-light;
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../../assets/style/colors';
+
+.privacy-consent {
+  width: 100%;
+
+  .privacy-consent__title {
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  .privacy-consent__paragraph {
+    line-height: 135%;
+    margin-bottom: 12px;
+    text-align: justify;
+
+    .privacy-consent__span {
+      /* */
+    }
+
+    a {
+      color: $color-primary-light;
+      transition-duration: 0.2s;
+      text-decoration: none;
+
+      &:hover {
+        cursor: pointer;
+        transition-duration: 0.2s;
+        color: $color-primary-lighter;
+      }
+    }
+  }
+}

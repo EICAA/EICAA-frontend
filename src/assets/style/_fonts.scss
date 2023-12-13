@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 300;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 500;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 600;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 700;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 800;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 900;
+  src: local('Rubik'), local('Rubik'),
+    url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype'),
+}
+
+$font-rubik: 'Rubik', Arial, Helvetica, sans-serif;

@@ -1,0 +1,21 @@
+.breadcrumb-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  row-gap: 5px;
+
+  &__item-container {
+    display: flex;
+    flex-direction: row;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+
+  &__icon-next {
+    margin-left: 5px;
+  }
+}

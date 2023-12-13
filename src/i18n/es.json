@@ -1,0 +1,697 @@
+{
+  "common": {
+    "assessment": "Evaluación",
+    "attention": "Atención",
+    "back": "Atrás",
+    "business": "Negocio",
+    "cancel": "Cancelar",
+    "choose": "Elegir",
+    "country": "País",
+    "create": "Crear",
+    "email": "Correo electrónico",
+    "employees": "Empleados",
+    "faqs": "Preguntas frecuentes",
+    "firstName": "Primer nombre",
+    "higherEducation": "Educación más alta",
+    "home": "Hogar",
+    "language": "Idioma",
+    "lastName": "Apellido",
+    "loading": "Cargando",
+    "no": "No",
+    "noData": "Sin datos",
+    "ok": "De acuerdo",
+    "organization": "Organización",
+    "password": "Contraseña",
+    "passwordConfirm": "Confirmar contraseña",
+    "preview": "Avance",
+    "privacyPolicy": "Política de Privacidad",
+    "role": "Role",
+    "saveChanges": "Guardar cambios",
+    "search": "Buscar",
+    "select": "Seleccione",
+    "start": "Empezar",
+    "students": "Estudiantes",
+    "year": "Año",
+    "yes": "Sí"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Activar evaluación",
+    "confirmationEmailMessage": "Hemos enviado un correo de confirmación a su dirección de correo electrónico para activar su cuenta.",
+    "confirmationEmailTitle": "Activar la cuenta",
+    "deleteRequestMessage": "¡Tu solicitud ha sido enviada! Tus datos serán eliminados en breve.",
+    "deleteRequestTitle": "Éxito",
+    "deleteRequestWarningMessage": "¿Estás seguro/a que deseas eliminar tus datos? Este proceso es irreversible.",
+    "deleteRequestWarningTitle": "Advertencia",
+    "feedbackSentMessage": "Su respuesta ha sido enviada. ¡Gracias!",
+    "feedbackSentTitle": "Éxito",
+    "forgotPasswordMessage": "Le hemos enviado un correo electrónico que contiene un enlace que puede usar para restablecer su contraseña",
+    "languageSelectTitle": "Seleccione el idioma",
+    "resetPasswordMessage": "Tu contraseña ha sido restablecida.",
+    "successfulAccountDeleteMessage": "Ha eliminado con éxito su cuenta",
+    "successfulAccountDeleteTitle": "Éxito",
+    "successfulAccountEditMessage": "Ha cambiado con éxito los detalles de su cuenta",
+    "successfulAccountEditTitle": "Éxito",
+    "successfulPasswordChangeMessage": "Has cambiado satisfactoriamente tu contraseña",
+    "successfulPasswordChangeTitle": "Success",
+    "successfulRegisterTitle": "Registro exitoso",
+    "successfulRegisterMessage": "Has creado con éxito su cuenta",
+    "successTitle": "Éxito"
+  },
+  "snackBars": {
+    "assessmentActivated": "Evaluación activada",
+    "assessmentArchived": "Evaluación archivada",
+    "assessmentCreated": "Evaluación creada",
+    "copyUrlFailure": "No se pudo copiar URL",
+    "copyUrlSuccess": "URL copió con éxito"
+  },
+  "errors": {
+    "acceptTerms": "Debes aceptar estos términos",
+    "datePast": "No debes establecer una fecha pasada",
+    "dateBeforeStart": "La fecha debe ser posterior a la fecha de inicio",
+    "emailEmpty": "El correo electrónico está vacío",
+    "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida",
+    "fieldRequired": "Este campo es obligatorio",
+    "mustBeWhole": "Debe ser un número entero",
+    "passwordEmpty": "Introducir la contraseña",
+    "passwordMismatch": "Las contraseñas deben coincidir",
+    "passwordTooShort": "La contraseña no puede ser menos de 8 caracteres",
+    "textTooLong": "El texto es demasiado largo",
+    "valueTooHigh": "Valor demasiado alto",
+    "valueTooLow": "Valor demasiado bajo"
+  },
+  "apiErrors": {
+    "titleDefault": "Error",
+    "messageDefault": "Un error desconocido ocurrió. Inténtalo de nuevo",
+    "internalServerError": "Error de servidor interno",
+    "storageError": "Ocurrió un error interno. Por favor recarga la página",
+    "auth": {
+      "failed-to-auth": "La autenticación falló",
+      "invalid-reset-password-token": "Restablecimiento no válido Token de contraseña",
+      "user-already-exists": "El usuario ya existe"
+    },
+    "field": {
+      "required": "Falta un campo requerido",
+      "length-exceeded": "Se excede la longitud de un campo",
+      "date": {
+        "cannot-end-before-start": "La fecha de finalización no puede antes de la fecha de inicio"
+      },
+      "number": {
+        "should-be": {
+          "integer": "El número debe ser un entero",
+          "positive": "El número debe ser positivo",
+          "not-negative": "El número no debe ser negativo"
+        },
+        "too-large": "Se ingresó un número demasiado grande"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "La evaluación ya está presentada",
+        "max-participants-reached": "La evaluación está llena, no puede tomar más presentaciones",
+        "not-active": "La evaluación está inactiva (no está abierta para la presentación)",
+        "not-found": "No se encuentra la evaluación"
+      },
+      "result": {
+        "invalid-result-token": "El token de resultado no es válido"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "No se encuentra la evaluación"
+      },
+      "not-exists": "El usuario no existe",
+      "password-invalid": "Contraseña invalida"
+    },
+    "incognitoBrowser": "Su navegador no es compatible con determinadas funciones de nuestro software. Para continuar, abra la URL en una pestaña no privada del navegador o en otro navegador como Google Chrome, Safari, Mozilla Firefox (solo no privado), Microsoft Edge u Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "La página que estaba buscando no se encuentra. Haga clic en el botón de abajo para volver a la página anterior."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "La página que estaba buscando no está disponible. Utilice el enlace que recibió en el correo electrónico para comenzar una evaluación. Puede cerrar esta pestaña ahora."
+    },
+    "landingPage": {
+      "title": "Bienvenido a la Evaluación de Competencias<br />Empresariales e Intraemprendedoras",
+      "description": "Estimado/a participante,<br />Bienvenido/a a la evaluación de las competencias emprendedoras en la plataforma EICAA! Las siguientes secciones le harán preguntas sobre cómo considera sus habilidades empresariales. Es importante que se tome el tiempo para comprender completamente cada pregunta y que responda honestamente. Sus respuestas son completamente anónimas.<br />Llegar al final de la evaluación te tomará  10 minutos aproximadamente. Puedes  obtener tus resultados directamente después de completar la evaluación.<br />¡Disfruta de tu autoevaluación!",
+      "disclaimer": "Nota: Algunas de las preguntas se refieren a \"una idea emprendedora\". Una idea emprendedora puede definirse como una idea cuya intención es actuar sobre las oportunidades y transformarlas en valor para los demás. El valor creado puede ser social, cultural o económico.",
+      "checkboxTextPart1": "Acepto la ",
+      "checkboxTextPart2": "Política de Privacidad"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Grupo de edad",
+        "ageGroupQuestion": "¿A qué grupo de edad perteneces?",
+        "gender": "Género",
+        "genderQuestion": "¿Cuál es tu identidad de género?",
+        "someQuestions": "Algunas preguntas sobre ti",
+        "title": "Demografía"
+      },
+      "employee": {
+        "countryQuestion": "¿En qué país ha pasado la mayor parte de su carrera profesional?",
+        "educationLevel": "Nivel de estudios",
+        "educationLevelQuestion": "¿Cuál es el nivel más alto de educación que ha obtenido, si es que ha obtenido alguno?",
+        "levelOfPosition": "Nivel de posición",
+        "levelOfPositionQuestion": "¿Cuál es su cargo?",
+        "organisationSize": "Tamaño de la organización",
+        "organisationSizeQuestion": "¿Cuál es el tamaño de su organización?",
+        "organisationType": "Tipo de organización",
+        "organisationTypeQuestion": "¿Cuál es el tipo de organización donde trabaja?",
+        "workExperience": "Experiencia",
+        "workExperienceQuestion": "¿Cuántos años de experiencia laboral tiene?",
+        "workField": "Campo",
+        "workFieldQuestion": "¿En qué campo trabaja?"
+      },
+      "student": {
+        "countryQuestion": "¿En qué país has recibido la mayor parte de tu educación? ",
+        "educationLevel": "Nivel de educación",
+        "educationLevelQuestion": "¿Cuál es el nivel principal de educación que estás cursando actualmente?",
+        "employmentField": "Campo",
+        "employmentFieldQuestion": "¿En qué campo trabajas?",
+        "employmentType": "Empleo",
+        "employmentTypeQuestion": "¿Cómo describirías tu empleo?",
+        "hasWorkExperienceQuestion": "¿Tienes experiencia laboral o de prácticas?",
+        "majorField": "Campo principal",
+        "majorFieldQuestion": "¿Qué opción describe mejor tu campo de estudio principal actual? ",
+        "workExperience": "Experiencia",
+        "workExperienceQuestion": "¿Cuántos años de experiencia laboral o de prácticas tienes?",
+        "workQuestion": "¿Estás realizando actualmente un trabajo remunerado o unas prácticas además de cursar tus estudios?"
+      },
+      "employmentHoursQuestion": "¿Cuántas horas trabajas por semana?",
+      "female": "Femenino",
+      "higherEducation": "Institutos de Educación Superior",
+      "higherEducationQuestion": "¿En qué institutos de educación superior está estudiando actualmente?",
+      "male": "Masculino"
+    },
+    "surveyPage": {
+      "ableTo": "Mi nivel de progresión en las siguientes competencias es",
+      "area": "\u00c1rea",
+      "finish": "Finalizar",
+      "finishButton": "Finalizar",
+      "hint": "Indicaciones",
+      "languageSelectTitle": "Seleccionar lenguaje de encuesta",
+      "next": "Siguiente",
+      "previous": "Anterior"
+    },
+    "finishPage": {
+      "backToHome": "Volver a la pantalla de inicio",
+      "closeTab": "Cerrar la pestaña del navegador",
+      "deleteButton": "Eliminar datos",
+      "deleteButtonTitle": "De acuerdo con los requisitos de protección de datos personales y garantía de los derechos digitales, puedes solicitar la eliminación de tus datos enviados previamente haciendo clic en el botón \"Eliminar datos\".",
+      "description": "Hemos evaluado tus respuestas. Por favor, haz clic en Resultados para ver el informe con los Descargar resumen de la autoevaluación.",
+      "downloadResults": "Descargar resumen",
+      "feedbackSentMessage": "Su respuesta ha sido enviada. ¡Gracias!",
+      "form": {
+        "ratingTitle": "Por favor, califica tu experiencia.",
+        "submitButton": "Enviar comentarios",
+        "title": "Puedes hacernos llegar tus comentarios aquí:"
+      },
+      "interventions": "Intervenciones",
+      "title": "Gracias por participar",
+      "visitEicaa": "Visite la página de inicio de Eicaa"
+    }
+  },
+  "pdf-texts": {
+    "area": "Área",
+    "submitted-on": "Enviado el",
+    "question": "Pregunta",
+    "competence": "Competencia",
+    "answer": "Respuesta"
+    },
+  "gdpr": {
+    "consent": {
+      "title": "Consentimiento para el tratamiento de datos",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "Estoy de acuerdo en que los datos proporcionados por mí durante la participación en la encuesta de (auto)evaluación para los fines y en la medida indicados en la política de privacidad en la ",
+        "1": "sección VIII (Tratamiento de datos al participar en una encuesta de (auto)evaluación)",
+        "2": " puedan ser tratados por Univations."
+      },
+      "effect": {
+        "0": "Mi consentimiento es válido hasta que lo retire. Puedo declarar mi revocación en cualquier momento posterior sin indicar los motivos con efecto para el futuro notificando al contacto indicado en la política de privacidad en la ",
+        "1": "sección I. (Datos de contacto del responsable del tratamiento de datos)",
+        "2": ". Además, tengo los derechos descritos en la política de privacidad en la ",
+        "3": "sección X. (Derechos del interesado)",
+        "4": "."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Política de privacidad",
+      "content": [
+        {
+          "spans": [
+            "Esta política de privacidad se aplica exclusivamente al sitio web ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            ". Si visita otro sitio web, se aplicará la política de privacidad del operador correspondiente. Esto también se aplica a los sitios web a los que se hace referencia mediante enlaces desde este sitio web."
+          ]
+        },{
+          "sections": [
+            {
+              "title": "Datos de contacto del responsable del tratamiento de datos",
+              "content": [
+                "El responsable de tratamiento de datos en el sentido del Art. 4 (7) del RGPD es: ",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Alemania",
+                    {
+                      "spans": [
+                        "Correo electrónico: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Teléfono: +49 345 13 14 27 00"
+                  ]
+                },
+                "Representado por el director general Daniel Worch. Inscripción en el Registro Mercantil del Tribunal de Distrito de Stendal. Número de registro: HRB 5703"
+              ]
+            },
+            {
+              "title": "Datos de contacto del responsable de protección de datos",
+              "content": [
+                "El responsable de protección de datos también puede ser localizado en los datos de contacto del responsable del tratamiento y en la siguiente dirección de correo electrónico:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Data Protection Officer",
+                    "Weinbergweg 23",
+                    "06120 Halle, Alemania",
+                    {
+                      "spans": [
+                        "Correo electrónico: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Información general sobre el tratamiento de datos",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "Por principio, sólo procesamos los datos personales en la medida en que sea necesario para la provisión y optimización de un sitio web funcional, así como de nuestros contenidos y servicios. ",
+                        "De acuerdo con el Art. 4 n.º 1 del RGPD, se entiende por datos personales cualquier información relativa a una persona física identificada o identificable. Una persona física identificable es aquella que puede ser identificada, directa o indirectamente, en particular por referencia a un identificador como un nombre, un número de identificación, datos de localización, un identificador en línea o a uno o más factores específicos de la identidad física, fisiológica, genética, mental, económica, cultural o social de dicha persona física.",
+                        "El tratamiento de los datos personales de nuestros usuarios sólo se realiza con el consentimiento del usuario. Se aplica una excepción en aquellos casos en los que el tratamiento de los datos está permitido por la normativa legal."
+                      ]              
+                    },
+                    {
+                      "title": "Base jurídica para el tratamiento de los datos personales",
+                      "content": [
+                        "En la medida en que obtenemos el consentimiento del interesado para las operaciones de tratamiento de datos personales, el artículo 6 (1) lit. a del RGPD sirve de base jurídica para el tratamiento de los datos personales.",
+                        "Cuando el tratamiento de los datos personales es necesario para la ejecución de un contrato en el que el interesado es parte, el Art. 6 (1) lit. b RGPD sirve de base legal. Esto también se aplica a las operaciones de tratamiento que son necesarias para la aplicación de medidas precontractuales.",
+                        "En la medida en que el tratamiento de los datos personales es necesario para el cumplimiento de una obligación legal a la que está sujeta nuestra empresa, el Art. 6 (1) lit. c RGPD sirve de base legal.",
+                        "Si el tratamiento es necesario para proteger un interés legítimo nuestro o de un tercero y los intereses, derechos y libertades fundamentales del interesado no prevalecen sobre el interés mencionado en primer lugar, el Art. 6 (1) lit. f RGPD sirve de base legal para el tratamiento."
+                      ]
+                    },
+                    {
+                      "title": "Eliminación de datos y periodo de almacenamiento",
+                      "content": [
+                        "Sus datos personales se eliminarán o bloquearán en cuanto deje de ser aplicable la finalidad del almacenamiento. Además, el almacenamiento puede tener lugar si así lo ha previsto el legislador europeo o nacional en los reglamentos, leyes u otras disposiciones de la UE a las que está sujeto el responsable del tratamiento. Los datos también se bloquearán o eliminarán si expira el periodo de almacenamiento prescrito por las normas mencionadas, a menos que sea necesario seguir almacenando los datos para la celebración o el cumplimiento de un contrato."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Suministro del sitio web y creación de archivos de registro",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "Cuando usted accede a nuestro sitio web, el navegador utilizado en su dispositivo final envía automáticamente información a nuestro servidor web. Esta información se almacena temporalmente en un archivo denominado archivo de registro de transacciones.",
+                        "Se recogen los siguientes datos:",
+                        {
+                          "list": [
+                            "Dirección IP del dispositivo solicitante",
+                            "Fecha y hora de acceso",
+                            "Sitio web desde el que se accede (URL de referencia)",
+                            "Navegador utilizado",
+                            "Sistema operativo del dispositivo y nombre del proveedor de acceso"
+                          ]
+                        },
+                        "Estos datos también se almacenan en los archivos de registro de nuestro sistema. Estos datos no se almacenan junto con otros datos personales del usuario. Nuestro sitio web está alojado en servidores exclusivamente en Alemania por Digital Oceans Inc. "
+                      ]
+                    },
+                    {
+                      "title": "Base jurídica",
+                      "content": [
+                        "La base legal para el almacenamiento temporal de los datos en los archivos de registro es el Art. 6 (1) lit. f RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Duración del almacenamiento",
+                      "content": [
+                        "El almacenamiento temporal sirve para garantizar el funcionamiento del sitio web. Además, los datos sirven para optimizar el sitio web y garantizar la seguridad de nuestros sistemas.",
+                        "Los datos personales se eliminan tan pronto como dejan de ser necesarios para alcanzar el objetivo para el que fueron recogidos. En el caso de la recogida de datos para la prestación del sitio web, este es el caso cuando la sesión respectiva ha terminado; en el caso del almacenamiento de datos en archivos de registro, este es el caso después de seis meses como máximo."
+                      ]
+                    },
+                    {
+                      "title": "Derecho de objeción",
+                      "content": [
+                        "La recogida de datos para la puesta en funcionamiento del sitio web y el almacenamiento de los datos en archivos de registro son absolutamente necesarios para el funcionamiento del sitio web. En consecuencia, no existe la posibilidad de que el usuario se oponga."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cookies",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "En nuestro sitio web utilizamos cookies. Se trata de pequeños archivos creados automáticamente por su navegador y almacenados en su dispositivo (ordenador portátil, tableta, teléfono inteligente o similar) cuando visita nuestro sitio web. Las cookies no causan ningún daño a su dispositivo y no contienen virus, troyanos u otros programas maliciosos.",
+                        "En la cookie se almacena información que surge en relación con el dispositivo final específico utilizado. Sin embargo, esto no significa que tengamos conocimiento directo de su identidad.",
+                        "El uso de cookies sirve, por un lado, para hacer más agradable el uso de nuestra oferta para usted. Utilizamos las denominadas cookies de sesión para reconocer que usted ya ha visitado páginas individuales de nuestro sitio web. Éstas se eliminan automáticamente después de que usted abandone nuestro sitio web.",
+                        "Además, también utilizamos cookies temporales para optimizar la facilidad de uso, que se almacenan en su dispositivo final durante un periodo de tiempo determinado. Si vuelve a visitar nuestro sitio web para utilizar nuestros servicios, se reconoce automáticamente que ya ha estado con nosotros y qué entradas y ajustes ha realizado para que no tenga que volver a introducirlos.",
+                        "Por otro lado, utilizamos cookies para registrar estadísticamente el uso de nuestro sitio web y evaluarlo con el fin de optimizar nuestra oferta para usted. Estas cookies nos permiten reconocer automáticamente que usted ya ha estado en nuestro sitio cuando lo vuelve a visitar. ",
+                        "La mayoría de los navegadores aceptan las cookies automáticamente. Sin embargo, puede configurar su navegador de forma que no se almacenen cookies en su dispositivo o que aparezca siempre un mensaje antes de que se cree una nueva cookie. Sin embargo, la desactivación completa de las cookies puede suponer que no pueda utilizar todas las funciones de nuestro sitio web."
+                      ]
+                    },
+                    {
+                      "title": "Base jurídica",
+                      "content": [
+                        "El uso de dichas cookies, que son absolutamente necesarias para el funcionamiento de nuestro sitio web y la prestación de servicios, se basa en el Art. 6 (1) lit. b o f del RGPD. Nuestro interés legítimo es garantizar el funcionamiento de nuestros sitios web y su óptima usabilidad.",
+                        "El uso de las cookies no esenciales se basa exclusivamente en su consentimiento que puede proporcionar al inicio del uso de nuestro sitio web. La base legal para el uso de estas cookies es el Art. 6 (1) lit. a RGPD. "
+                      ]
+                    },
+                    {
+                      "title": "Duración del almacenamiento",
+                      "content": [
+                        "Las cookies se almacenan en el ordenador del usuario y se transmiten desde él a nuestro sitio. Por lo tanto, los usuarios tienen pleno control sobre el uso de las cookies. Cambiando la configuración del navegador de Internet, se puede desactivar o restringir la transmisión de cookies. Las cookies que ya han sido almacenadas pueden ser eliminadas en cualquier momento. Esto también puede hacerse automáticamente. Si se desactivan las cookies de nuestro sitio web, es posible que ya no sea posible utilizar todas las funciones del sitio web en toda su extensión."
+                      ]
+                    },
+                    {
+                      "title": "Cookies utilizadas en nuestro sitio web",
+                      "content": [
+                        "En nuestro sitio web utilizamos las siguientes cookies:",
+                        {
+                          "table": {
+                            "header": [
+                              "Nombre de la cookie",
+                              "Proveedor",
+                              "Descripción",
+                              "Duración"
+                            ],
+                            "body": [
+                              [
+                                "universal-cookie-express\n(cookie de sesión)",
+                                "React JS framework",
+                                "Cookies para el renderizado del servidor",
+                                "Duración de la sesión del usuario"
+                              ],
+                              [
+                                "universal-cookie\n(cookie de sesión)",
+                                "React JS framework",
+                                "Necesario para la autentificación del usuario en la plataforma/sitio web",
+                                "Duración de la sesión del usuario"
+                              ],
+                              [
+                                "Matomo-Cookies",
+                                "Matomo",
+                                "Matomo utiliza cookies para permitir un análisis del comportamiento de navegación.",
+                                "6 meses"
+                              ],
+                              [
+                                "Borlabs-cookie ",
+                                "Borlabs",
+                                "Guarda la configuración de los visitantes seleccionados en el cuadro de cookies de Borlabs Cookie.",
+                                "1 año"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Análisis web a través de Matomo",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "El sitio web utiliza la herramienta de software de código abierto Matomo para analizar el comportamiento de los usuarios en nuestro sitio web. Se trata de una herramienta de código abierto para el análisis de la web. Matomo no recoge datos de sesión sin su consentimiento.",
+                        "Matomo utiliza cookies. Estos archivos de texto se almacenan en su dispositivo y permiten analizar el uso del sitio web. Para ello, la información de uso obtenida a través de la cookie se transmite y almacena para poder evaluar el comportamiento de uso. La dirección IP es un identificador anónimo y no disponemos de medios técnicos para identificar a los usuarios registrados.",
+                        "Al dar su consentimiento para el análisis de la web mediante Matomo, se recopilarán los siguientes datos cuando acceda al sitio web:",
+                        {
+                          "list": [
+                            "partes de la dirección IP del sistema de llamada del usuario",
+                            "el sitio web al que se accede",
+                            "sitio web desde el que se accede (URL de referencia)",
+                            "las subpáginas a las que se accede desde el sitio web consultado",
+                            "la duración de la estancia en el sitio web",
+                            "la frecuencia con la que se accede al sitio web"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Base jurídica",
+                      "content": [
+                        "La base legal para el tratamiento de los datos personales es el Art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Duración del almacenamiento",
+                      "content": [
+                        "Los datos se eliminan en cuanto dejan de ser necesarios para nuestros fines de registro. Las estadísticas generadas y los datos subyacentes no se eliminan."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentimiento",
+                      "content": [
+                        "El consentimiento dado por el usuario puede ser revocado en cualquier momento para el futuro."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tratamiento de datos durante el registro de una cuenta de usuario",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "Si el usuario decide crear una cuenta de usuario, se recogerán los siguientes datos personales durante el proceso de registro:",
+                        {
+                          "list": [
+                            "Dirección de correo electrónico",
+                            "Contraseña (para la cuenta en la plataforma/sitio web)",
+                            "Apellidos",
+                            "Nombre",
+                            "Nombre de la organización",
+                            "País de la organización",
+                            "Posición en la organización"
+                          ]
+                        },
+                        "Los datos se procesan con el fin de proporcionar diversas funciones del sitio web (por ejemplo, la creación de una encuesta de (auto)evaluación), que no podrían utilizarse sin el registro y el uso de una cuenta de usuario. ",
+                        "En el marco del registro y el uso de la cuenta de usuario, almacenamos la dirección IP y la hora de la respectiva acción del usuario. El almacenamiento se basa en nuestros intereses legítimos, así como en el interés del usuario de protegerse contra el uso indebido y otro uso no autorizado de la cuenta de usuario por parte de un tercero.",
+                        "Los datos procesados se transmitirán de forma anónima a Entrepreneurial and Intrapreneurial Competences Assessment Alliance (en lo sucesivo, \"Consorcio EICAA\"). La anonimización se realiza eliminando la dirección de correo electrónico, el nombre y apellidos del usuario del conjunto de datos transmitidos. Los datos también se transmitirán al creador de la encuesta de (auto)evaluación."
+                      ]
+                    },
+                    {
+                      "title": "Base jurídica",
+                      "content": [
+                        "La base legal para el tratamiento de los datos personales al crear una cuenta de usuario es el art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Duración del almacenamiento",
+                      "content": [
+                        "Los datos personales se conservarán mientras lo requieran las finalidades de tratamiento antes mencionadas y ya no exista la obligación legal de conservarlos. La necesidad cesa en cuanto el usuario elimina su cuenta de usuario. En el caso de las obligaciones legales de archivo, la supresión tiene lugar después de su expiración."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentimiento",
+                      "content": [
+                        "El consentimiento para el tratamiento de datos puede retirarse en cualquier momento sin que ello afecte a la legitimidad del tratamiento realizado sobre la base del consentimiento hasta su retirada."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tratamiento de datos al participar en una encuesta de (auto)evaluación",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Alcance y finalidad del tratamiento de datos",
+                      "content": [
+                        "Si los usuarios deciden participar en una encuesta de (auto)evaluación, se recogerán datos personales. Los usuarios que participan en una encuesta de (auto)evaluación se denominan en lo sucesivo participantes.",
+                        "Se recogerán los siguientes datos personales de los participantes:",
+                        {
+                          "list": [
+                            "País en el que el participante ha recibido más educación",
+                            "Nivel de educación que cursa actualmente",
+                            "Campo de estudio principal",
+                            "Existencia de experiencia laboral o de prácticas",
+                            "Años de experiencia laboral o de prácticas",
+                            "Si el participante está realizando actualmente un trabajo remunerado o unas prácticas además de cursar estudios",
+                            "Descripción del empleo (por cuenta ajena o por cuenta propia)",
+                            "Identidad de género",
+                            "Grupo de edad"
+                          ]
+                        },
+                        "Los datos se utilizan para evaluar las encuestas de (auto)evaluación y como base para otros análisis científicos. Esto sirve principalmente para clasificar a los participantes de la encuesta en grupos normativos en función de los datos recogidos. Se forman los siguientes grupos normativos o combinaciones de ellos:",
+                        {
+                          "list": [
+                            "País en el que el participante ha recibido más educación",
+                            "Nivel de educación que cursa actualmente",
+                            "Campo de estudio principal",
+                            "Existencia de experiencia laboral o de prácticas",
+                            "Años de experiencia laboral o de prácticas",
+                            "Si el participante está realizando actualmente un trabajo remunerado o unas prácticas además de cursar estudios",
+                            "Descripción del empleo (por cuenta ajena o por cuenta propia)",
+                            "Identidad de género",
+                            "Grupo de edad"
+                          ]
+                        },
+                        "Los datos procesados se anonimizarán y se transmitirán al Consorcio EICAA. Los datos también se transmitirán al creador de la encuesta de (auto)evaluación."
+                      ]
+                    },
+                    {
+                      "title": "Base jurídica",
+                      "content": [
+                        "La base jurídica para el tratamiento de los datos personales al rellenar la encuesta de (auto)evaluación es el art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Duración del almacenamiento",
+                      "content": [
+                        "Los datos personales se conservarán durante el tiempo que requieran los fines de tratamiento antes mencionados y ya no exista la obligación legal de conservarlos."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentimiento",
+                      "content": [
+                        "El consentimiento para el tratamiento de datos puede retirarse en cualquier momento sin que ello afecte a la legitimidad del tratamiento realizado sobre la base del consentimiento hasta su retirada."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tratamiento de datos en países fuera del Espacio Económico Europeo",
+              "content": [
+                "Si procesamos los datos en terceros países (países fuera de la UE/EEE) o los transferimos a empresas de terceros países, sólo lo hacemos si estamos autorizados a hacerlo por usted o por la ley. Si no existe una decisión de adecuación por parte de la Comisión para el tercer país en cuestión de acuerdo con el Art. 45 del RGPD, es decir, si no hay un nivel adecuado de protección de datos en el tercer país, aseguramos mediante disposiciones contractuales (cláusulas contractuales estándar de la UE sobre protección de datos) u otras garantías adecuadas en el sentido del Art. 46 del RGPD que su privacidad y sus datos personales también están protegidos en la empresa del tercer país de una manera adecuada prevista por la ley."
+              ]
+            },
+            {
+              "title": "Derechos del interesado",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Derecho a la confirmación",
+                      "content": [
+                        "Tiene derecho a solicitarnos confirmación sobre si se están tratando datos personales que le conciernen."
+                      ]
+                    },
+                    {
+                      "title": "Derecho de acceso Art. 15 RGPD",
+                      "content": [
+                        "Tiene derecho a que le informemos gratuitamente en cualquier momento sobre los datos personales almacenados sobre usted, así como a recibir una copia de los mismos."
+                      ]
+                    },
+                    {
+                      "title": "Derecho de rectificación Art. 16 RGPD",
+                      "content": [
+                        "Tiene derecho a solicitar la rectificación de los datos personales inexactos que le conciernen. Además, el interesado tiene derecho a solicitar que se completen los datos personales incompletos, teniendo en cuenta los fines del tratamiento."
+                      ]
+                    },
+                    {
+                      "title": "Supresión Art. 17 RGPD",
+                      "content": [
+                        "Tiene derecho a solicitar que eliminemos sin demora los datos personales que le conciernen, siempre que se aplique uno de los motivos previstos por la ley y en la medida en que el tratamiento no sea necesario. ",
+                        "Nuestro sitio web también permite a los usuarios eliminar ellos mismos sus datos personales. El creador de la encuesta de (auto)evaluación puede eliminar sus datos borrando su cuenta. El participante en la encuesta de (auto)evaluación puede eliminar sus datos al final de la encuesta."
+                      ]
+                    },
+                    {
+                      "title": "Restricción del tratamiento Art. 18 RGPD",
+                      "content": [
+                        "Tiene derecho a exigir que restrinjamos el tratamiento si se cumple uno de los requisitos legales."
+                      ]
+                    },
+                    {
+                      "title": "Portabilidad de los datos Art. 20 RGPD",
+                      "content": [
+                        "Usted tiene derecho a recibir los datos personales que le conciernen y que nos ha facilitado en un formato estructurado, común y legible por máquina. También tiene derecho a transferir estos datos a otro responsable del tratamiento de datos sin que nosotros lo impidamos, siempre que el tratamiento se base en el consentimiento de conformidad con el art. 6 (1) lit. a RGPD o Art. 9 (2) lit. a RGPD o en un contrato de conformidad con el Art. 6 (1) lit. b RGPD y el tratamiento se lleve a cabo con la ayuda de procedimientos automatizados, a menos que el tratamiento sea necesario para la realización de una tarea llevada a cabo en el interés público o en el ejercicio de la autoridad oficial que se nos ha conferido.",
+                        "Además, al ejercer su derecho a la portabilidad de los datos de conformidad con el art. 20 (1) del RGPD, tiene derecho a que los datos personales se transfieran directamente de un responsable del tratamiento a otro, en la medida en que sea técnicamente posible y siempre que ello no afecte negativamente a los derechos y libertades de otras personas."
+                      ]
+                    },
+                    {
+                      "title": "Objeción Art. 21 RGPD",
+                      "content": [
+                        "Tiene derecho a oponerse en cualquier momento, por motivos relacionados con su situación particular, al tratamiento de los datos personales que le conciernen y que se lleva a cabo sobre la base del art. 6 (1) lit. e (tratamiento de datos en interés público) o lit. f (tratamiento de datos sobre la base de un equilibrio de intereses) del RGPD. Esto también se aplica a la elaboración de perfiles basados en estas disposiciones en el sentido del Art. 4 del RGPD.",
+                        "Si se opone, dejaremos de tratar sus datos personales, a menos que podamos demostrar que existen motivos legítimos imperiosos para el tratamiento que prevalezcan sobre sus intereses, derechos y libertades, o que el tratamiento sirva para la afirmación, el ejercicio o la defensa de reclamaciones legales."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentimiento según la ley de protección de datos",
+                      "content": [
+                        "Tiene derecho a retirar su consentimiento para el tratamiento de datos personales en cualquier momento con efecto para el futuro."
+                      ]
+                    },
+                    {
+                      "title": "Reclamación a una autoridad de control",
+                      "content": [
+                        "Tiene derecho a presentar una reclamación sobre nuestro tratamiento de datos personales ante una autoridad de control responsable de la protección de datos."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Actualización y modificación de la política de privacidad",
+              "content": [
+                "Esta política de privacidad es actualmente válida y tiene el estado de noviembre de 2022.",
+                "Debido al desarrollo de nuestros sitios web y ofertas o debido a cambios en los requisitos legales u oficiales, puede ser necesario cambiar esta política de privacidad."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

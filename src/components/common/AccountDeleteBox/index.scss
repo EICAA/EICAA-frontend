@@ -1,0 +1,24 @@
+@import "../../../assets/style/colors";
+
+.account-delete-box {
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+  }
+
+  &__content {
+    width: 100%;
+    background: $color-white;
+    padding: 40px;
+    border: 1px solid $color-grey-lightest;
+    border-radius: 10px;
+  }
+
+  &__message {
+    color: $color-grey;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}

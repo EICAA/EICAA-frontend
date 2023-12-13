@@ -1,0 +1,46 @@
+@import '../../../../assets/style/colors';
+@import '../../../../assets/style/breakpoints';
+
+.dry-run-box {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: $color-red;
+  height: 50px;
+  border-bottom-left-radius: 6px;
+  padding: 0 35px;
+  opacity: 0.7;
+
+  @media (max-width: $breakpoint-md) {
+    height: 40px;
+    padding: 0 20px;
+  }
+
+  &.-show {
+    display: flex;
+  }
+
+  &__message {
+    color: $color-white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+
+  &__button {
+    height: 36px;
+
+    @media (max-width: $breakpoint-md) {
+      height: 30px;
+    }
+  }
+}

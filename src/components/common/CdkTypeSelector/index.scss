@@ -1,0 +1,48 @@
+@import '../../../assets/style/colors';
+@import "../../../assets/style/breakpoints";
+
+.cdk-type-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 -12px;
+
+    & > .cdk-type-selector__card {
+      margin: 0 12px; 
+      margin-bottom: 24px; 
+
+      &:last-child {
+        @media (max-width: $breakpoint-lg) {
+          margin-bottom: 0; 
+        }
+      }
+
+      @media (max-width: $breakpoint-lg) {
+        margin: 0;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    &__card {
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

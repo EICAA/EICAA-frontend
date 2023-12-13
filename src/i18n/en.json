@@ -1,0 +1,961 @@
+{
+  "common": {
+    "assessment": "Self-assessment",
+    "attention": "Attention",
+    "back": "Back",
+    "business": "Employees",
+    "cancel": "Cancel",
+    "choose": "Choose",
+    "country": "Country",
+    "create": "Create",
+    "email": "Email",
+    "employees": "Employees",
+    "faqs": "FAQs",
+    "firstName": "First Name",
+    "higherEducation": "Students",
+    "home": "Home",
+    "language": "Language",
+    "lastName": "Last Name",
+    "loading": "Loading",
+    "no": "No",
+    "noData": "No data",
+    "ok": "Ok",
+    "organization": "Organization",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "preview": "Preview",
+    "privacyPolicy": "Privacy Policy",
+    "role": "Role",
+    "saveChanges": "Save changes",
+    "search": "Search",
+    "select": "Select",
+    "start": "Start",
+    "students": "Students",
+    "year": "Year",
+    "yes": "Yes"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Activate Assessment",
+    "confirmationEmailMessage": "We've sent a confirmation mail to your email address to activate your account",
+    "confirmationEmailTitle": "Activate Account",
+    "deleteAssessmentWarningTitle": "Warning",
+    "deleteAssessmentWarningMessage": "Are you sure you want to delete this assessment? This process is irreversible.",
+    "deleteRequestMessage": "Your request has been sent! Your data will soon be deleted.",
+    "deleteRequestTitle": "Success",
+    "deleteRequestWarningMessage": "Are you sure you want your data to be deleted? This process is irreversible.",
+    "deleteRequestWarningTitle": "Warning",
+    "feedbackSentMessage": "Your feedback has been sent. Thank you!",
+    "feedbackSentTitle": "Success",
+    "forgotPasswordMessage": "We've sent you an email containing a link you can use to reset your password",
+    "languageSelectTitle": "Select Language",
+    "resetPasswordMessage": "Your password has been reset.",
+    "successfulAccountDeleteMessage": "You have successfully deleted your account",
+    "successfulAccountDeleteTitle": "Success",
+    "successfulAccountEditMessage": "You have successfully changed your account details",
+    "successfulAccountEditTitle": "Success",
+    "successfulPasswordChangeMessage": "You have successfully changed your password",
+    "successfulPasswordChangeTitle": "Success",
+    "successfulRegisterTitle": "Successful registration",
+    "successfulRegisterMessage": "You have successfully created your account",
+    "successTitle": "Success"
+  },
+  "snackBars": {
+    "assessmentActivated": "Assessment activated",
+    "assessmentArchived": "Assessment archived",
+    "assessmentCreated": "Assessment created",
+    "assessmentDeleted": "Assessment deleted",
+    "copyUrlFailure": "Failed to copy URL",
+    "copyUrlSuccess": "URL copied successfully",
+    "ratingSubmitted": "Rating submitted"
+  },
+  "errors": {
+    "acceptTerms": "You must accept these terms",
+    "datePast": "You must not set a past date",
+    "dateBeforeStart": "Date must be later than start date",
+    "emailEmpty": "Email is empty",
+    "emailInvalid": "Please enter a valid email address",
+    "fieldRequired": "This field is required",
+    "mustBeWhole": "Must be a whole number",
+    "passwordEmpty": "Enter password",
+    "passwordMismatch": "Passwords must match",
+    "passwordTooShort": "Password  can't be less than 8 characters",
+    "textTooLong": "Text is too long",
+    "valueTooHigh": "Value too high",
+    "valueTooLow": "Value too low"
+  },
+  "apiErrors": {
+    "titleDefault": "Error",
+    "messageDefault": "An unknown error occurred. Please try again",
+    "internalServerError": "Internal server error",
+    "storageError": "An internal error occured. Please reload the page",
+    "auth": {
+      "failed-to-auth": "Authentication failed",
+      "invalid-reset-password-token": "Invalid reset password token",
+      "user-already-exists": "User already exists",
+      "user-deleted": "User is deleted"
+    },
+    "field": {
+      "required": "A required field is missing",
+      "length-exceeded": "A field's length is exceeded",
+      "date": {
+        "cannot-end-before-start": "End date cannot before start date"
+      },
+      "number": {
+        "should-be": {
+          "integer": "The number should be an integer",
+          "positive": "The number should be positive",
+          "not-negative": "The number should not be negative"
+        },
+        "too-large": "Too large number was entered"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "Assessment is already submitted",
+        "max-participants-reached": "Assessment is full, cannot take more submissions",
+        "not-active": "Assessment is inactive (not open for submission)",
+        "not-found": "Assessment is not found"
+      },
+      "result": {
+        "invalid-result-token": "Result token is invalid"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "Assessment is not found"
+      },
+      "not-exists": "User not exists",
+      "password-invalid": "Invalid password"
+    },
+    "incognitoBrowser": "Your browser does not support certain features of our software. To continue, please open the URL in a non-private browser tab or another browser such as Google Chrome, Safari, Mozilla Firefox (non-private only), Microsoft Edge or Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "The page you were looking for is not found. Click the button below to return to the previous page."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "The page you were looking for is not available. Please use the link you received in the email to start a self-assessment. You may close this tab now."
+    },
+    "landingPage": {
+      "title": "Welcome to the Entrepreneurial and<br />Intrapreneurial Competence Self-Assessment",
+      "description": "Dear participant,<br />Welcome to your entrepreneurial competence self-assessment on the EICAA platform! The following sections will ask you questions on how you consider your entrepreneurial abilities. It is important that you take time to fully understand each question and that you answer honestly. Your responses are completely anonymous.<br />Getting to the end of the self-assessment will take ~10 minutes. You can get your results directly after completing the self-assessment.<br />Enjoy your self-assessment!",
+      "disclaimer": "Note: Some of the questions relate to ‘an intrapreneurial idea’. An intrapreneurial idea can be defined as an idea with the intention to develop a new venture within an existing organization, to exploit a new opportunity and create economic value",
+      "checkboxTextPart1": "I accept the ",
+      "checkboxTextPart2": "Privacy Policy"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Age group",
+        "ageGroupQuestion": "Which age group do you belong to?",
+        "gender": "Gender",
+        "genderQuestion": "What is your gender identity?",
+        "someQuestions": "Some questions about you",
+        "title": "Demographics"
+      },
+      "employee": {
+        "countryQuestion": "In which country have you spend most of your career in?",
+        "educationLevel": "Education level",
+        "educationLevelQuestion": "What is the highest level of education you have obtained, if any?",
+        "levelOfPosition": "Position level",
+        "levelOfPositionQuestion": "What is the level of your position?",
+        "organisationSize": "Organisation size",
+        "organisationSizeQuestion": "What is the size of your organisation?",
+        "organisationType": "Organisation type",
+        "organisationTypeQuestion": "What is the type of your organisation?",
+        "workExperience": "Experience",
+        "workExperienceQuestion": "How many years of work experience do you have?",
+        "workField": "Field",
+        "workFieldQuestion": "In which field do you work?"
+      },
+      "student": {
+        "countryQuestion": "In which country have you received most of your education?",
+        "educationLevel": "Education level",
+        "educationLevelQuestion": "What is the main level of education you are currently pursuing?",
+        "employmentField": "Field",
+        "employmentFieldQuestion": "In which field do you work?",
+        "employmentType": "Employment type",
+        "employmentTypeQuestion": "How would you describe your employment?",
+        "hasWorkExperience": "Has work experience",
+        "hasWorkExperienceQuestion": "Do you have work or internship experience?",
+        "majorField": "Major Field",
+        "majorFieldQuestion": "What option below best describes your current major field of study?",
+        "workExperience": "Experience",
+        "workExperienceQuestion": "How many years of work or internship (paid) experience do you have?",
+        "work": "Employment status",
+        "workQuestion": "Are you currently performing paid work or internship besides pursuing your studies?"
+      },
+      "employmentHoursQuestion": "How many hours do you work per week?",
+      "female": "Female",
+      "higherEducation": "Higher education institutes",
+      "higherEducationQuestion": "Which Higher Education Institutes are you currently studying at?",
+      "male": "Male"
+    },
+    "surveyPage": {
+      "ableTo": "My level of proficiency in the following competencies is",
+      "area": "Area",
+      "finish": "Finish",
+      "finishButton": "Finish",
+      "hint": "Hint",
+      "languageSelectTitle": "Select survey language",
+      "next": "Next",
+      "previous": "Previous"
+    },
+    "finishPage": {
+      "backToHome": "Back to Home screen",
+      "closeTab": "Close browser tab",
+      "deleteButton": "Request delete",
+      "deleteButtonTitle": "According to GDPR requirements you may request deletion of your previously sent data by clicking the button below",
+      "description": "We have evaluated your answers. Click Download summary to see them.",
+      "downloadResults": "Download summary",
+      "feedbackSentMessage": "Your feedback has been sent. Thank you!",
+      "form": {
+        "ratingTitle": "Please rate your experience",
+        "submitButton": "Send feedback",
+        "title": "We're happy to hear your feedback here:"
+      },
+      "interventions": "Interventions",
+      "title": "Thank you for participating!",
+      "visitEicaa": "Visit EICAA homepage"
+    }
+  },
+  "user": {
+    "menuBar": {
+      "archivedAssessments": "Archived Assessments",
+      "assessments": "Competence Monitor",
+      "cdkRepository": "Competence Development Kit",
+      "guest": "Guest",
+      "home": "Home",
+      "menuTitle": "Menu",
+      "notLoggedIn": "Not logged in",
+      "support": "Support",
+      "userTitle": "User"
+    },
+    "assessmentCard": {
+      "activate": "Activate assessment",
+      "archive": "Archive assessment",
+      "copyUrl": "Copy assessment url",
+      "createdOn": "Created on",
+      "delete": "Delete",
+      "participants": "Participants",
+      "preview": "Preview assessment",
+      "summary": "Assessment summary"
+    },
+    "registerPage": {
+      "footerMessage": "The European Commission's support for the production of this platform does not constitute an endorsement of the contents, which reflect the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.",
+      "registerButton": "Create account",
+      "organization": "Organization",
+      "position": "Position",
+      "privacyLink": "Privacy Aggreement",
+      "privacyText": "By signing up you agree to our",
+      "selectRole": "Select Role",
+      "signInText": "Already have an account?",
+      "signInLink": "Sign in",
+      "title": "Create Account"
+    },
+    "loginPage": {
+      "forgotPassword": "Forgot password?",
+      "login": "Log in",
+      "rememberMe": "Remember me",
+      "signUpText": "Don't have an account yet?",
+      "signUpLink": "Sign up",
+      "title": "Log in"
+    },
+    "passwordForgotPage": {
+      "logIn": "Back to Login",
+      "submit": "Email me a recovery link",
+      "title": "Reset your Password"
+    },
+    "passwordResetPage": {
+      "logIn": "Back to Login",
+      "submit": "Reset",
+      "title": "Reset your Password"
+    },
+    "dashboardPage": {
+      "createAssessment": "Create Assessment",
+      "createNewAssessment": "Create New Self-Assessment",
+      "liveAssessments": "Live Self-Assessments",
+      "recentActivity": "Recent Activity",
+      "title": "Welcome",
+      "timeRangeShown": "Time range shown",
+      "days": "Days"
+    },
+    "assessmentCreatePage": {
+      "assessmentCountry": "Assessment country",
+      "assessmentCreated": "Assessment successfully created",
+      "assessmentLanguages": "Assessment languages",
+      "assessmentName": "Assessment name",
+      "assessmentNamePlaceholder": "Enter the assessment name",
+      "assessmentUrl": "Assessment URL",
+      "businessAssessment": "Employee Self-Assessment",
+      "copyUrl": "Copy assessment URL",
+      "createNew": "Create new",
+      "demographicsTooltip": "Questions: Higher education institutes, Country, Education level, Major field, Education mode, Actions to create enterprise, Work experience, Employment status, Employment type, Venture founding year (if self-employed), Employment field, Employment hours",
+      "educationAssessment": "Student Self-Assessment",
+      "endDate": "End date",
+      "endDateTooltip": "Start date must be set. End date is not required. If you set an end date the assessment will become archived automatically at that date. Otherwise it must be manually archived.",
+      "maxParticipants": "Max participants",
+      "maxParticipantsPlaceholder": "Num. of participants",
+      "maxParticipantsTooltip": "The maximum number of participants is infinite by default.",
+      "overview": "Overview",
+      "participantEmails": "Collect participant emails",
+      "participantDemographics": "Include questions about demographics",
+      "preview": "Preview assessment",
+      "qrCode": "QR Code",
+      "shareResults": "Allow participants to download summary",
+      "startDate": "Start date",
+      "summary": "Summary",
+      "requiredFields": "*Required fields.",
+      "title": "Create new self-assessment",
+      "typeSelectorTitle": "Would you like to create a self-assessment of entrepreneurial competences for students or employees?"
+    },
+    "assessmentPage": {
+      "title": "Self-assessment details"
+    },
+    "assessmentArchivedPage": {
+      "archive": "Archive",
+      "title": "Archived Assessments"
+    },
+    "accountPage": {
+      "basicInformation": "Basic Information",
+      "changePassword": "Change Password",
+      "deleteAccount": "Delete Account",
+      "deleteAccountMessage": "Would you like to delete your account and surveys permanently?",
+      "forgotPassword": "Forgot password?",
+      "newPassword": "New password",
+      "title": "Account settings",
+      "updatePassword": "Update password"
+    },
+    "assessmentsPage": {
+      "assessmentType": "Self-assessment type",
+      "charts": {
+        "matrix": {
+          "description": "Heatmap showing the distribution of scores for participants of the selected assessments. Darker colors indicate higher frequency for the given competence, whereas lighter colors indicate lower frequency for the given competence. E.g. if participants of the selected dataset(s) more often scored as intermediate for competence “Design orientation”, then the blue color will be darker.",
+          "title": "Competence Heatmap",
+          "subtitle": "Explore your group's score distribution over the 19 EICAA competencies"
+        },
+        "metrics": {
+          "averageScoresByArea": "Average scores by area",
+          "averageSurveyTime": "Average survey time (seconds)",
+          "numberOfParticipants": "Number of participants",
+          "numberOfAssessments": "Number of assessments",
+          "strengthsAndWeaknesses": "Strengths and weaknesses",
+          "strengths": {
+            "title": "Strengths",
+            "help": "Help text for strengths"
+          },
+          "title": "Summary",
+          "weaknesses": {
+            "title": "Weaknesses",
+            "help": "Help text for weaknesses"
+          }
+        },
+        "radar": {
+          "description": "Spider chart showing the average scores per competence for participants of the selected assessments. Breakdown of color by competence area.",
+          "title": "Group Score Averages",
+          "subtitle": "How did your group score on the 3 dimensions of entrepreneurial competencies?"
+        },
+        "stacked": {
+          "description": "Histogram showing the distribution of participants according to different progression levels from the EICAA Competence Framework. This chart shows what proportion of the dataset falls in which progression level.",
+          "title": "Proficiency Level Distribution"
+        }
+      },
+      "data": {
+        "redaction": "Due to redaction, if a participant could be pinpointed by gender, the corresponding results are not returned, so the displayed data can be less than the selected.",
+        "redactionNoResult": "The selected results cannot be shown. If a participant could be pinpointed by gender, the corresponding results are not returned.",
+        "redactionTitle": "Redaction"
+      },
+      "dataQuery": "Data query",
+      "export": "Export",
+      "help": "Help",
+      "recommendedCdkModules": {
+        "next": "Next",
+        "previous": "Previous",
+        "subtitle": "Based on your current data selection",
+        "title": "Recommended CDK Modules",
+        "viewModule": "View Module"
+      },
+      "scores": {
+        "1": "None",
+        "2": "Basic",
+        "3": "Intermediate",
+        "4": "Advanced",
+        "5": "Expert"
+      },
+      "title": "Competence Monitor",
+      "updateDashboard": "Update dashboard"
+    },
+    "cdkRepositoryPage": {
+      "helpDescription": "The CDK offers teaching and training modules to improve entrepreneurial competences of learners. Its structure reflects the EICAA Competence Framework (see under www.eicaa.eu). First, select the relevant target of group (students or employees). Then you can filter the modules by “competence area”, “competence” and “difficulty level.",
+      "helpTitle": "How to use the Competence Development Kit (CDK)?",
+      "title": "Competence Development Kit",
+      "type": {
+        "description": "To get started, please select the relevant target group for your learning intervention:",
+        "subTitle": "Welcome to the Competence Development Kit!"
+      },
+      "list": {
+        "area": "Area",
+        "competence": "Competence",
+        "difficulty": "Difficulty",
+        "moduleName": "Module Name",
+        "subTitle": "Select a CDK module from the table below to see content:"
+      }
+    },
+    "cdkModulePage": {
+      "assessment": "Assessment",
+      "author": "Author",
+      "manual": "Manual",
+      "module": {
+        "assessment": "Assessment",
+        "author": "Author",
+        "countryOfTheIssuer": "Country of the Issuer",
+        "dateOfIssuing": "Date of Issuing",
+        "externalMaterial": "External /\n Additional Material",
+        "forUsers": "For Educators /\n Business Trainers",
+        "format": "Format",
+        "forParticipants": "For Participants",
+        "institution": "Institution",
+        "instructorManual": "Instructor Manual",
+        "learningOutcomes": "Learning Outcomes",
+        "name": "Name",
+        "otherCompetences": "Other Competences",
+        "qualityAssurance": "Quality Assurance",
+        "ratingEaseOfUse": "Ease of use",
+        "ratingHelpfulness": "How helpful was this module?",
+        "ratingInteractivity": "Interactivity",
+        "ratingNumber": "Number of ratings received:",
+        "ratingTrainingResults": "Training results",
+        "ratingRatingTitle": "Please rate the CDK module in the following categories",
+        "ratingSubmit": "Submit my rating",
+        "ratingSummaryTitle": "Other users have rated this CDK module as follows:",
+        "supervision": "Supervision of Assessment",
+        "workload": "Workload"
+      },
+      "overview": "Overview",
+      "rating": "Rate",
+      "resources": "Resources",
+      "returnToRepository": "Return to repository",
+      "scope": "Scope",
+      "title": "Competence Development Kit"
+    },
+    "qrCodePage": {
+      "download": "Download QR Code"
+    },
+    "faqPage": {
+      "hide": "Hide",
+      "show": "Show",
+      "title": "Frequently Asked Questions"
+    }
+  },
+  "faqs": {
+    "title": "FAQs EICAA Digital Platform",
+    "questions": {
+      "0": "Where can I find more information on EICAA?",
+      "1": "What is EICAA Competence Framework, where can I find it and how does it relate to the instruments on the platform?",
+      "2": "Is the use of the EICAA Digital Platform really free of charge?",
+      "3": "Are there some recommended use-cases for the EICAA Development Platform?",
+      "4": "Where can I find handbook and a technical documentation for using the digital platform?",
+      "5": "Is the EICAA self-assessment empirically validated?",
+      "6": "Is the competence self-assessments survey design responsive (working on mobile devices)?",
+      "7": "Can I create multiple assessments in one account?",
+      "8": "Can I download the data of my self-assessments?",
+      "9": "Is the EICAA Platform GDPR compliant?",
+      "10": "In case we would like to implement the self-assessment across different units of an organization (e.g. faculties), should we create one self-assessment survey (one for all) or multiple assessments (one per unit)?",
+      "11": "Would it be possible to compare the results obtained for participants from different organizational units (within the same organization)?",
+      "12": "Why do you provide standardized data in the dashboard?"
+    },
+    "answers": {
+      "0": "All information on EICAA can be found on the official EICAA website: https://www.eicaa.eu/",
+      "1": "The EICAA Conceptual Framework provides the theoretical basis for the EICAA Competence Monitor and the EICAA Competence Development Kit. It is an evolution to the European Competence Framework of the European Commission (EntreComp). You can find all full version of the EICAA Competence Framework on the EICAA website here: https://www.eicaa.eu/results/competence-framework/",
+      "2": "Yes. Using the platform is free of charge. However,  its technical instruments and the software (source and executable code) carry a European Union Public Licence (EUPL version 1.2) conditioned by the “Commons Clause” (version 1.0 - https://commonsclause.com/).",
+      "3": "Yes. We have compiled a series of use cases (university and corporate sector) and pilot applications on the EICAA website. Please find the results of the EICAA Pilot Round here: https://www.eicaa.eu/results/.",
+      "4": "Please find a handbook on the EICAA website here: https://www.eicaa.eu/results/",
+      "5": "Yes, it has been empirically validated. Please find more background information on the EICAA website under https://www.eicaa.eu/results/competence-monitor/",
+      "6": "Yes. This is the case. However, the platform itself is not design responsive.",
+      "7": "Yes, of course.",
+      "8": "Yes, we provide the option to download the raw data of your self-assessments. We do not provide the standardized and aggregated data shown in the dashboard of the Competence Monitor area. Data download comes in csv-file format. It needs to be combined with the variable keys sheet (available for download next to the csv file) which provides all information on the full variable names (competence questions of self-assessment, demographics). Both files can be retrieved from the Competence Monitor area of the platform once you have finished an assessment.",
+      "9": "Yes, it is. For more information please consult our privacy policy:  https://platform.eicaa.eu/user/privacy-policy",
+      "10": "Either way is possible: Option 1 (separate self-assessments): You can create separate assessments for each faculty (but all in one user account). This may make it easier for you to tell them apart afterwards. Option 2 (one self-assessment for all): Splitting the data afterwards is possible indirectly as the demographic questions of the self-assessment ask e.g. for “area of studies”. Such info can be used to match groups of participants (e.g. students) then to the profile of the respective unit (e.g. faculty). However, this matching may not be so accurate and depends on whether participants make the right selection in the demographics part of the self-assessment survey. Also, the data splitting would need to take place outside the platform (download csv data file from the platform and import to statistical programme of your preference, split/segment data manually there). Ultimately, whether to take option 1 or 2 is also up to your goal of analysis. If data segmentation by organizational unit does not matter for you, we would recommend Option 2.",
+      "11": "In principle, this is possible. However, you cannot directly compare different assessments inside the platform (data dashboard of Competence Monitor). You can only compile different assessments. Nevertheless, there is two ways how to compare data. 1. The data dashboard of the Competence Monitor does allow you to download the analytical charts for each assessment. In case you created separate assessments for each organizational unit, you can download the data charts and compare them manually (outside the platform) 2. You can always download your assessment data as csv file. If you then import the csv file into a statistical programme (e.g. SPSS), you can also analyze the data yourself. Of course, you could also manually merge two different csv files (two different assessments) or compile them into one csv file inside the platform beforehand before importing them altogether into a statistical programme for further (segmented) analysis. The platform also provides a file for download with the codes/keys/names of each question/item – this is needed for further analysis as the csv file data download only provides the raw data where variables are called q1, q2,q1, … .",
+      "12": "Standardized scores (z standard score) are calculated to let you know how the group of your self-assessment(s) has performed in relation to all other participants (students or employees) on the platform. We update the according reference values 1-2 times per year. Only when comparing to others you can tell whether a competence performance of your group is weak or strong. That is why we decided to show users standardized score. However, the raw data of each assessment can be downloaded in the Competence Monitor part of the platform. This option allows you to run your own statistical analysis. To do so, please always combine the raw data with the information of the file that contains the codes/keys/names of each question/ items ( downloadable next to csv file)."
+    }
+  },
+  "pdf-texts": {
+    "area": "Area",
+    "submitted-on": "Submitted on",
+    "question": "Question",
+    "competence": "Competence",
+    "answer": "Answer"
+  },
+  "gdpr": {
+    "consent": {
+      "title": "Consent to data processing",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "I agree that the data provided by me during the participation in a (self-)assessment survey may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VIII. (Data processing when participating in a (self-)assessment survey)",
+        "2": "."
+      },
+      "effect": {
+        "0": "My above consent is valid until I withdraw it. I can declare my withdrawal at any later time without giving reasons with effect for the future under the contact details given in the privacy policy under ",
+        "1": "section I. (Contact details of the controller)",
+        "2": ". Furthermore, I have the rights described in the privacy policy under ",
+        "3": "section X. (Rights as a data subject)",
+        "4": "."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Privacy policy",
+      "content": [
+        {
+          "spans": [
+            "This privacy policy applies exclusively to the website ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            ". If you visit another website, the privacy policy of the respective operator applies. This also applies to websites referred to by links from this website."
+          ]
+        },
+        {
+          "sections": [
+            {
+              "title": "Contact details of the controller",
+              "content": [
+                "The controller within the meaning of Art. 4 (7) GDPR is ",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Germany",
+                    {
+                      "spans": [
+                        "Email: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Phone: +49 345 13 14 27 00"
+                  ]
+                },
+                "represented by the managing director Daniel Worch. Entry in the Commercial Register of the Stendal District Court. Register number: HRB 5703"
+              ]
+            },
+            {
+              "title": "Contact details of the data protection officer",
+              "content": [
+                "The data protection officer can also be reached at the contact details of the data controller and at the following e-mail address:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Data Protection Officer",
+                    "Weinbergweg 23",
+                    "06120 Halle, Germany",
+                    {
+                      "spans": [
+                        "Email: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "General information on data processing",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "As a matter of principle, we only process personal data insofar as this is necessary for the provision and optimisation of a functional website as well as our content and services.",
+                        "According to Art. 4 No. 1 GDPR, personal data means any information relating to an identified or identifiable natural person. An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+                        "The processing of personal data of our users is regularly only carried out with the consent of the user. An exception applies in those cases in which the processing of the data is permitted by legal regulations."
+                      ]
+                    },
+                    {
+                      "title": "Legal basis for the processing of personal data",
+                      "content": [
+                        "Insofar as we obtain the consent of the data subject for processing operations involving personal data, Article 6 (1) lit. a GDPR serves as the legal basis for the processing of personal data.",
+                        "When processing personal data that is necessary for the performance of a contract to which the data subject is a party, Art. 6 (1) lit. b GDPR serves as the legal basis. This also applies to processing operations that are necessary for the implementation of pre-contractual measures.",
+                        "Insofar as the processing of personal data is necessary for the fulfilment of a legal obligation to which our company is subject, Art. 6 (1) lit. c GDPR serves as the legal basis.",
+                        "If the processing is necessary to protect a legitimate interest of us or a third party and the interests, fundamental rights and freedoms of the data subject do not outweigh the first-mentioned interest, Art. 6 (1) lit. f GDPR serves as the legal basis for the processing."
+                      ]
+                    },
+                    {
+                      "title": "Data deletion and storage period",
+                      "content": [
+                        "Your personal data will be deleted or blocked as soon as the purpose of the storage no longer applies. In addition, storage may take place if this has been provided for by the European or national legislator in EU regulations, laws or other provisions to which the controller is subject. The data will also be blocked or deleted if a storage period prescribed by the aforementioned standards expires, unless there is a necessity for the continued storage of the data for the conclusion or fulfilment of a contract."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Provision of the website and creation of log files",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "When you access our website, the browser used on your end device automatically sends information to our website server. This information is temporarily stored in a so-called log file.",
+                        "The following data is collected:",
+                        {
+                          "list": [
+                            "IP address of the requesting device",
+                            "Date and time of access",
+                            "Website from which the access is made (referrer URL)",
+                            "Browser used",
+                            "Operating system of the device and the name of the access provider"
+                          ]
+                        },
+                        "This data is also stored in the log files of our system. This data is not stored together with other personal data of the user. Our website is hosted on servers exclusively in Germany by Digital Oceans Inc."
+                      ]
+                    },
+                    {
+                      "title": "Legal basis",
+                      "content": [
+                        "The legal basis for the temporary storage of the data in the log files is Art. 6 (1) lit. f GDPR."
+                      ]
+                    },
+                    {
+                      "title": "Duration of storage",
+                      "content": [
+                        "The temporary storage serves to ensure the functionality of the website. Furthermore, the data serves to optimise the website and to ensure the security of our systems. ",
+                        "The personal data is deleted as soon as it is no longer required to achieve the purpose for which it was collected. In the case of the collection of data for the provision of the website, this is the case when the respective session has ended; in the case of the storage of data in log files, this is the case after six months at the latest."
+                      ]
+                    },
+                    {
+                      "title": "Right of objection",
+                      "content": [
+                        "The collection of data for the provision of the website and the storage of the data in log files is absolutely necessary for the operation of the website. Consequently, there is no possibility for the user to object."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Cookies",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "We use cookies on our website. These are small files that are automatically created by your browser and stored on your device (laptop, tablet, smartphone or similar) when you visit our website. Cookies do not cause any damage to your device and do not contain any viruses, Trojans or other malware.",
+                        "Information is stored in the cookie that arises in connection with the specific end device used. However, this does not mean that we gain direct knowledge of your identity.",
+                        "The use of cookies serves on the one hand, to make the use of our offer more pleasant for you. We use so-called session cookies to recognise that you have already visited individual pages of our website. These are automatically deleted after you leave our site.",
+                        "In addition, we also use temporary cookies to optimise user-friendliness, which are stored on your end device for a certain fixed period of time. If you visit our site again to use our services, it is automatically recognised that you have already been with us and which entries and settings you have made so that you do not have to enter them again.",
+                        "On the other hand, we use cookies to statistically record the use of our website and to evaluate it for the purpose of optimising our offer for you. These cookies enable us to automatically recognise that you have already been to our site when you visit it again.",
+                        "Most browsers accept cookies automatically. However, you can configure your browser in such a way that no cookies are stored on your device or a message always appears before a new cookie is created. However, the complete deactivation of cookies may mean that you cannot use all the functions of our website."
+                      ]
+                    },
+                    {
+                      "title": "Legal basis",
+                      "content": [
+                        "The use of such cookies, which are absolutely necessary for the operation of our website and the provision of services, is based on Art. 6 (1) lit. b or f GDPR. Our legitimate interest is to ensure the functioning of our websites and their optimal usability.",
+                        "The use of all non-essential cookies is exclusively based on your consent that you can provide at the beginning of the use of our website. The legal basis for the use of these cookies is Art. 6 (1) lit. a GDPR."
+                      ]
+                    },
+                    {
+                      "title": "Duration of storage",
+                      "content": [
+                        "Cookies are stored on the user's computer and transmitted from it to our site. Therefore, users also have full control over the use of cookies. By changing the settings in the internet browser, the transmission of cookies can be deactivated or restricted. Cookies that have already been stored can be deleted at any time. This can also be done automatically. If cookies are deactivated for our website, it may no longer be possible to use all functions of the website to their full extent."
+                      ]
+                    },
+                    {
+                      "title": "Cookies used on our website",
+                      "content": [
+                        "We use the following cookies on our website:",
+                        {
+                          "table": {
+                            "header": ["Name of cookie", "Provider", "Description", "Duration"],
+                            "body": [
+                              [
+                                "universal-cookie-express\n(session cookie)",
+                                "React JS framework",
+                                "Hook cookies get/set on express for server-rendering",
+                                "Duration of user session"
+                              ],
+                              [
+                                "universal-cookie\n(session cookie)",
+                                "React JS framework",
+                                "Needed for user authentication on platform/website",
+                                "Duration of user session"
+                              ],
+                              [
+                                "Matomo cookies",
+                                "Matomo",
+                                "Matomo uses cookies to enable an analysis of the surfing behaviour.",
+                                "6 months"
+                              ],
+                              [
+                                "Borlabs-cookie ",
+                                "Borlabs",
+                                "Saves the settings of the visitors selected in the Cookie Box of Borlabs Cookie.",
+                                "1 year"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Web analysis via Matomo",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "The website uses the open source software tool Matomo to analyse user behaviour on our website. This is an open source tool for web analysis. Matomo does not collect session data without your consent.",
+                        "Matomo uses cookies. These text files are stored on your device and make it possible to analyse the use of the website. For this purpose, the usage information obtained through the cookie is transmitted and stored so that usage behaviour can be evaluated. The IP address is an anonymous identifier and we have no technical means of identifying registered users.",
+                        "When consenting to web analysis using Matomo, the following data will be collected when you access the website:",
+                        {
+                          "list": [
+                            "parts of the IP address of the calling system of the user",
+                            "the website accessed",
+                            "Website from which the access is made (referrer URL)",
+                            "the sub-pages that are accessed from the accessed website",
+                            "the length of stay on the website",
+                            "the frequency with which the website is accessed"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Legal basis",
+                      "content": [
+                        "The legal basis for the processing of personal data is Art. 6 (1) lit. a GDPR."
+                      ]
+                    },
+                    {
+                      "title": "Duration of storage",
+                      "content": [
+                        "The data is deleted as soon as it is no longer needed for our recording purposes. The statistics generated and underlying data are not deleted."
+                      ]
+                    },
+                    {
+                      "title": "Withdrawal of consent",
+                      "content": [
+                        "The consent given by the user can be revoked at any time for the future."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Data processing during registration of a user account",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "If the user decides to create a user account, the following personal data will be collected during the registration process:",
+                        {
+                          "list": [
+                            "E-mail address",
+                            "Password (for account on platform/website)",
+                            "Surname",
+                            "First name",
+                            "Name of the organisation",
+                            "Country of the organisation",
+                            "Position in organisation"
+                          ]
+                        },
+                        "The data is processed for the purpose of providing various functions of the website (e.g. creation of a (self-)assessment survey ), which could not be used without the registration and use of a user account.",
+                        "Within the scope of registration and use of the user account, we store the IP address and the time of the respective user action. The storage is based on our legitimate interests, as well as in the interest of the user to protect against misuse and other unauthorised use of the user account by a third party.",
+                        "The processed data will be transmitted in anonymized form to the Entrepreneurial and Intrapreneurial Competences Assessment Alliance (hereinafter referred to as \"EICAA Consortium\"). The anonymization is done by removing the e-mail address, the name and the first name of the user from the transmitted data set. The data will also be transmitted to the creator of the (self-)assessment survey."
+                      ]
+                    },
+                    {
+                      "title": "Legal basis",
+                      "content": [
+                        "The legal basis for the processing of personal data when creating a user account is Art. 6 (1) lit. a GDPR."
+                      ]
+                    },
+                    {
+                      "title": "Duration of storage",
+                      "content": [
+                        "The personal data will be stored for as long as the above-mentioned purposes for processing require and there is no longer a legal obligation to retain the data. The necessity ceases as soon as the user deletes his user account. In the case of legal archiving obligations, the deletion takes place after their expiry."
+                      ]
+                    },
+                    {
+                      "title": "Withdrawal of consent",
+                      "content": [
+                        "Consent to the processing of data can be withdrawn at any time without affecting the legitimacy of the processing carried out on the basis of the consent until withdrawal."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Data processing when participating in a (self-)assessment survey",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Scope and purpose of data processing",
+                      "content": [
+                        "If users decide to participate in a (self-)assessment survey, personal data will be collected. Users who participate in a (self-)assessment survey are hereinafter referred to as participants.",
+                        "The following personal data will be collected from participants:",
+                        {
+                          "list": [
+                            "Country in which participant has received most education",
+                            "Level of education currently pursued",
+                            "Major field of study",
+                            "Existence of work or internship experience",
+                            "Years of work or internship experience",
+                            "Whether participant is currently performing paid work or internship besides pursuing studies",
+                            "Description of employment (employed or self-employed)",
+                            "Gender identity",
+                            "Age group"
+                          ]
+                        },
+                        "The data is used for the purpose of evaluating the (self-)assessment surveys and as a basis for further scientific analysis. This primarily serves to classify the participants of the survey into norm groups based on the data collected. The following norm groups or combinations of them are formed:",
+                        {
+                          "list": [
+                            "Country in which participant has received most education",
+                            "Level of education currently pursued",
+                            "Major field of study",
+                            "Existence of work or internship experience",
+                            "Years of work or internship experience",
+                            "Whether participant is currently performing paid work or internship besides pursuing studies",
+                            "Description of employment (employed or self-employed)",
+                            "Gender identity",
+                            "Age group"
+                          ]
+                        },
+                        "The processed data will be anonymized and then transmitted to the Entrepreneurial and Intrapreneurial Competences Assessment Alliance (hereinafter referred to as \"EICAA Consortium\"). The data will also be transmitted to the creator of the (self-)assessment survey."
+                      ]
+                    },
+                    {
+                      "title": "Legal basis",
+                      "content": [
+                        "The legal basis for the processing of personal data when filling out the (self-)assessment survey is Art. 6 (1) lit. a GDPR."
+                      ]
+                    },
+                    {
+                      "title": "Duration of storage",
+                      "content": [
+                        "The personal data will be stored for as long as the above-mentioned purposes for processing require and there is no longer a legal obligation to retain the data."
+                      ]
+                    },
+                    {
+                      "title": "Withdrawal of consent",
+                      "content": [
+                        "Consent to the processing of data can be withdrawn at any time without affecting the legitimacy of the processing carried out on the basis of the consent until withdrawal."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Processing of data in countries outside the European Economic Area",
+              "content": [
+                "If we process data in third countries (countries outside the EU/EEA) or transfer it to companies in third countries, we only do so if we are authorised to do so by you or by law. If there is no adequacy decision by the Commission for the third country concerned in accordance with Art. 45 GDPR, i.e. if there is no adequate level of data protection in the third country, we ensure by means of contractual provisions (EU standard contractual clauses on data protection) or other suitable guarantees within the meaning of Art. 46 GDPR that your privacy and your personal data are also protected in the company in the third country in an adequate manner provided for by law."
+              ]
+            },
+            {
+              "title": "Rights as a data subject",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Right to confirmation",
+                      "content": [
+                        "You have the right to request confirmation from us as to whether personal data relating to you is being processed."
+                      ]
+                    },
+                    {
+                      "title": "Right of access Art. 15 GDPR",
+                      "content": [
+                        "You have the right to receive free information from us at any time about the personal data stored about you, as well as a copy of this data."
+                      ]
+                    },
+                    {
+                      "title": "Right of rectification Art. 16 GDPR",
+                      "content": [
+                        "You have the right to request the rectification of inaccurate personal data concerning you. Furthermore, the data subject has the right to request the completion of incomplete personal data, taking into account the purposes of the processing."
+                      ]
+                    },
+                    {
+                      "title": "Deletion Art. 17 GDPR",
+                      "content": [
+                        "You have the right to request that we delete the personal data concerning you without delay, provided that one of the grounds provided for by law applies and insofar as the processing is not necessary. ",
+                        "Our website also allows users to delete their personal data themselves. The creator of the (self-)assessment survey can delete his data by deleting his account. The participant in the (self-)assessment survey can delete his/her data at the end of the survey."
+                      ]
+                    },
+                    {
+                      "title": "Restriction of processing Art. 18 GDPR",
+                      "content": [
+                        "You have the right to demand that we restrict processing if one of the legal requirements is met."
+                      ]
+                    },
+                    {
+                      "title": "Data portability Art. 20 GDPR",
+                      "content": [
+                        "You have the right to receive the personal data concerning you, which has been provided to us by you, in a structured, common and machine-readable format. You also have the right to transfer this data to another controller without hindrance from us to whom the personal data has been provided, provided that the processing is based on consent pursuant to Art. 6 (1) lit. a GDPR or Art. 9 (2) lit. a GDPR or on a contract pursuant to Art. 6 (1) lit. b GDPR and the processing is carried out with the aid of automated procedures, unless the processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in us.",
+                        "Furthermore, when exercising your right to data portability in accordance with Art. 20 (1) GDPR, you have the right to have the personal data transferred directly from one controller to another controller, insofar as this is technically feasible and provided that this does not adversely affect the rights and freedoms of other individuals."
+                      ]
+                    },
+                    {
+                      "title": "Objection Art. 21 GDPR",
+                      "content": [
+                        "You have the right to object at any time, on grounds relating to your particular situation, to the processing of personal data relating to you which is carried out on the basis of Art. 6 (1) lit. e (data processing in the public interest) or lit. f (data processing on the basis of a balance of interests) of the GDPR. This also applies to profiling based on these provisions within the meaning of Art. 4 No. 4 GDPR.",
+                        "If you object, we will no longer process your personal data unless we can demonstrate compelling legitimate grounds for the processing which override your interests, rights and freedoms, or the processing serves the assertion, exercise or defence of legal claims."
+                      ]
+                    },
+                    {
+                      "title": "Withdrawal of consent under data protection law",
+                      "content": [
+                        "You have the right to withdraw consent to the processing of personal data at any time with effect for the future."
+                      ]
+                    },
+                    {
+                      "title": "Complaint to a supervisory authority",
+                      "content": [
+                        "You have the right to complain about our processing of personal data to a supervisory authority responsible for data protection."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Up-to-dateness and amendment of the privacy policy",
+              "content": [
+                "This privacy policy is currently valid and has the status November 2022.",
+                "Due to the further development of our websites and offers or due to changed legal or official requirements, it may become necessary to change this privacy policy."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

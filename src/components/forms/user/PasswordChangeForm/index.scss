@@ -1,0 +1,57 @@
+@import "../../../../assets/style/colors";
+
+.password-change-form {
+  &__container {
+    width: 100%;
+    background: $color-white;
+    padding: 40px;
+    border: 1px solid $color-grey-lightest;
+    border-radius: 10px;
+    margin-bottom: 33px;
+  }
+  
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+  }
+  
+  &__input,
+  &__select {
+    width: 100%;
+    
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__link {
+    color: $color-primary-light;
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid $color-grey-lightest;
+    transition-duration: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      color: $color-primary-lighter;
+      transition-duration: 0.2s;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  &__button {
+    width: 208px;
+  }
+}

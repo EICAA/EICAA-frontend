@@ -1,0 +1,54 @@
+@import "../../../assets/style/colors";
+
+.menu-bar-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 64px;
+  padding: 0 35px;
+  transition-duration: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background: $color-primary-lightest;
+  }
+
+  &.-disabled {
+    pointer-events: none;
+  }
+
+  &__icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    width: 39px;
+    margin-right: 10px;
+    border-radius: 20px;
+    flex-shrink: 0;
+
+    &.-active {
+      background: $color-primary-light;
+    }
+  }
+
+  &__icon {
+    &.-disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &__label {
+    color: $color-grey-darker;
+    font-size: 14px;
+
+    &.-active {
+      color: $color-primary-light;
+    }
+
+    &.-disabled {
+      color: $color-grey-lighter;
+    }
+  }
+}

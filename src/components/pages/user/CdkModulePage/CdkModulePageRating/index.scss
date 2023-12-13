@@ -1,0 +1,36 @@
+@import '../../../../../assets/style/colors';
+
+.cdk-module-page-rating {
+  width: 100%;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar-track {
+    background-color: $color-white;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: $color-grey-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-grey-light;
+    border-radius: 10px;
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+  }
+}

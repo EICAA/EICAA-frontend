@@ -1,0 +1,40 @@
+@import "../../../../../assets/style/colors";
+
+.result-info {
+  position: relative;
+  top: -500px;
+  font-size: 13px;
+
+  &:not(.open) {
+    max-height: 0;
+  }
+
+  &.open {
+    top: 0px;
+    padding: 4px 0 12px;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgba($color-grey-lighter, 0.25);
+    margin: 4px 6px 4px 0;
+  }
+
+  &__row {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    span {
+      &.label {
+        flex-basis: 40%;
+      }
+
+      &.value {
+        flex-basis: 60%;
+        text-align: right;
+      }
+    }
+  }
+}

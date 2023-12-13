@@ -1,0 +1,41 @@
+@import "../../../../assets/style/colors";
+@import "../../../../assets/style/functions";
+@import "../../../../assets/style/breakpoints";
+
+
+.single-list-recommendations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $color-white;
+  max-width: 480px;
+  min-width: 480px;
+  height: 80vh;
+  padding: 40px 32px;
+  border-radius: 6px;
+
+  &__header {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    color: $color-primary-darkest;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  &__content {
+    height: 100%;
+    overflow-y: auto;
+    @include hideScrollbar();
+  }
+}

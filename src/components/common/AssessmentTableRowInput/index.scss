@@ -1,0 +1,18 @@
+@import "../../../assets/style/colors";
+
+.assessment-table-row-input {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.-checked {
+    background-color: $color-white-dark-2;
+    pointer-events: none;
+  }
+
+  &__checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

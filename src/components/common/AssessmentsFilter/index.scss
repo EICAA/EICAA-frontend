@@ -1,0 +1,31 @@
+@import "../../../assets/style/colors";
+
+.assessments-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $color-white;
+  max-width: 300px;
+  min-width: 288px;
+  height: 720px;
+  padding: 13px 24px 20px;
+  border-radius: 6px;
+
+  &__header {
+    border-bottom: 2px solid $color-grey-lightest;
+  }
+
+  &__body {
+    overflow-y: auto;
+    max-height: 435px; 
+  }
+
+  &__select, &__button {
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+
+  &__button {
+    width: 100%;
+  }
+}

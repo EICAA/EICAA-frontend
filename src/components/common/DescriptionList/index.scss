@@ -1,0 +1,10 @@
+@import '../../../assets/style/colors';
+@import '../../../assets/style/breakpoints';
+
+.description-list {
+  padding-inline-start: 20px;
+
+  &__item {
+    line-height: 150%;
+  } 
+}

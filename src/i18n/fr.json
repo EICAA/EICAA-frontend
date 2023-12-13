@@ -1,0 +1,225 @@
+{
+  "common": {
+    "assessment": "Assessment",
+    "attention": "Attention",
+    "back": "Back",
+    "business": "Business",
+    "cancel": "Cancel",
+    "choose": "Choose",
+    "country": "Country",
+    "create": "Create",
+    "email": "Email",
+    "employees": "Employees",
+    "faqs": "FAQs",
+    "firstName": "First Name",
+    "higherEducation": "Higher Education",
+    "home": "Home",
+    "language": "Language",
+    "lastName": "Last Name",
+    "loading": "Loading",
+    "no": "No",
+    "noData": "No data",
+    "ok": "Ok",
+    "organization": "Organization",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "preview": "Aperçu",
+    "privacyPolicy": "Privacy Policy",
+    "role": "Role",
+    "saveChanges": "Save changes",
+    "search": "Rechercher",
+    "select": "Select",
+    "start": "Start",
+    "students": "Students",
+    "year": "Year",
+    "yes": "Yes"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Activate Assessment",
+    "confirmationEmailMessage": "We've sent a confirmation mail to your email address to activate your account",
+    "confirmationEmailTitle": "Activate Account",
+    "deleteRequestMessage": "Your request has been sent! Your data will soon be deleted.",
+    "deleteRequestTitle": "Success",
+    "deleteRequestWarningMessage": "Are you sure you want your data to be deleted? This process is irreversible.",
+    "deleteRequestWarningTitle": "Warning",
+    "feedbackSentMessage": "Your feedback has been sent. Thank you!",
+    "feedbackSentTitle": "Success",
+    "forgotPasswordMessage": "We've sent you an email containing a link you can use to reset your password",
+    "languageSelectTitle": "Select Language",
+    "resetPasswordMessage": "Your password has been reset.",
+    "successfulAccountDeleteMessage": "You have successfully deleted your account",
+    "successfulAccountDeleteTitle": "Success",
+    "successfulAccountEditMessage": "You have successfully changed your account details",
+    "successfulAccountEditTitle": "Success",
+    "successfulPasswordChangeMessage": "You have successfully changed your password",
+    "successfulPasswordChangeTitle": "Success",
+    "successfulRegisterTitle": "Successful registration",
+    "successfulRegisterMessage": "You have successfully created your account",
+    "successTitle": "Success"
+  },
+  "pdf-texts": {
+    "area": "Zone",
+    "submitted-on": "Soumis le",
+    "question": "Question",
+    "competence": "Compétence",
+    "answer": "Réponse"
+    },
+  "snackBars": {
+    "assessmentActivated": "Assessment activated",
+    "assessmentArchived": "Assessment archived",
+    "assessmentCreated": "Assessment created",
+    "copyUrlFailure": "Failed to copy URL",
+    "copyUrlSuccess": "URL copied successfully"
+  },
+  "errors": {
+    "acceptTerms": "You must accept these terms",
+    "datePast": "You must not set a past date",
+    "dateBeforeStart": "Date must be later than start date",
+    "emailEmpty": "Email is empty",
+    "emailInvalid": "Please enter a valid email address",
+    "fieldRequired": "This field is required",
+    "mustBeWhole": "Must be a whole number",
+    "passwordEmpty": "Enter password",
+    "passwordMismatch": "Passwords must match",
+    "passwordTooShort": "Password  can't be less than 8 characters",
+    "textTooLong": "Text is too long",
+    "valueTooHigh": "Value too high",
+    "valueTooLow": "Value too low"
+  },
+  "apiErrors": {
+    "titleDefault": "Error",
+    "messageDefault": "An unknown error occurred. Please try again",
+    "internalServerError": "Internal server error",
+    "storageError": "An internal error occured. Please reload the page",
+    "auth": {
+      "failed-to-auth": "Authentication failed",
+      "invalid-reset-password-token": "Invalid reset password token",
+      "user-already-exists": "User already exists"
+    },
+    "field": {
+      "required": "A required field is missing",
+      "length-exceeded": "A field's length is exceeded",
+      "date": {
+        "cannot-end-before-start": "End date cannot before start date"
+      },
+      "number": {
+        "should-be": {
+          "integer": "The number should be an integer",
+          "positive": "The number should be positive",
+          "not-negative": "The number should not be negative"
+        },
+        "too-large": "Too large number was entered"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "Assessment is already submitted",
+        "max-participants-reached": "Assessment is full, cannot take more submissions",
+        "not-active": "Assessment is inactive (not open for submission)",
+        "not-found": "Assessment is not found"
+      },
+      "result": {
+        "invalid-result-token": "Result token is invalid"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "Assessment is not found"
+      },
+      "not-exists": "User not exists",
+      "password-invalid": "Invalid password"
+    },
+    "incognitoBrowser": "Your browser does not support certain features of our software. To continue, please open the URL in a non-private browser tab or another browser such as Google Chrome, Safari, Mozilla Firefox (non-private only), Microsoft Edge or Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "The page you were looking for is not found. Click the button below to return to the previous page."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "The page you were looking for is not available. Please use the link you received in the email to start an assessment. You may close this tab now."
+    },
+    "landingPage": {
+      "title": "Welcome to the Entrepreneurial and<br />Intrapreneurial Competence Assessment",
+      "description": "Dear participant,<br />Welcome to your entrepreneurial competence assessment on the EICAA platform! The following sections will ask you questions on how you consider your entrepreneurial abilities. It is important that you take time to fully understand each question and that you answer honestly. Your responses are completely anonymous.<br />Getting to the end of the assessment will take ~10 minutes. You can get your results directly after completing the assessment.<br />Enjoy your self-assessment!",
+      "disclaimer": "Note: Some of the questions relate to ‘an intrapreneurial idea’. An intrapreneurial idea can be defined as an idea with the intention to develop a new venture within an existing organization, to exploit a new opportunity and create economic value",
+      "checkboxTextPart1": "I accept the ",
+      "checkboxTextPart2": "Privacy Policy"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Age group",
+        "ageGroupQuestion": "Which age group do you belong to?",
+        "gender": "Gender",
+        "genderQuestion": "What is your gender identity?",
+        "hasWorkExperienceQuestion": "Do you have work or internship experience?"
+      },
+      "employee": {
+        "countryQuestion": "In which country have you spend most of your career in?",
+        "educationLevel": "Education level",
+        "educationLevelQuestion": "What is the highest level of education you have obtained, if any?",
+        "levelOfPosition": "Position level",
+        "levelOfPositionQuestion": "What is the level of your position?",
+        "organisationSize": "Organisation size",
+        "organisationSizeQuestion": "What is the size of your organisation?",
+        "organisationType": "Organisation type",
+        "organisationTypeQuestion": "What is the type of your organisation?",
+        "workExperience": "Experience",
+        "workExperienceQuestion": "How many years of work experience do you have?",
+        "workField": "Field",
+        "workFieldQuestion": "In which field do you work?"
+      },
+      "student": {
+        "countryQuestion": "In which country have you received most of your education?",
+        "educationLevel": "Education level",
+        "educationLevelQuestion": "What is the main level of education you are currently pursuing?",
+        "employmentField": "Field",
+        "employmentFieldQuestion": "In which field do you work?",
+        "employmentType": "Employment type",
+        "employmentTypeQuestion": "How would you describe your employment?",
+        "majorField": "Major Field",
+        "majorFieldQuestion": "What option below best describes your current major field of study?",
+        "someQuestions": "Some questions about you",
+        "title": "Demographics",
+        "workExperience": "Experience",
+        "workExperienceQuestion": "How many years of work or internship (paid) experience do you have?",
+        "workQuestion": "Are you currently performing paid work or internship besides pursuing your studies?"
+      },
+      "employmentHoursQuestion": "How many hours do you work per week?",
+      "female": "Female",
+      "higherEducation": "Higher education institutes",
+      "higherEducationQuestion": "Which Higher Education Institutes are you currently studying at?",
+      "male": "Male"
+    },
+    "surveyPage": {
+      "ableTo": "My level of proficiency in the following competencies is",
+      "area": "Area",
+      "finish": "Finish",
+      "finishButton": "Finish",
+      "hint": "Hint",
+      "languageSelectTitle": "Select survey language",
+      "next": "Next",
+      "previous": "Previous"
+    },
+    "finishPage": {
+      "backToHome": "Back to Home screen",
+      "closeTab": "Close browser tab",
+      "deleteButton": "Request delete",
+      "deleteButtonTitle": "According to GDPR requirements you may request deletion of your previously sent data by clicking the button below",
+      "description": "We have evaluated your answers. Click Download summary to see them.",
+      "downloadResults": "Download summary",
+      "feedbackSentMessage": "Your feedback has been sent. Thank you!",
+      "form": {
+        "ratingTitle": "Please rate your experience",
+        "submitButton": "Send feedback",
+        "title": "We're happy to hear your feedback here:"
+      },
+      "interventions": "Interventions",
+      "title": "Thank you for participating!",
+      "visitEicaa": "Visit EICAA homepage"
+    }
+  }
+}

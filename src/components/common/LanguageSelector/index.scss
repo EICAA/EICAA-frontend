@@ -1,0 +1,82 @@
+@import '../../../assets/style/colors';
+@import "../../../assets/style/breakpoints";
+
+.language-selector {
+  position: relative;
+
+  &.-open {
+    z-index: 100;
+  }
+
+  &__current-language {
+    border: 2px solid $color-grey-light;
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 0.2s;
+
+    &:hover {
+      cursor: pointer;
+      transition-duration: 0.2s;
+      border-color: $color-primary-light;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      border-width: 1px;
+      border-radius: 7px;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: 233px;
+    border: 2px solid $color-grey-light;
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+
+    &.-hidden {
+      height: 0;
+      transition-duration: 0.5s;
+      border-color: transparent;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      height: 156px;
+      border-width: 1px;
+      border-radius: 7px;
+    }
+
+    &-item {
+      background-color: $color-white;
+      transition-duration: 0.2s;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid $color-grey-lightest;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transition-duration: 0.2s;
+        background-color: $color-primary-lightest;
+        color: $color-primary-light;
+      }
+    }
+  }
+
+  &__backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+
+    &.-hidden {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+@import '../../../../assets/style/colors';
+@import '../../../../assets/style/breakpoints';
+
+
+.assessment-create-form {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 40px;
+    border-bottom: 1px solid $color-white-darker;
+
+    @media (max-width: $breakpoint-xl) {
+      flex-direction: column;
+    }    
+
+    &-part {
+      flex: 1 1 50%;
+
+      @media (max-width: $breakpoint-xl) {
+        flex: 1 1 100%;
+      } 
+
+      &:first-child {
+        padding-right: 25px;
+
+        @media (max-width: $breakpoint-xl) {
+          padding-right: 0px;
+        }
+      }
+
+      &:last-child {
+        padding-left: 25px;
+
+        @media (max-width: $breakpoint-xl) {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+
+  &__date-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: $breakpoint-xxxl) {
+      display: flex;
+      flex-direction: column;
+    } 
+  }
+
+  &__input {
+    .input-text-field {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &.-low-width {
+      width: 80%;
+
+      @media (max-width: $breakpoint-xl) {
+        width: 100%;
+      } 
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+  }
+
+  &__radio-input {
+    .radio-button-select {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__select {
+    .select-field {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &.-multi {
+      min-height: 110px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__date-input {
+    width: calc(50% - 4px);
+
+    .date-input {
+      &__label {
+        color: $color-primary-darker;
+        font-size: 14px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+  }
+
+  &__button {
+    width: 208px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__required-fields {
+    color: $color-primary-darker;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

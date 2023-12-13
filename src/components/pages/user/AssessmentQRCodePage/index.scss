@@ -1,0 +1,84 @@
+@import '../../../../assets/style/colors';
+@import '../../../../assets/style/breakpoints';
+@import '../../../../assets/style/functions';
+
+.qr-code-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  max-width: 1284px;
+  margin: 5px auto;
+  padding: 20px 0 50px;
+  overflow-y: auto;
+  @include hideScrollbar();
+
+  @media (max-width: $breakpoint-xl) {
+    padding: 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+
+    @media (max-width: $breakpoint-lg) {
+      padding: 20px;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  &__logo {
+    &-eicaa {
+      background-image: url('/assets/logos/logo-eicaa.png'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 144px;
+      height: 70px;
+      margin-right: 56px;
+    }
+
+    &-eu {
+      background-image: url('/assets/logos/logo-eu-text.svg'), none;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 153px;
+      height: 33px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 30px 0 79px 0;
+    
+    @media (max-width: $breakpoint-lg) {
+      margin: 20px 0 56px 0;
+    }
+  }
+
+  &__parallelograms {
+    flex-shrink: 0;
+    background-image: url('/assets/images/parallelograms.svg'), none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    aspect-ratio: 947/120;
+    margin-bottom: 40px;
+  }
+}

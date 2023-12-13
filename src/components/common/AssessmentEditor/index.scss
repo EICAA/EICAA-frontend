@@ -1,0 +1,40 @@
+@import "../../../assets/style/colors";
+
+.assessment-editor {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1016px;
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 19px;
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__body {
+    background: $color-white;
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  &__content {
+    border-top: 14px solid $color-white;
+    border-radius: 6px;
+
+    &.-green-top {
+      border-top-color: $color-green;
+    }
+
+    &.-turquoise-lighter-top {
+      border-top-color: $color-turquoise-lighter;
+    }
+  }
+}

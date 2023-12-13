@@ -1,0 +1,14 @@
+@import '../../../../assets/style/colors';
+
+.breadcrumb-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $color-primary-darker;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 3px;
+}

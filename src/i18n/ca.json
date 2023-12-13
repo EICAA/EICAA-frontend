@@ -1,0 +1,697 @@
+{
+  "common": {
+    "assessment": "Valoració",
+    "attention": "Atenció",
+    "back": "Esquena",
+    "business": "Negocis",
+    "cancel": "Cancel·lar",
+    "choose": "Escollir",
+    "country": "Camp",
+    "create": "Crear",
+    "email": "Correu electrònic",
+    "employees": "Empleats",
+    "faqs": "Preguntes freqüents",
+    "firstName": "Nom",
+    "higherEducation": "Educació superior",
+    "home": "Casa",
+    "language": "Llenguatge",
+    "lastName": "Cognom",
+    "loading": "Càrrega",
+    "no": "No",
+    "noData": "No hi ha dades",
+    "ok": "D'acord",
+    "organization": "Organització",
+    "password": "Contrasenya",
+    "passwordConfirm": "Confirma la contrassenya",
+    "preview": "Vista prèvia",
+    "privacyPolicy": "Política de Privacitat",
+    "role": "Paper",
+    "saveChanges": "Guardar canvis",
+    "search": "Cerca",
+    "select": "Seleccionar",
+    "start": "Inici",
+    "students": "Estudiants",
+    "year": "Curs",
+    "yes": "Sí"
+  },
+  "modals": {
+    "activateAssessmentTitle": "Activa l'avaluació",
+    "confirmationEmailMessage": "Hem enviat un correu de confirmació a la vostra adreça de correu electrònic per activar el vostre compte",
+    "confirmationEmailTitle": "Activa el compte",
+    "deleteRequestMessage": "La teva sol·licitud ha estat enviada! Les teves dades seran eliminades en breu.",
+    "deleteRequestTitle": "Èxit",
+    "deleteRequestWarningMessage": "Estàs segur que vols que se suprimeixin les teves dades? Aquest procés és irreversible.",
+    "deleteRequestWarningTitle": "Advertència",
+    "feedbackSentMessage": "S'han enviat els vostres comentaris. Gràcies!",
+    "feedbackSentTitle": "Èxit",
+    "forgotPasswordMessage": "Us hem enviat un correu electrònic que conté un enllaç que podeu utilitzar per restablir la vostra contrasenya",
+    "languageSelectTitle": "Escolliu l'idioma",
+    "resetPasswordMessage": "La vostra contrasenya s'ha restablert.",
+    "successfulAccountDeleteMessage": "Heu suprimit amb èxit el vostre compte",
+    "successfulAccountDeleteTitle": "Èxit",
+    "successfulAccountEditMessage": "Heu canviat amb èxit les dades del vostre compte",
+    "successfulAccountEditTitle": "Èxit",
+    "successfulPasswordChangeMessage": "Has canviat correctament la teva contrassenya",
+    "successfulPasswordChangeTitle": "Èxit",
+    "successfulRegisterTitle": "Inscripció amb èxit",
+    "successfulRegisterMessage": "Heu creat el vostre compte amb èxit",
+    "successTitle": "Èxit"
+  },
+  "snackBars": {
+    "assessmentActivated": "Avaluació activada",
+    "assessmentArchived": "Avaluació arxivada",
+    "assessmentCreated": "Avaluació creada",
+    "copyUrlFailure": "No s'ha pogut copiar l'URL",
+    "copyUrlSuccess": "L’URL va copiar amb èxit"
+  },
+  "errors": {
+    "acceptTerms": "Heu d’acceptar aquests termes",
+    "datePast": "No heu de definir una data passada",
+    "dateBeforeStart": "La data ha de ser més tard de la data d’inici",
+    "emailEmpty": "El correu electrònic està buit",
+    "emailInvalid": "siusplau, introdueixi una adreça de correu electrònic vàlida",
+    "fieldRequired": "Aquest camp és obligatori",
+    "mustBeWhole": "Ha de ser un número sencer",
+    "passwordEmpty": "Introduir la contrasenya",
+    "passwordMismatch": "les contrasenyes han de coincidir",
+    "passwordTooShort": "La contrasenya no pot ser inferior a 8 caràcters",
+    "textTooLong": "El text és massa llarg",
+    "valueTooHigh": "Valor massa alt",
+    "valueTooLow": "Valor massa baix"
+  },
+  "apiErrors": {
+    "titleDefault": "Error",
+    "messageDefault": "S'ha produït un error desconegut. Siusplau torna-ho a provar",
+    "internalServerError": "Error del servidor intern",
+    "storageError": "Es va produir un error intern. Torneu a carregar la pàgina",
+    "auth": {
+      "failed-to-auth": "L'autenticació ha fallat",
+      "invalid-reset-password-token": "Token de la contrasenya de restabliment no vàlid",
+      "user-already-exists": "L'usuari ja existeix"
+    },
+    "field": {
+      "required": "Falta un camp obligatori",
+      "length-exceeded": "Es supera la longitud d’un camp",
+      "date": {
+        "cannot-end-before-start": "La data de finalització no pot abans de començar la data d'inici"
+      },
+      "number": {
+        "should-be": {
+          "integer": "El número hauria de ser un nombre enter",
+          "positive": "El nombre hauria de ser positiu",
+          "not-negative": "El nombre no ha de ser negatiu"
+        },
+        "too-large": "Es va introduir un nombre massa gran"
+      }
+    },
+    "participant": {
+      "assessment": {
+        "already-submitted": "Ja es presenta una avaluació",
+        "max-participants-reached": "L’avaluació és completa, no es pot fer més comunicacions",
+        "not-active": "L'avaluació està inactiva (no oberta per a la seva presentació)",
+        "not-found": "No es troba l'avaluació"
+      },
+      "result": {
+        "invalid-result-token": "El testimoni del resultat no és vàlid"
+      }
+    },
+    "user": {
+      "assessment": {
+        "not-found": "No es troba l'avaluació"
+      },
+      "not-exists": "L'usuari no existeix",
+      "password-invalid": "Contrasenya invàlida"
+    },
+    "incognitoBrowser": "El vostre navegador no admet determinades funcions del nostre programari. Per continuar, obriu l'URL en una pestanya del navegador no privat o en un altre navegador com ara Google Chrome, Safari, Mozilla Firefox (només no privat), Microsoft Edge o Opera."
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "La pàgina que buscaves no es troba. Feu clic al botó següent per tornar a la pàgina anterior."
+    }
+  },
+  "participant": {
+    "404": {
+      "title": "404",
+      "description": "La pàgina que buscaves no està disponible. Utilitzeu l’enllaç que heu rebut al correu electrònic per iniciar una avaluació. Podeu tancar aquesta pestanya ara."
+    },
+    "landingPage": {
+      "title": "Benvingut/da a l'avaluació de competències<br />emprenedores i intraemprenedores",
+      "description": "Benvolgut/da participant,<br />Benvingut/da a la plataforma EICAA, des d'on podràs avaluar les teves competències emprenedores i intraemprenedores! Els apartats següents et faran preguntes sobre com avalues les teves habilitats emprenedores i intraemprenedores. És important que dediquis temps a entendre bé cada pregunta i que responguis honestament. Les teves respostes són totalment anònimes.<br />Calen uns 15 minuts per a realitzar l'avaluació. Podràs obtenir els teus resultats directament després de completar l'avaluació.<br />Gaudeix de la teva autoavaluació!",
+      "disclaimer": "Nota: Algunes de les preguntes estan relacionades amb \"una idea emprenedora\". Una idea emprenedora es pot definir com una idea amb la intenció d'actuar sobre les oportunitats i transformar-les en valor per als altres.",
+      "checkboxTextPart1": "Accepto la ",
+      "checkboxTextPart2": "Política de Privacitat"
+    },
+    "demographicsPage": {
+      "common": {
+        "ageGroup": "Grup d'edat",
+        "ageGroupQuestion": "A quin grup d'edat pertanys?",
+        "gender": "Gènere",
+        "genderQuestion": "Quina és la teva identitat de gènere?",
+        "someQuestions": "Algunes preguntes sobre tu",
+        "title": "Demografia"
+      },
+      "employee": {
+        "countryQuestion": "En quin país ha passat la major part de la seva carrera professional?",
+        "educationLevel": "Nivell educatiu",
+        "educationLevelQuestion": "Quin és el nivell d'educació més alt que ha obtingut (si s'escau)?",
+        "levelOfPosition": "Nivell de posició",
+        "levelOfPositionQuestion": "Quina és la seva categoria professional?",
+        "organisationSize": "Mida de l'organització",
+        "organisationSizeQuestion": "Quina és la mida de la seva organització?",
+        "organisationType": "Tipus d'organització",
+        "organisationTypeQuestion": "En quin tipus d'organització treballa?",
+        "workExperience": "Experiència",
+        "workExperienceQuestion": "Quants anys d'experiència laboral té?",
+        "workField": "Camp",
+        "workFieldQuestion": "En quin àmbit treballa?"
+      },
+      "student": {
+        "countryQuestion": "En quin país has rebut la major part de la teva educació?",
+        "educationLevel": "Nivell Educatiu",
+        "educationLevelQuestion": "Quin és el principal nivell d'educació que estàs cursant actualment?",
+        "employmentField": "Camp",
+        "employmentFieldQuestion": "En quin camp treballes?",
+        "employmentType": "Tipus d'ocupació",
+        "employmentTypeQuestion": "Com descriuries la teva feina?",
+        "hasWorkExperienceQuestion": "Tens experiència laboral o de pràctiques?",
+        "majorField": "Camp important",
+        "majorFieldQuestion": "Quina opció a continuació descriu millor el teu camp d'estudi principal actual?",
+        "workExperience": "Experiència",
+        "workExperienceQuestion": "Quants anys d'experiència laboral o de pràctiques (remunerades) tens?",
+        "workQuestion": "Actualment estàs realitzant un treball remunerat o pràctiques a més de cursar els teus estudis?"
+      },
+      "employmentHoursQuestion": "Quantes hores treballes a la setmana?",
+      "female": "Femenina",
+      "higherEducation": "Instituts d’Educació Superior",
+      "higherEducationQuestion": "Quins instituts d’educació superior estudieu actualment?",
+      "male": "Masculina"
+    },
+    "surveyPage": {
+      "ableTo": "El meu nivell de progressió en les següents competències és",
+      "area": "\u00c0rea",
+      "finish": "Acabar",
+      "finishButton": "Acabar",
+      "hint": "Pista",
+      "languageSelectTitle": "Seleccioneu el llenguatge de l'enquesta",
+      "next": "Següent",
+      "previous": "Anterior"
+    },
+    "finishPage": {
+      "backToHome": "Tornar a la pantalla de casa",
+      "closeTab": "Tanceu la pestanya del navegador",
+      "deleteButton": "Esborrar les dades",
+      "deleteButtonTitle": "D'acord amb els requisits de la protecció de dades personals i drets digitals, pots sol·licitar l'eliminació de les teves dades enviades prèviament fent clic al botó següent",
+      "description": "Hem avaluat les teves respostes. Fes clic a Resum per veure'ls.",
+      "downloadResults": "Descarregar l'informe",
+      "feedbackSentMessage": "S'han enviat els vostres comentaris. Gràcies!",
+      "form": {
+        "ratingTitle": "Si us plau, valora la teva experiència.",
+        "submitButton": "Envia els comentaris",
+        "title": "Ens complau escoltar els teus comentaris aquí:"
+      },
+      "interventions": "Intervencions",
+      "title": "Gràcies per la teva participació",
+      "visitEicaa": "Visiteu la pàgina d'inici d'EICAA"
+    }
+  },
+  "pdf-texts": {
+    "area": "Àrea",
+    "submitted-on": "Realitzat el",
+    "question": "Pregunta",
+    "competence": "Competència",
+    "answer": "Resposta"
+  }, 
+  "gdpr": {
+    "consent": {
+      "title": "Consentiment per al tractament de dades",
+      "consent-user": {
+        "0": "I agree that the personal data provided by me during the registration to the platform may be processed by Univations for the purposes and to the extent stated in the privacy policy under ",
+        "1": "section VII. (Data processing during registration of a user account)",
+        "2": "."
+      },
+      "consent-participant": {
+        "0": "Accepto que Univations GmbH processi les dades facilitades per mi durant la participació en l’enquesta d'(auto)avaluació per als efectes i en la mesura indicats a la política de privacitat a ",
+        "1": "l'apartat VIII. (Tractament de les dades en participar en una enquesta d'(auto)avaluació)",
+        "2": "."
+      },
+      "effect": {
+        "0": "Aquest consentiment és vàlid fins que el retiri. Puc declarar el meu desistiment en qualsevol moment posterior sense donar motius i amb efecte futur notificant a les dades de contacte que s'indiquen a la política de privacitat a la ",
+        "1": "secció I. (Dades de contacte del responsable del tractament de dades)",
+        "2": ". A més, tinc els drets descrits a la política de privacitat a ",
+        "3": "l'apartat X. (Drets com a subjecte de dades)",
+        "4": "."
+      }
+    },
+    "privacyPolicy": {
+      "title": "Política de privacitat",
+      "content": [
+        {
+          "spans": [
+            "Aquesta política de privacitat s'aplica exclusivament al lloc web ",
+            {
+              "link": "https://platform.eicaa.eu/"
+            },
+            ". Si visiteu un altre lloc web, s'aplica la política de privacitat de l'operador corresponent. Això també s'aplica als llocs web als quals fa referència els enllaços d'aquest lloc web."
+          ]
+        },{
+          "sections": [
+            {
+              "title": "Dades de contacte del responsable de tractament de dades",
+              "content": [
+                "El responsable en el sentit de l'art. 4 (7) del RGPD (Reglament General de Protecció de Dades) és:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Institut für Wissens- und Technologietransfer an der Martin-Luther-Universität Halle-Wittenberg",
+                    "Weinbergweg 23",
+                    "06120 Halle, Alemanya",
+                    {
+                      "spans": [
+                        "Correu electrònic: ",
+                        {
+                          "link": "mailto:info@univations.de",
+                          "linkText": "info@univations.de"
+                        }
+                      ]
+                    },
+                    "Telèfon: +49 345 13 14 27 00"
+                  ]
+                },
+                "Representat pel director general Daniel Worch. Inscripció en el Registre Mercantil del Jutjat de Districte d’Stendal. Número de registre: HRB 5703"
+              ]
+            },
+            {
+              "title": "Dades de contacte del delegat de protecció de dades",
+              "content": [
+                "També es pot contactar amb el delegat de protecció de dades a partir de les dades de contacte del responsable del tractament de dades i a l’adreça de correu electrònic següent:",
+                {
+                  "data": [
+                    "Univations GmbH",
+                    "Responsable de protecció de dades",
+                    "Weinbergweg 23",
+                    "06120 Halle, Alemanya",
+                    {
+                      "spans": [
+                        "Correu electrònic: ",
+                        {
+                          "link": "mailto:datenschutz@univations.de",
+                          "linkText": "datenschutz@univations.de"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Informació general sobre tractament de dades",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "Per principi, només tractem dades personals en la mesura que sigui necessari per a la prestació i optimització d'un lloc web funcional, així com dels nostres continguts i serveis.",
+                        "Segons l'art. 4 núm. 1 RGPD, dades personals significa qualsevol informació relacionada amb una persona física identificada o identificable. Una persona física identificable és aquella que es pot identificar, directa o indirectament, en particular per referència a un identificador com ara un nom, un número d'identificació, dades d'ubicació, un identificador en línia o a un o més factors específics de la identitat física, fisiològics, genètica, mental, econòmica, cultural o social d'aquesta persona física.",
+                        "El tractament de les dades personals dels nostres usuaris es realitza només amb el consentiment de l'usuari. S'aplica una excepció en aquells casos en què la normativa legal permet el tractament de les dades."
+                      ]              
+                    },
+                    {
+                      "title": "Base legal per al tractament de dades personals",
+                      "content": [
+                        "En el moment que s’obté el consentiment per part de l'interessat per a les operacions de tractament de dades personals, l'article 6 (1) lit. a del RGPD serveix com a base legal per al tractament de dades personals.",
+                        "Quan es tracten dades personals que siguin necessàries per a l'execució d'un contracte del qual l'interessat sigui part, l'art. 6 (1) lit. b RGPD serveix com a base legal. Això també s'aplica a les operacions de tractament necessàries per a l'aplicació de mesures pre-contractuals.",
+                        "En la mesura que el tractament de dades personals sigui necessari per al compliment d'una obligació legal a la qual està subjecta la nostra empresa, l'art. 6 (1) lit. c RGPD serveix com a base legal.",
+                        "Si el tractament és necessari per protegir un interès legítim nostre o d'un tercer i els interessos, drets fonamentals i llibertats de l'interessat no prevaleixen sobre l'interès esmentat en primer lloc, l'art. 6 (1) lit. f RGPD serveix com a base legal per al tractament."
+                      ]
+                    },
+                    {
+                      "title": "Supressió de dades i període d'emmagatzematge",
+                      "content": [
+                        "Les dades personals s'eliminaran o es bloquejaran tan aviat com la finalitat de l'emmagatzematge deixi d'aplicar-se. A més, l'emmagatzematge pot tenir lloc si així ho ha previst el legislador europeu o nacional en les normatives, lleis o altres disposicions de la UE a les quals està subjecte el responsable del tractament de dades. Les dades també seran bloquejades o suprimides si expira un període d'emmagatzematge prescrit per les normes esmentades anteriorment, llevat que hi hagi una necessitat d'emmagatzematge continuat de les dades per a la finalització o compliment d'un contracte."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Provisió del lloc web i creació de fitxers de registre",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "Quan accediu al nostre lloc web, el navegador utilitzat al vostre dispositiu final envia automàticament informació al servidor del nostre lloc web. Aquesta informació s'emmagatzema temporalment en un fitxer de registre anomenat fitxer de registre de transaccions.",
+                        "Es recullen les dades següents:",
+                        {
+                          "list": [
+                            "Adreça IP del dispositiu sol·licitant",
+                            "Data i hora d'accés",
+                            "Lloc web des del qual es fa l'accés (URL de referència)",
+                            "Navegador utilitzat",
+                            "Sistema operatiu del dispositiu i nom del proveïdor d'accés"
+                          ]
+                        },
+                        "Aquestes dades també s'emmagatzemen als fitxers de registre del nostre sistema. Aquestes dades no s'emmagatzemen juntament amb altres dades personals de l'usuari. El nostre lloc web està allotjat en servidors exclusivament a Alemanya per Digital Oceans Inc."
+                      ]
+                    },
+                    {
+                      "title": "Base legal",
+                      "content": [
+                        "La base legal per a l'emmagatzematge temporal de les dades als fitxers de registre és l'art. 6 (1) lit. f RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Durada de l'emmagatzematge",
+                      "content": [
+                        "L'emmagatzematge temporal serveix per garantir la funcionalitat del lloc web. A més, les dades serveixen per optimitzar el lloc web i per garantir la seguretat dels nostres sistemes.",
+                        "Les dades personals s'eliminen tan aviat com ja no són necessàries per assolir la finalitat per a la qual van ser recollides. En el cas de la recollida de dades per a la prestació del lloc web, aquest és el cas quan ha finalitzat la sessió respectiva; en el cas de l'emmagatzematge de dades en fitxers de registre, aquest és el cas al cap de sis mesos com a màxim."
+                      ]
+                    },
+                    {
+                      "title": "Dret d'oposició",
+                      "content": [
+                        "La recollida de dades per a la prestació del lloc web i l'emmagatzematge de les dades en fitxers de registre és absolutament necessari per al funcionament del lloc web. En conseqüència, no hi ha cap possibilitat que l'usuari s'oposi."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Galetes",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "Utilitzem galetes (cookies) al nostre lloc web. Les galetes són petits fitxers que el vostre navegador crea automàticament i s'emmagatzemen al vostre dispositiu (ordinador portàtil, tauleta, telèfon intel·ligent o similar) quan visiteu el nostre lloc web. Les galetes no causen cap dany al vostre dispositiu i no contenen virus, troians ni cap altre programari maliciós.",
+                        "La informació s'emmagatzema a la galeta que sorgeix en relació amb el dispositiu final específic utilitzat. Tanmateix, això no vol dir que obtinguem un coneixement directe de la vostra identitat.",
+                        "L'ús de galetes serveix, d'una banda, per fer més agradable l'ús del nostre lloc web. Utilitzem les anomenades galetes de sessió per reconèixer si ja heu visitat pàgines individuals del nostre lloc web. Aquestes galetes s'eliminen automàticament després de sortir del nostre lloc.",
+                        "A més, també fem servir galetes temporals per optimitzar la facilitat d'ús, que s'emmagatzemen al vostre dispositiu durant un període de temps determinat. Si torneu a visitar el nostre lloc web per utilitzar els nostres serveis, es reconeix automàticament que ja heu estat amb nosaltres i quines entrades i configuracions heu fet perquè no hàgiu de tornar-les a introduir.",
+                        "D'altra banda, utilitzem galetes per analitzar estadísticament l'ús del nostre lloc web i per avaluar-lo amb la finalitat d'optimitzar la nostra oferta. Aquestes galetes ens permeten reconèixer automàticament que ja heu estat al nostre lloc quan el torneu a visitar.",
+                        "La majoria dels navegadors accepten galetes automàticament. No obstant això, podeu configurar el vostre navegador de manera que no s'emmagatzemin cap galeta al vostre dispositiu o sempre aparegui un missatge abans de crear-ne una nova. No obstant això, la desactivació total de les galetes pot comportar que no pugueu utilitzar totes les funcions del nostre lloc web."
+                      ]
+                    },
+                    {
+                      "title": "Base legal",
+                      "content": [
+                        "L'ús d'aquestes galetes, que són absolutament necessàries per al funcionament del nostre lloc web i la prestació de serveis, es basa en l'art. 6 (1) lit. b o f RGPD. El nostre interès legítim és garantir el funcionament dels nostres llocs web i la seva usabilitat òptima.",
+                        "L'ús de totes les galetes no essencials es basa exclusivament en el vostre consentiment que podeu proporcionar a l'inici de l'ús del nostre lloc web. La base legal per a l'ús d'aquestes galetes és l'art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Durada de l'emmagatzematge",
+                      "content": [
+                        "Les galetes s'emmagatzemen a l'ordinador de l'usuari i es transmeten des d'aquest al nostre lloc. Per tant, els usuaris també tenen un control total sobre l'ús de les galetes. En canviar la configuració del navegador d'Internet, la transmissió de galetes es pot desactivar o restringir. Les galetes que ja s'han emmagatzemat es poden eliminar en qualsevol moment. Això també es pot fer automàticament. Si les galetes estan desactivades per al nostre lloc web, és possible que ja no sigui possible utilitzar totes les funcions del lloc web en la seva totalitat."
+                      ]
+                    },
+                    {
+                      "title": "Galetes utilitzades al nostre lloc web",
+                      "content": [
+                        "Utilitzem les següents galetes al nostre lloc web:",
+                        {
+                          "table": {
+                            "header": [
+                              "Nom de la galeta",
+                              "Proveïdor",
+                              "Descripció",
+                              "Durada"
+                            ],
+                            "body": [
+                              [
+                                "universal-cookie-express\n(galeta de sessió)",
+                                "React JS framework",
+                                "Galetes per al renderitzat  del servidor",
+                                "Durada de la sessió d'usuari"
+                              ],
+                              [
+                                "galeta universal\n(galeta de sessió)",
+                                "React JS framework",
+                                "Necessari per a l'autenticació d'usuari a la plataforma/lloc web",
+                                "Durada de la sessió d'usuari"
+                              ],
+                              [
+                                "Matomo Cookies",
+                                "Matomo",
+                                "Matomo utilitza galetes per permetre una anàlisi del comportament de navegació.",
+                                "6 mesos"
+                              ],
+                              [
+                                "Borlabs-Cookie",
+                                "Borlabs",
+                                "Desa la configuració dels visitants seleccionats en el Cookie Box de Borlabs Cookie.",
+                                "1 any"
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Anàlisi web via Matomo",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "El lloc web utilitza l'eina de programari de codi obert Matomo per analitzar el comportament dels usuaris al nostre lloc web. Aquesta és una eina de codi obert per a l'anàlisi web. Matomo no recopila dades de sessió sense el vostre consentiment.",
+                        "Matomo utilitza galetes. Aquests fitxers de text s'emmagatzemen al vostre dispositiu i permeten analitzar l'ús del lloc web. Amb aquesta finalitat, la informació d'ús que s'obté a través de la galeta es transmet i s'emmagatzema de manera que es pugui avaluar el comportament d'ús. L'adreça IP és un identificador anònim i no disposem de mitjans tècnics per identificar els usuaris registrats.",
+                        "En consentir l'anàlisi web mitjançant Matomo, es recolliran les dades següents quan s’accedeixi al lloc web:",
+                        {
+                          "list": [
+                            "parts de l'adreça IP del sistema de trucades de l'usuari",
+                            "el lloc web accedit",
+                            "lloc web des del qual es fa l'accés (URL de referència)",
+                            "les subpàgines a les quals s'accedeix des del lloc web accedit",
+                            "la durada de l'estada al lloc web",
+                            "la freqüència amb què s'accedeix al lloc web"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Base legal",
+                      "content": [
+                        "La base legal per al tractament de les dades personals és l'art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Durada de l'emmagatzematge",
+                      "content": [
+                        "Les dades s'eliminen tan aviat com ja no són necessàries per als nostres propòsits d’emmagatzematge. Les estadístiques generades i les dades subjacents no s'eliminen."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentiment",
+                      "content": [
+                        "El consentiment prestat per l'usuari pot ser revocat en qualsevol moment per al futur."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tractament de dades durant el registre d'un compte d'usuari",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "Si l'usuari decideix crear un compte d'usuari, durant el procés de registre es recolliran les dades personals següents:",
+                        {
+                          "list": [
+                            "Correu electrònic",
+                            "Contrasenya (per al compte a la plataforma/lloc web)",
+                            "Cognoms",
+                            "Nom",
+                            "Nom de l'organització",
+                            "País de l'organització",
+                            "Posició en l'organització"
+                          ]
+                        },
+                        "Les dades es tracten amb la finalitat de proporcionar diverses funcions del lloc web (per exemple, creació d'una enquesta d' (auto)avaluació), que no es podria utilitzar sense el registre i l'ús d'un compte d'usuari.",
+                        "En l'àmbit del registre i l'ús del compte d'usuari, s’emmagatzema l'adreça IP i l'hora de l'acció de l'usuari corresponent. L'emmagatzematge es basa en els nostres interessos legítims, així com en l'interès de l'usuari per protegir-se de l'ús indegut i altres usos no autoritzats del compte d'usuari per part d'un tercer.",
+                        "Les dades tractades es transmetran de forma anònima a Entrepreneurial and Intrapreneurial Competences Assessment Alliance (d'ara endavant, \"Consorci EICAA\"). L'anonimització es fa eliminant l'adreça de correu electrònic, el nom i cognoms de l'usuari del conjunt de dades transmeses. Les dades també es transmetran al creador de l'enquesta d'(auto)avaluació ."
+                      ]
+                    },
+                    {
+                      "title": "Base legal",
+                      "content": [
+                        "La base legal per al tractament de les dades personals en crear un compte d'usuari és l'art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Durada de l'emmagatzematge",
+                      "content": [
+                        "Les dades personals es conservaran mentre ho requereixin les finalitats de tractament esmentades anteriorment i ja no existeixi l'obligació legal de conservar les dades. La necessitat cessa tan bon punt l'usuari elimina el seu compte d'usuari. En el cas d'obligacions legals d'arxiu, la supressió es produeix després del seu venciment."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentiment",
+                      "content": [
+                        "El consentiment per al tractament de les dades es pot retirar en qualsevol moment sense afectar la legitimitat del tractament realitzat sobre la base del consentiment fins a la seva retirada."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tractament de dades en participar en una enquesta d '(auto)avaluació",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Àmbit i finalitat del tractament de dades",
+                      "content": [
+                        "Si els usuaris decideixen participar en una enquesta d' (auto)avaluació, es recolliran dades personals. Els usuaris que participen en una enquesta d'(auto)avaluació s'anomenen d'ara endavant participants.",
+                        "Es recolliran les següents dades personals dels participants:",
+                        {
+                          "list": [
+                            "País on el participant ha rebut la major part de l’educació",
+                            "Nivell educatiu que es cursa actualment",
+                            "Camp d'estudi principal",
+                            "Existència d'experiència laboral o de pràctiques",
+                            "Anys d'experiència laboral o de pràctiques",
+                            "Si el participant està realitzant actualment una feina remunerada o pràctiques a més de cursar els estudis",
+                            "Descripció de l'ocupació (per compte d'altri o per compte propi)",
+                            "Identitat de gènere",
+                            "Grup d'edat"
+                          ]
+                        },
+                        "Les dades s'utilitzen amb la finalitat d'avaluar les enquestes d'(auto)avaluació i com a base per a una anàlisi científica posterior. Això serveix principalment per classificar els participants de l'enquesta en grups normatius en funció de les dades recollides. Es formen els següents grups normatius o combinacions d'ells:",
+                        {
+                          "list": [
+                            "País on el participant ha rebut la major part de l’educació",
+                            "Nivell educatiu que es cursa actualment",
+                            "Camp d'estudi principal",
+                            "Existència d'experiència laboral o de pràctiques",
+                            "Anys d'experiència laboral o de pràctiques",
+                            "Si el participant està realitzant actualment una feina remunerada o pràctiques a més de cursar els estudis",
+                            "Descripció de l'ocupació (per compte d'altri o per compte propi)",
+                            "Identitat de gènere",
+                            "Grup d'edat"
+                          ]
+                        },
+                        "Les dades tractades seran anònimes i després es transmetran a Entrepreneurial and Intrapreneurial Competences Assessment Alliance (EICAA). Les dades també es transmetran al creador de l' enquesta d'(auto)avaluació ."
+                      ]
+                    },
+                    {
+                      "title": "Base legal",
+                      "content": [
+                        "La base legal per al tractament de les dades personals en emplenar l'enquesta d'(auto)avaluació és l'art. 6 (1) lit. a RGPD."
+                      ]
+                    },
+                    {
+                      "title": "Durada de l'emmagatzematge",
+                      "content": [
+                        "Les dades personals es conservaran mentre ho requereixin les finalitats de tractament esmentades anteriorment i ja no existeixi l'obligació legal de conservar les dades."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentiment",
+                      "content": [
+                        "El consentiment per al tractament de les dades es pot retirar en qualsevol moment sense afectar la legitimitat del tractament realitzat sobre la base del consentiment fins a la seva retirada."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Tractament de dades en països fora de l'Espai Econòmic Europeu",
+              "content": [
+                "Si tractem dades a tercers països (països fora de la UE/EEE) o les transferim a empreses de tercers països, només ho fem si estem autoritzats per vostè o per llei. Si no hi ha una decisió d'adequació per part de la Comissió per al tercer país interessat d'acord amb l'art. 45 RGPD, és a dir, si no hi ha un nivell adequat de protecció de dades al tercer país, ho assegurem mitjançant disposicions contractuals (clàusules contractuals estàndard de la UE sobre protecció de dades) o altres garanties adequades en el sentit de l'art. 46 RGPD que la seva privadesa i les seves dades personals també estan protegides a l'empresa del tercer país de la forma adequada que preveu la llei."
+              ]
+            },
+            {
+              "title": "Drets com a subjecte de dades",
+              "content": [
+                {
+                  "sections": [
+                    {
+                      "title": "Dret de confirmació",
+                      "content": [
+                        "Teniu dret a sol·licitar-nos confirmació sobre si s'estan processant dades personals relacionades amb vostè."
+                      ]
+                    },
+                    {
+                      "title": "Dret d'accés Art. 15 RGPD",
+                      "content": [
+                        "Teniu dret a rebre informació gratuïta de nosaltres en qualsevol moment sobre les dades personals emmagatzemades sobre vostè, així com una còpia d'aquestes dades."
+                      ]
+                    },
+                    {
+                      "title": "Dret de rectificació Art. 16 RGPD",
+                      "content": [
+                        "Teniu dret a sol·licitar la rectificació de les dades personals inexactes que us concerneixen. A més, l'interessat té dret a sol·licitar l'emplenament de les dades personals incompletes, tenint en compte les finalitats del tractament."
+                      ]
+                    },
+                    {
+                      "title": "Supressió Art. 17 RGPD",
+                      "content": [
+                        "Teniu dret a sol·licitar que suprimim les dades personals que us concerneixen sense demora, sempre que concorri algun dels motius previstos per la llei i en la mesura que el tractament no sigui necessari. ",
+                        "El nostre lloc web també permet als usuaris eliminar les seves dades personals ells mateixos. El creador de l'enquesta d'(auto)avaluació pot esborrar les seves dades eliminant el seu compte. El participant en l'enquesta d'(auto)avaluació pot esborrar les seves dades al final de l'enquesta."
+                      ]
+                    },
+                    {
+                      "title": "Limitació del tractament Art. 18 RGPD",
+                      "content": [
+                        "Teniu dret a exigir que restringim el processament si es compleix un dels requisits legals."
+                      ]
+                    },
+                    {
+                      "title": "Portabilitat de dades Art. 20 RGPD",
+                      "content": [
+                        "Teniu dret a rebre les dades personals que us concerneixen, que ens heu facilitat, en un format estructurat, comú i llegible per màquina. També teniu dret a transferir aquestes dades a un altre responsable sense obstacles per part de nosaltres a qui s'hagin facilitat les dades personals, sempre que el tractament es basi en el consentiment d'acord amb l'art. 6 (1) lit. a RGPD o art. 9 (2) lit. a RGPD o en un contracte d'acord amb l'art. 6 (1) lit. b RGPD i el tractament s'efectuï amb l'ajut de procediments automatitzats, llevat que el tractament sigui necessari per a l'execució d'una tasca realitzada en interès públic o en l'exercici de poders públics que recauen en nosaltres.",
+                        "Així mateix, en l'exercici del seu dret a la portabilitat de les dades d'acord amb l'art. 20 (1) del RGPD, té dret a que les dades personals es transfereixin directament d'un responsable a un altre responsable, sempre que això sigui tècnicament factible i sempre que això no afecti negativament els drets i llibertats d'altres persones."
+                      ]
+                    },
+                    {
+                      "title": "Objecció Art. 21 RGPD",
+                      "content": [
+                        "Teniu dret a oposar-vos en qualsevol moment, per motius relatius a la vostra situació particular, al tractament de les dades personals que us concerneixen que es dugui a terme en virtut de l'art. 6 (1) lit. e (tractament de dades en interès públic) o lit. f (tractament de dades sobre la base d'un equilibri d'interessos) del RGPD. Això també s'aplica a l'elaboració de perfils basada en aquestes disposicions en el sentit de l'art. 4 RGPD.",
+                        "Si us oposeu, deixarem de tractar les vostres dades personals tret que puguem demostrar motius legítims imperiosos per al tractament que anul·len els vostres interessos, drets i llibertats, o que el tractament serveixi per a l'afirmació, l'exercici o la defensa de reclamacions legals."
+                      ]
+                    },
+                    {
+                      "title": "Retirada del consentiment en virtut de la llei de protecció de dades",
+                      "content": [
+                        "Teniu dret a retirar el consentiment per al tractament de dades personals en qualsevol moment amb efecte per al futur."
+                      ]
+                    },
+                    {
+                      "title": "Denuncia davant una autoritat de control",
+                      "content": [
+                        "Teniu dret a presentar una queixa sobre el nostre tractament de dades personals davant una autoritat de control responsable de la protecció de dades."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Actualització i modificació de la política de privacitat",
+              "content": [
+                "Aquesta política de privacitat és vàlida actualment des del Novembre de 2022.",
+                "A causa del desenvolupament posterior dels nostres llocs web i ofertes o a causa de canvis en els requisits legals o oficials, pot ser necessari canviar aquesta política de privacitat."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

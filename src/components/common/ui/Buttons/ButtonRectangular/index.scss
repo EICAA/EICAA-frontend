@@ -1,0 +1,35 @@
+@import "../../../../../assets/style/colors";
+
+.button-rectangular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-white;
+  width: 48px;
+  height: 48px;
+  border: 1px solid $color-grey-light;
+  border-radius: 6px;
+  transition-duration: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background: $color-white-dark;
+  }
+
+  &.-disabled {
+    pointer-events: none;
+    background: $color-grey-lightest;
+    border-color: $color-grey-lightest;
+  }
+
+  &__icon {
+    height: 24px;
+    width: 24px;
+
+    &.-height-17 {
+      height: 17px;
+      width: auto;
+    }
+  }
+}

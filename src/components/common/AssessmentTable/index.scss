@@ -1,0 +1,201 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/breakpoints";
+
+$breakpoint-y-larger: 930px;
+$breakpoint-y-large: 900px;
+$breakpoint-y-medium: 850px;
+$breakpoint-y-small: 800px;
+$breakpoint-y-smaller: 750px;
+
+.assessment-table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-primary-lightest-2;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 5px 10px -5px $color-grey;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__body {
+    font-size: 14px;
+    line-height: 18px;
+
+    @media screen and (max-height: $breakpoint-y-medium),
+           screen and (max-width: $breakpoint-xl) {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-primary-lightest-2;
+    }
+
+    &.-header {
+      height: 88px;
+
+      @media screen and (max-height: $breakpoint-y-medium) {
+        height: 78px;
+      }
+    }
+
+    &.-body {
+      height: 104px;
+
+      @media screen and (max-height: $breakpoint-y-larger) {
+        height: 95px;
+      }
+
+      @media screen and (max-height: $breakpoint-y-large) {
+        height: 85px;
+      }
+
+      @media screen and (max-height: $breakpoint-y-medium) {
+        height: 75px;
+      }
+
+      @media screen and (max-height: $breakpoint-y-small) {
+        height: 60px;
+      }
+
+      @media screen and (max-height: $breakpoint-y-smaller) {
+        height: 55px;
+      }
+    }
+  }
+
+  &__cell-header,
+  &__cell-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+
+    &:first-child {
+      flex: 2.35;
+      padding: 18px;
+
+      @media screen and (max-width: $breakpoint-xl) {
+        flex: 2;
+      }
+
+      @media screen and (max-width: $breakpoint-lg) {
+        flex: 1.65;
+      }
+    }
+
+    &:not(:first-child) {
+      flex: 1;
+      padding-left: 8px;
+      padding-right: 8px;
+
+      @media screen and (max-width: $breakpoint-lg) {
+        padding-left: 2px;
+        padding-right: 2px;
+      }
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid $color-primary-lightest-2;
+    }
+  }
+
+  &__cell-header {
+    flex-direction: column;
+
+    &:first-child {
+      align-items: flex-start;
+      color: $color-primary-darker;
+      background-color: $color-white-dark;
+      font-size: 16px;
+      line-height: 120%;
+      font-weight: 500;
+    }
+
+    &:not(:first-child) {
+      background-color: $color-white-dark-2;
+    }
+
+    &-title {
+      font-weight: 700;
+
+      &.-score-1 {
+        color: $color-secondary-dark;
+      }
+
+      &.-score-2 {
+        color: $color-tertiary;
+      }
+
+      &.-score-3 {
+        color: $color-turquoise-light;
+      }
+
+      &.-score-4 {
+        color: $color-turquoise;
+      }
+
+      &.-score-5 {
+        color: $color-primary-light-2;
+      }
+    }
+
+    &-description {
+      color: $color-grey-darker;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      font-size: 11px;
+    }
+  }
+
+  &__cell-body {
+    justify-content: flex-start;
+    align-items: center;
+    color: $color-grey-darker;
+
+    &:not(:first-child) {
+      justify-content: center;
+      align-items: center;
+    }
+    
+    &.-checked {
+
+      &.-value-1 {
+        background-color: adjust-color($color-secondary-dark, $alpha: -0.7);
+      }
+
+      &.-value-2 {
+        background-color: adjust-color($color-tertiary, $alpha: -0.7);
+      }
+
+      &.-value-3 {
+        background-color: adjust-color($color-turquoise-light, $alpha: -0.7);
+      }
+
+      &.-value-4 {
+        background-color: adjust-color($color-turquoise, $alpha: -0.7);
+      }
+
+      &.-value-5 {
+        background-color: adjust-color($color-primary-light-2, $alpha: -0.7);
+      }
+
+      &.-value-0 {
+        background-color: $color-white-dark-2;
+      }
+    }
+  }
+}

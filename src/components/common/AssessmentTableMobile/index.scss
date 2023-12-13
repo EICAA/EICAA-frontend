@@ -1,0 +1,14 @@
+@import "../../../assets/style/breakpoints";
+
+.assessment-table-mobile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 15px;
+  max-width: 420px;
+
+  @media (max-width: $breakpoint-sm) {
+    column-gap: 10px;
+    row-gap: 8px;
+  }
+}

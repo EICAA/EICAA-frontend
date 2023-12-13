@@ -1,0 +1,56 @@
+@import "../../../../assets/style/colors";
+
+.assessment-filter-assessment {
+  &__heading {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+
+    > *:not(:last-child) {
+      margin-right: 6px;
+    }
+
+    color: $color-grey-lighter;
+
+    &:hover {
+      cursor: pointer;
+      transition-duration: 0.2s;
+      color: $color-primary-light;
+    }
+  }
+
+  &__label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    > *:not(:last-child) {
+      margin-right: 4px;
+    }
+  }
+
+  &__results {
+    margin-left: 12px;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgba($color-grey-lighter, 0.4);
+    margin: 10px 6px 10px 0;
+    
+  }
+
+  .checkbox__error {
+    display: none;
+  }
+
+  &:last-child {
+    .assessment-filter-assessment__separator {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../../../assets/style/colors";
+
+.account-edit-form {
+  height: 100%;
+
+  &__container {
+    width: 100%;
+    background: $color-white;
+    padding: 40px;
+    border: 1px solid $color-grey-lightest;
+    border-radius: 10px;
+    max-height: calc(100% - 48px);
+    overflow: auto;
+    
+    &::-webkit-scrollbar {
+      width: 6px;
+      background-color: $color-white-darker;
+
+      &-track {
+        background-color: transparent;
+      }
+
+      &-thumb {
+        background: $color-grey-lighter;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  &__title {
+    color: $color-primary-darkest;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 19px;
+  }
+  
+  &__input,
+  &__select {
+    width: 100%;
+    
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  &__button {
+    width: 208px;
+  }
+}
